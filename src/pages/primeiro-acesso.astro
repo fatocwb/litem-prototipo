@@ -1,0 +1,69 @@
+---
+// Primeiro acesso (wireframe do Miro: "Primeiro acesso · Onde você atende?"). 1 Região › 2 Catálogo › 3 Alertas.
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+import Passos from "@components/comum/Passos.astro";
+
+const regioes = [
+	["50", "Até 50 km da minha cidade"],
+	["100", "Até 100 km da minha cidade"],
+	["cidade", "Só a minha cidade"],
+	["estado", "O meu estado inteiro"],
+	["estados", "Estados que eu escolher"],
+	["brasil", "Brasil inteiro"],
+];
+const card = "p-6 bg-white border border-gray-100 rounded-md shadow-sm";
+const primario = "rounded-md bg-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-xs hover:bg-indigo-600";
+const secundario = "rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-500 shadow-xs hover:border-gray-300";
+const campo = "mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-xs outline-hidden focus:border-indigo-500";
+---
+
+<AppLayout title="Primeiro acesso">
+	<div x-data="{ passo: 1, regiao: '100', cidade: 'Cuiabá-MT', fim: false }">
+		<Titulo titulo="Bem-vindo ao LiTem" sub="Três perguntas rápidas para mostrar só os editais que fazem sentido para você." />
+		<section class="min-h-screen bg-gray-50 py-8 text-gray-800">
+			<div class="container mx-auto max-w-3xl space-y-6 px-4 sm:px-6">
+				<Passos passos={["Região", "Catálogo", "Alertas"]} />
+
+				<div x-show="passo === 1" class={card}>
+					<h2 class="text-lg font-semibold text-gray-800">Onde você atende?</h2>
+					<label class="mt-4 block text-sm font-medium text-gray-600">Sua cidade<input class={campo} x-model="cidade" /></label>
+					<div class="mt-4 grid gap-2 sm:grid-cols-2">
+						{
+							regioes.map(([v, nome]) => (
+								<label class="flex cursor-pointer items-center gap-3 rounded-md border border-gray-200 px-4 py-3 text-sm font-medium text-gray-700" x-bind:class={`regiao === '${v}' && 'border-indigo-500 bg-indigo-50'`}>
+									<input type="radio" value={v} x-model="regiao" /> {nome}
+								</label>
+							))
+						}
+					</div>
+					<p class="mt-4 text-xs text-gray-500">Editais sem cidade informada aparecem sempre, com a etiqueta "local não informado". Os alertas por e-mail seguem esta região. Você muda isso quando quiser em Configurações.</p>
+					<button type="button" class={`${primario} mt-4`} x-on:click="passo = 2">Continuar</button>
+				</div>
+
+				<div x-show="passo === 2" x-cloak class={card}>
+					<h2 class="text-lg font-semibold text-gray-800">Seu catálogo</h2>
+					<p class="mt-1 text-sm font-medium text-gray-500">Com o catálogo, o LiTem confere cada edital item por item. Sem ele, você vê os editais, mas sem a conferência.</p>
+					<div class="mt-4 flex flex-wrap gap-2">
+						<a href="/catalogo/importar/" class={primario}>Importar planilha agora</a>
+						<button type="button" class={secundario} x-on:click="passo = 3">Fazer depois</button>
+					</div>
+				</div>
+
+				<div x-show="passo === 3" x-cloak class={card}>
+					<h2 class="text-lg font-semibold text-gray-800">Alertas</h2>
+					<label class="mt-4 block text-sm font-medium text-gray-600">E-mail para os alertas<input class={campo} type="email" placeholder="voce@empresa.com.br" /></label>
+					<div class="mt-4 space-y-2 text-sm font-medium text-gray-600">
+						<label class="flex items-center gap-2"><input type="checkbox" checked /> Edital novo compatível</label>
+						<label class="flex items-center gap-2"><input type="checkbox" checked /> Edital que eu acompanho foi retificado</label>
+						<label class="flex items-center gap-2 text-gray-400"><input type="checkbox" disabled /> WhatsApp (V2)</label>
+					</div>
+					<div class="mt-4 flex flex-wrap items-center gap-2">
+						<button type="button" class={primario} x-on:click="fim = true">Concluir</button>
+						<a x-show="fim" x-cloak href="/" class="text-sm font-semibold text-indigo-500">Pronto! Ver os editais →</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</AppLayout>

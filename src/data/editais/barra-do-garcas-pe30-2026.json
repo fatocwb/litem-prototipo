@@ -543,7 +543,13 @@
     "Plug and play com instalacao rapida e driver incluso"
    ],
    "atencao": [],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 2,
@@ -568,7 +574,13 @@
     "Produto novo e de primeiro uso"
    ],
    "atencao": [],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 3,
@@ -589,7 +601,13 @@
     "Com descascador e garantia minima de 12 meses"
    ],
    "atencao": [],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 4,
@@ -622,7 +640,13 @@
     "Produto novo e de primeiro uso"
    ],
    "atencao": [],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 5,
@@ -656,7 +680,13 @@
     "Condutor 100% cobre: cabo CCA (alumínio cobreado) é recusado.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 7."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "CABO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 6,
@@ -687,7 +717,13 @@
     "Unidade \"METRO\" para um cabo de 5 m: não está claro se são 109 cabos ou 109 metros. Vale pedir esclarecimento.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 8."
    ],
-   "critico": true
+   "critico": true,
+   "tipo": "CABO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 7,
@@ -717,7 +753,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 9."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "CABO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 8,
@@ -746,7 +788,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 15."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 9,
@@ -799,7 +847,13 @@
     "Kit completo: inclui monitor de 21,5\" Full HD, teclado ABNT2, mouse, fonte 80 Plus e Windows 11 Pro licenciado e ativado. O preço tem que cobrir tudo isso.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 17."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "MICROCOMPUTADOR",
+   "produto": "WS-32",
+   "disp": "sob encomenda",
+   "prova": "ARMAZENAMENTO SSD NVME DE NO MINIMO 1; MEMORIA RAM MINIMA DE 32; NO MINIMO 10 NUCLEOS",
+   "resultado": "ok",
+   "motivo": "Workstation TesteTech WS-32 atende: Memória RAM no mínimo 32 GB ✓; SSD no mínimo 1000 GB ✓; Núcleos no mínimo 10 ✓."
   },
   {
    "n": 10,
@@ -844,7 +898,13 @@
     "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 16."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "MICROCOMPUTADOR",
+   "produto": "DT-M",
+   "disp": "sob encomenda",
+   "prova": "ARMAZENAMENTO SSD DE NO MINIMO 480; MEMORIA RAM MINIMA DE 8; NO MINIMO 6 NUCLEOS",
+   "resultado": "ok",
+   "motivo": "Desktop TesteTech DT-M atende: Memória RAM no mínimo 8 GB ✓; SSD no mínimo 480 GB ✓; Núcleos no mínimo 6 ✓."
   },
   {
    "n": 11,
@@ -871,7 +931,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 18."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 12,
@@ -903,7 +969,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 20."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 13,
@@ -930,7 +1002,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 21."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 14,
@@ -958,7 +1036,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 88."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 15,
@@ -988,7 +1072,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 22."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 16,
@@ -1020,7 +1110,13 @@
     "Unidade \"METRO\" com preço de caixa de 305 m (R$ 780): não está claro se são 49 caixas ou 49 metros. Vale pedir esclarecimento.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 6."
    ],
-   "critico": true
+   "critico": true,
+   "tipo": "CABO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 17,
@@ -1055,7 +1151,13 @@
     "Certificação compulsória do INMETRO.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 23."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 18,
@@ -1087,7 +1189,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 25."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 19,
@@ -1123,7 +1231,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 30."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 20,
@@ -1149,7 +1263,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 91."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 21,
@@ -1179,7 +1299,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 89."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 22,
@@ -1206,7 +1332,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 90."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 23,
@@ -1234,7 +1366,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 78."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "SWITCH",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 24,
@@ -1260,7 +1398,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 79."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "SWITCH",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 25,
@@ -1298,7 +1442,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 37."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "IMPRESSORA MULTIFUNCIONAL",
+   "produto": "MF-40",
+   "disp": "sob encomenda",
+   "prova": "GARANTIA MINIMA DE 12; VELOCIDADE MINIMA DE 40",
+   "resultado": "ok",
+   "motivo": "Multifuncional TesteTech MF-40 atende: Velocidade no mínimo 40 ppm ✓; Garantia no mínimo 12 meses ✓."
   },
   {
    "n": 26,
@@ -1327,7 +1477,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 39."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 27,
@@ -1357,7 +1513,13 @@
     "Licença perpétua (não assinatura). A proposta precisa informar fabricante, edição, versão e regras de transferência, e a entrega exige comprovação do fabricante, não só a chave (TR 3.4.20).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 44."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 28,
@@ -1387,7 +1549,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 47."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 29,
@@ -1415,7 +1583,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 46."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 30,
@@ -1448,7 +1622,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 54."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "MONITOR",
+   "produto": "MN-24",
+   "disp": "em estoque",
+   "prova": "GARANTIA MINIMA DE 12; MINIMO DE 21,5 POLEGADAS; TAXA DE ATUALIZACAO MINIMA DE 60",
+   "resultado": "ok",
+   "motivo": "Monitor TesteTech MN-24 atende: Tela no mínimo 21.5 pol. ✓; Taxa de atualização no mínimo 60 Hz ✓; Garantia no mínimo 12 meses ✓."
   },
   {
    "n": 31,
@@ -1478,7 +1658,13 @@
     "144 Hz e 1 ms: muitos monitores corporativos de 24\" são de 60 ou 75 Hz e não atendem.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 53."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "MONITOR",
+   "produto": "MN-27",
+   "disp": "sob encomenda",
+   "prova": "NO MINIMO 24 POLEGADAS; TAXA DE ATUALIZACAO MINIMA DE 144",
+   "resultado": "ok",
+   "motivo": "Monitor TesteTech MN-27 atende: Tela no mínimo 24 pol. ✓; Taxa de atualização no mínimo 144 Hz ✓."
   },
   {
    "n": 32,
@@ -1508,7 +1694,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 56."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "MOUSE",
+   "produto": "MS-10",
+   "disp": "em estoque",
+   "prova": null,
+   "resultado": "ok",
+   "motivo": "Item simples: o Mouse TesteTech MS-10 é do mesmo tipo e atende a descrição básica (conferência simplificada nesta simulação)."
   },
   {
    "n": 33,
@@ -1536,7 +1728,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 55."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "MOUSE",
+   "produto": "MS-10",
+   "disp": "em estoque",
+   "prova": null,
+   "resultado": "ok",
+   "motivo": "Item simples: o Mouse TesteTech MS-10 é do mesmo tipo e atende a descrição básica (conferência simplificada nesta simulação)."
   },
   {
    "n": 34,
@@ -1568,7 +1766,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 57."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "NOBREAK",
+   "produto": "NB-1200",
+   "disp": "em estoque",
+   "prova": null,
+   "resultado": "mesmo_tipo",
+   "motivo": "Conferência técnica ainda não disponível para NOBREAK. Confira os requisitos no edital."
   },
   {
    "n": 35,
@@ -1605,7 +1809,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 58."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "NOBREAK",
+   "produto": "NB-1200",
+   "disp": "em estoque",
+   "prova": null,
+   "resultado": "mesmo_tipo",
+   "motivo": "Conferência técnica ainda não disponível para NOBREAK. Confira os requisitos no edital."
   },
   {
    "n": 36,
@@ -1640,7 +1850,13 @@
     "\"Core i7 de 12ª geração ou equivalente em desempenho\": se ofertar outro processador (ex.: AMD), guarde um comparativo de desempenho (ex.: PassMark) para a análise da proposta.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 60."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "NOTEBOOK",
+   "produto": "NB-A",
+   "disp": "em estoque",
+   "prova": "ARMAZENAMENTO SSD NVME MINIMO DE 512; MEMORIA RAM MINIMA DE 16",
+   "resultado": "ok",
+   "motivo": "Notebook TesteTech NB-A atende: Memória RAM no mínimo 16 GB ✓; SSD no mínimo 512 GB ✓."
   },
   {
    "n": 37,
@@ -1665,7 +1881,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 61."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 38,
@@ -1691,7 +1913,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 62."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 39,
@@ -1722,7 +1950,13 @@
     "Desempenho \"igual ou superior\" à placa citada: guarde um comparativo de desempenho.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 64."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 40,
@@ -1754,7 +1988,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 69."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "ROTEADOR / ACCESS POINT",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 41,
@@ -1789,7 +2029,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 71."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "SCANNER",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 42,
@@ -1819,7 +2065,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 81."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "TECLADO",
+   "produto": "TC-20",
+   "disp": "em estoque",
+   "prova": null,
+   "resultado": "ok",
+   "motivo": "Item simples: o Teclado TesteTech TC-20 é do mesmo tipo e atende a descrição básica (conferência simplificada nesta simulação)."
   },
   {
    "n": 43,
@@ -1846,7 +2098,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 84."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 44,
@@ -1881,7 +2139,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 85."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 45,
@@ -1912,7 +2176,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 86."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 46,
@@ -1945,7 +2215,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 26."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 47,
@@ -1984,7 +2260,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 35."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "IMPRESSORA MULTIFUNCIONAL",
+   "produto": "MF-40",
+   "disp": "sob encomenda",
+   "prova": "GARANTIA MINIMA DE 12; VELOCIDADE MINIMA DE 25",
+   "resultado": "ok",
+   "motivo": "Multifuncional TesteTech MF-40 atende: Velocidade no mínimo 25 ppm ✓; Garantia no mínimo 12 meses ✓."
   },
   {
    "n": 48,
@@ -2021,7 +2303,13 @@
     "\"Equivalente ou superior ao Core i5 de 11ª geração\": com outro processador, guarde um comparativo de desempenho (ex.: PassMark).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 59."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "NOTEBOOK",
+   "produto": "NB-A",
+   "disp": "em estoque",
+   "prova": "MEMORIA RAM MINIMA DE 8; SSD NVME MINIMO DE 512",
+   "resultado": "ok",
+   "motivo": "Notebook TesteTech NB-A atende: Memória RAM no mínimo 8 GB ✓; SSD no mínimo 512 GB ✓."
   },
   {
    "n": 49,
@@ -2054,7 +2342,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 92."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "WEBCAM",
+   "produto": "WC-1080",
+   "disp": "em estoque",
+   "prova": null,
+   "resultado": "ok",
+   "motivo": "Item simples: o Webcam TesteTech WC-1080 é do mesmo tipo e atende a descrição básica (conferência simplificada nesta simulação)."
   },
   {
    "n": 50,
@@ -2084,7 +2378,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 28."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 51,
@@ -2119,7 +2419,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 27."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 52,
@@ -2150,7 +2456,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 29."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 53,
@@ -2189,7 +2501,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 31."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 54,
@@ -2222,7 +2540,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 33."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 55,
@@ -2262,7 +2586,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 36."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "IMPRESSORA MULTIFUNCIONAL",
+   "produto": "MF-40",
+   "disp": "sob encomenda",
+   "prova": "GARANTIA MINIMA DE 12",
+   "resultado": "ok",
+   "motivo": "Multifuncional TesteTech MF-40 atende: Garantia no mínimo 12 meses ✓."
   },
   {
    "n": 56,
@@ -2297,7 +2627,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 45."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 57,
@@ -2338,7 +2674,13 @@
     "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 74."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 58,
@@ -2361,7 +2703,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 75."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 59,
@@ -2391,7 +2739,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 76."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 60,
@@ -2421,7 +2775,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 77."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 61,
@@ -2459,7 +2819,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 80."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "TABLET",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 62,
@@ -2489,7 +2855,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 83."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 63,
@@ -2526,7 +2898,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 34."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "IMPRESSORA LASER",
+   "produto": "LP-38",
+   "disp": "em estoque",
+   "prova": "DADE. VELOCIDADE MINIMA DE IMPRESSAO DE 10 PPM; GARANTIA MINIMA DE 12",
+   "resultado": "ok",
+   "motivo": "Impressora TesteTech LP-38 atende: Velocidade no mínimo 10 ppm ✓; Garantia no mínimo 12 meses ✓."
   },
   {
    "n": 64,
@@ -2555,7 +2933,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 10."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "CABO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 65,
@@ -2590,7 +2974,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 11."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 66,
@@ -2618,7 +3008,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 12."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 67,
@@ -2664,7 +3060,13 @@
     "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 13."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 68,
@@ -2700,7 +3102,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 14."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 69,
@@ -2745,7 +3153,13 @@
     "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 24."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 70,
@@ -2777,7 +3191,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 32."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 71,
@@ -2802,7 +3222,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 38."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 72,
@@ -2830,7 +3256,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 41."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 73,
@@ -2860,7 +3292,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 48."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 74,
@@ -2887,7 +3325,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 50."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 75,
@@ -2920,7 +3364,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 51."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 76,
@@ -2950,7 +3400,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 52."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 77,
@@ -2982,7 +3438,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 5."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 78,
@@ -3004,7 +3466,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 63."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 79,
@@ -3035,7 +3503,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 66."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 80,
@@ -3062,7 +3536,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 67."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 81,
@@ -3092,7 +3572,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 68."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "PROJETOR",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 82,
@@ -3127,7 +3613,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 49."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 83,
@@ -3157,7 +3649,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 70."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "ROTEADOR / ACCESS POINT",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 84,
@@ -3184,7 +3682,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 72."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "SCANNER",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 85,
@@ -3207,7 +3711,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 73."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "SCANNER",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 86,
@@ -3235,7 +3745,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 82."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 87,
@@ -3264,7 +3780,13 @@
     "Produto novo e de primeiro uso"
    ],
    "atencao": [],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 88,
@@ -3288,7 +3810,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 19."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 89,
@@ -3315,7 +3843,13 @@
     "Assinatura de 12 meses por usuário nomeado, vinculada ao Município, com comprovação do fabricante (TR 3.4.19).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 42."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 90,
@@ -3345,7 +3879,13 @@
     "Desempenho \"igual ou superior\" à placa citada: guarde um comparativo de desempenho.",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 65."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 91,
@@ -3376,7 +3916,13 @@
    "atencao": [
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 40."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   },
   {
    "n": 92,
@@ -3403,7 +3949,26 @@
     "Assinatura de 12 meses por usuário nomeado, vinculada ao Município, com comprovação do fabricante (TR 3.4.19).",
     "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 43."
    ],
-   "critico": false
+   "critico": false,
+   "tipo": "OUTRO",
+   "produto": null,
+   "disp": null,
+   "prova": null,
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
   }
- ]
+ ],
+ "aba": "compativeis",
+ "cartao": {
+  "total": 92,
+  "ok": 14,
+  "mesmo_tipo": 2,
+  "revisao": 0,
+  "nao_atende": 0,
+  "fora": 76,
+  "valorSeus": 10571519.15,
+  "emEstoque": 10,
+  "sobEncomenda": 6
+ },
+ "forma": "Por item: cada item tem o seu vencedor"
 }

@@ -1,0 +1,129 @@
+{
+ "slug": "exemplo-lote",
+ "tipo": "ilustrativo",
+ "controle": "exemplo",
+ "titulo": "Pregão Eletrônico nº 00/2026 (exemplo)",
+ "orgao": "Prefeitura de Exemplo",
+ "cidade": "Cidade Exemplo",
+ "uf": "MT",
+ "objeto": "Exemplo ilustrativo com dados fictícios: mostra como o LiTem avisa quando um lote obriga a fornecer itens que você não tem.",
+ "disputa": "2026-11-30T09:00:00",
+ "publicado": "2026-11-10",
+ "atualizado": "2026-11-12",
+ "plataforma": {
+  "nome": "BLL",
+  "url": null
+ },
+ "modo": "Aberto",
+ "srp": true,
+ "valorTotal": 218150,
+ "sigiloso": false,
+ "pncp": null,
+ "forma": "Por lote: o lote 2 obriga a fornecer os 3 itens juntos",
+ "lotes": {
+  "Lote 1": [
+   1,
+   2
+  ],
+  "Lote 2": [
+   3,
+   4,
+   5
+  ]
+ },
+ "itens": [
+  {
+   "n": 1,
+   "tipo": "NOTEBOOK",
+   "desc": "Notebook, memória ram: superior a 8, armazenamento ssd: superior a 250, núcleos por processador: superior a 8, garantia on site: 36",
+   "qtd": 20,
+   "und": "Unidade",
+   "unit": 5200,
+   "total": 104000,
+   "sigiloso": false,
+   "participacao": "",
+   "resultado": "ok",
+   "produto": "NB-A",
+   "disp": "em estoque",
+   "prova": "armazenamento ssd: superior a 250,; garantia on site: 36; memória ram: superior a 8,; núcleos por processador: superior a 8,",
+   "motivo": "Notebook TesteTech NB-A atende: Memória RAM mais de 8 GB ✓; SSD mais de 250 GB ✓; Núcleos mais de 8 ✓; Garantia no mínimo 36 meses ✓.",
+   "lote": "Lote 1"
+  },
+  {
+   "n": 2,
+   "tipo": "MOUSE",
+   "desc": "Mouse óptico USB, 1.000 dpi",
+   "qtd": 20,
+   "und": "Unidade",
+   "unit": 45,
+   "total": 900,
+   "sigiloso": false,
+   "participacao": "",
+   "resultado": "ok",
+   "produto": "MS-10",
+   "disp": "em estoque",
+   "motivo": "Item simples: o Mouse TesteTech MS-10 é do mesmo tipo e atende a descrição básica (conferência simplificada nesta simulação).",
+   "lote": "Lote 1"
+  },
+  {
+   "n": 3,
+   "tipo": "MICROCOMPUTADOR",
+   "desc": "Microcomputador, memória ram: 16, armazenamento ssd: superior a 500, núcleos por processador: superior a 8, garantia on site: 36",
+   "qtd": 15,
+   "und": "Unidade",
+   "unit": 4800,
+   "total": 72000,
+   "sigiloso": false,
+   "participacao": "",
+   "resultado": "ok",
+   "produto": "DT-M",
+   "disp": "sob encomenda",
+   "prova": "armazenamento ssd: superior a 500,; garantia on site: 36; memória ram: 16,; núcleos por processador: superior a 8,",
+   "motivo": "Desktop TesteTech DT-M atende: Memória RAM no mínimo 16 GB ✓; SSD mais de 500 GB ✓; Núcleos mais de 8 ✓; Garantia no mínimo 36 meses ✓.",
+   "lote": "Lote 2"
+  },
+  {
+   "n": 4,
+   "tipo": "MONITOR",
+   "desc": "Monitor, tamanho tela: 23 a 24, garantia: 36",
+   "qtd": 15,
+   "und": "Unidade",
+   "unit": 950,
+   "total": 14250,
+   "sigiloso": false,
+   "participacao": "",
+   "resultado": "ok",
+   "produto": "MN-24",
+   "disp": "em estoque",
+   "prova": "garantia: 36; tamanho tela: 23",
+   "motivo": "Monitor TesteTech MN-24 atende: Tela no mínimo 23 pol. ✓; Garantia no mínimo 36 meses ✓.",
+   "lote": "Lote 2"
+  },
+  {
+   "n": 5,
+   "tipo": "TABLET",
+   "desc": "Tablet tela: 10, memória ram: mínimo 4 gb, armazenamento interno: 64",
+   "qtd": 15,
+   "und": "Unidade",
+   "unit": 1800,
+   "total": 27000,
+   "sigiloso": false,
+   "participacao": "",
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo.",
+   "lote": "Lote 2"
+  }
+ ],
+ "aba": "parcial",
+ "cartao": {
+  "total": 5,
+  "ok": 4,
+  "mesmo_tipo": 0,
+  "revisao": 0,
+  "nao_atende": 0,
+  "fora": 1,
+  "valorSeus": 191150,
+  "emEstoque": 3,
+  "sobEncomenda": 1
+ }
+}

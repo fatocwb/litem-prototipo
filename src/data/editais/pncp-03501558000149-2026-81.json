@@ -1,0 +1,66 @@
+{
+ "slug": "pncp-03501558000149-2026-81",
+ "tipo": "demo",
+ "controle": "03501558000149-1-000081/2026",
+ "titulo": "Pregão Eletrônico nº 65/2026",
+ "orgao": "Municipio de Rio Negro",
+ "cidade": "Rio Negro",
+ "uf": "MS",
+ "objeto": "aquisição de Equipamentos e Materiais Permanentes (tela de projeção e notebooks) destinados à Secretaria Municipal de Educação, Cultura, Esporte e Lazer e às unidades escolares da rede municipal de ensino, relativos aos …",
+ "disputa": "2026-11-26T08:59:00",
+ "publicado": "2026-10-29",
+ "atualizado": null,
+ "plataforma": {
+  "nome": "não informada",
+  "url": "https://comprasbr.com.br/pregao-eletronico-detalhe/?idlicitacao=49381"
+ },
+ "modo": "Aberto",
+ "srp": false,
+ "valorTotal": 15780.6,
+ "sigiloso": false,
+ "pncp": "https://pncp.gov.br/app/editais/03501558000149/2026/81",
+ "forma": "Forma da disputa: não identificada (o protótipo não lê o edital)",
+ "itens": [
+  {
+   "n": 1,
+   "tipo": "TELA DE PROJEÇÃO / INTERATIVA",
+   "desc": "13993-TELA PROJEÇÃO - TIPO TRIPÉ: COM HASTE REGULÁVEL, TIPOACABAMENTO: TUBO METÁLICO, MATERIAL: LONA PLÁSTICA, CORACABAMENTO: BRANCA, TIPO FIXAÇÃO: TRIPÉ, COR: PRETA, ALTURA:1,80 M, LARGURA: 1,80 M, MATERIAL TRIPLÉ: FERRO",
+   "qtd": 1.0,
+   "und": "Unidade",
+   "unit": 929.04,
+   "total": 929.04,
+   "sigiloso": false,
+   "participacao": "Não se aplica",
+   "resultado": "fora",
+   "motivo": "Não está no seu catálogo."
+  },
+  {
+   "n": 2,
+   "tipo": "NOTEBOOK",
+   "desc": "13995-NOTEBOOK - TELA: SUPERIOR A 14 POLINTERATIVIDADE DA TELA: SEM, INTERATIVIDADE, MEMÓRIA RAM:SUPERIOR A 8 GB, NÚCLEOS POR PROCESSADOR: SUPERIOR A 8,ARMAZENAMENTO HDD: 3 GB, ARMAZENAMENTO SSD: SUPERIOR A500, BATERIA: ATÉ 4 CÉLULAS, ALIMENTAÇÃO: BIVOLT AUTOMÁTICA,SISTEMA, OPERACIONAL: PROPRIETÁRIO, GARANTIA ON SITE: 12MESES",
+   "qtd": 3.0,
+   "und": "Unidade",
+   "unit": 4950.52,
+   "total": 14851.56,
+   "sigiloso": false,
+   "participacao": "Não se aplica",
+   "resultado": "ok",
+   "produto": "NB-A",
+   "disp": "em estoque",
+   "prova": "ARMAZENAMENTO SSD: SUPERIOR A500,; GARANTIA ON SITE: 12; MEMÓRIA RAM:SUPERIOR A 8; NÚCLEOS POR PROCESSADOR: SUPERIOR A 8,",
+   "motivo": "Notebook TesteTech NB-A atende: Memória RAM mais de 8 GB ✓; SSD mais de 500 GB ✓; Núcleos mais de 8 ✓; Garantia no mínimo 12 meses ✓."
+  }
+ ],
+ "aba": "compativeis",
+ "cartao": {
+  "total": 2,
+  "ok": 1,
+  "mesmo_tipo": 0,
+  "revisao": 0,
+  "nao_atende": 0,
+  "fora": 1,
+  "valorSeus": 14851.56,
+  "emEstoque": 1,
+  "sobEncomenda": 0
+ }
+}

@@ -1,0 +1,61 @@
+---
+// Configurações (wireframe do Miro: "Configurações"): região, requisitos que eu atendo, alertas e equipe.
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+
+const card = "p-6 bg-white border border-gray-100 rounded-md shadow-sm";
+const campo = "mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-xs outline-hidden focus:border-indigo-500";
+const requisitos = [
+	["Garantia on-site até 36 meses", true],
+	["Garantia on-site de 48 ou 60 meses", false],
+	["Homologação ANATEL", true],
+	["Envio de amostra", false],
+] as const;
+const equipe = [
+	["Você", "Administrador"],
+	["Pessoa da equipe (exemplo)", "Editor"],
+];
+---
+
+<AppLayout title="Configurações" ativo="config">
+	<Titulo titulo="Configurações" sub="Essas respostas filtram os editais e recalculam a compatibilidade." />
+	<section class="min-h-screen bg-gray-50 py-8 text-gray-800">
+		<div class="container mx-auto grid max-w-5xl gap-6 px-4 sm:px-6 lg:grid-cols-2">
+			<div class={card}>
+				<h2 class="font-semibold text-gray-800">Região</h2>
+				<label class="mt-3 block text-sm font-medium text-gray-600">Cidade<input class={campo} value="Cuiabá-MT" /></label>
+				<label class="mt-3 block text-sm font-medium text-gray-600">
+					Onde eu atendo
+					<select class={campo}>
+						<option>Até 50 km</option><option selected>Até 100 km</option><option>Só a minha cidade</option><option>O meu estado</option><option>Estados escolhidos</option><option>Brasil inteiro</option>
+					</select>
+				</label>
+				<a class="mt-3 inline-block text-sm font-medium text-indigo-500" href="/primeiro-acesso/">Refazer o primeiro acesso</a>
+			</div>
+			<div class={card}>
+				<h2 class="font-semibold text-gray-800">Requisitos que eu atendo</h2>
+				<p class="mt-1 text-xs font-medium text-gray-500">Vale para todos os produtos; o catálogo pode detalhar por modelo.</p>
+				<div class="mt-3 space-y-2 text-sm font-medium text-gray-600">
+					{requisitos.map(([r, v]) => <label class="flex items-center gap-2"><input type="checkbox" checked={v} /> {r}</label>)}
+				</div>
+			</div>
+			<div class={card}>
+				<h2 class="font-semibold text-gray-800">Alertas</h2>
+				<label class="mt-3 block text-sm font-medium text-gray-600">E-mail<input class={campo} type="email" placeholder="voce@empresa.com.br" /></label>
+				<div class="mt-3 space-y-2 text-sm font-medium text-gray-600">
+					<label class="flex items-center gap-2"><input type="checkbox" checked /> Edital novo compatível</label>
+					<label class="flex items-center gap-2"><input type="checkbox" checked /> Retificação em edital que eu acompanho</label>
+					<label class="flex items-center gap-2 text-gray-400"><input type="checkbox" disabled /> WhatsApp: resumo diário (V2)</label>
+				</div>
+				<p class="mt-3 text-xs text-gray-500">Os alertas seguem a região salva aqui, não o filtro do momento na tela Geral.</p>
+			</div>
+			<div class={card}>
+				<h2 class="font-semibold text-gray-800">Equipe</h2>
+				<ul class="mt-3 divide-y divide-gray-100 text-sm">
+					{equipe.map(([n, p]) => <li class="flex justify-between py-2"><span class="font-medium text-gray-700">{n}</span><span class="text-gray-500">{p}</span></li>)}
+				</ul>
+				<p class="mt-3 text-xs text-gray-500">Convite por e-mail com link que expira em 7 dias. Papéis: Administrador, Editor e Visualizador. Cobrança por CNPJ, com 2 a 3 usuários incluídos.</p>
+			</div>
+		</div>
+	</section>
+</AppLayout>

@@ -1,0 +1,173 @@
+[
+ {
+  "id": "NB-A",
+  "tipo": "NOTEBOOK",
+  "nome": "Notebook TesteTech NB-A",
+  "familia": "Notebooks e Desktops",
+  "ram": 16,
+  "ssd": 512,
+  "nucleos": 12,
+  "tela": 14,
+  "garantias": [
+   12,
+   36,
+   48
+  ],
+  "disp": "em estoque",
+  "resumo": "Core Ultra 5 225U (2025), 16 GB, SSD NVMe 512 GB, 14\", Windows 11 Pro"
+ },
+ {
+  "id": "NB-B",
+  "tipo": "NOTEBOOK",
+  "nome": "Notebook TesteTech NB-B",
+  "familia": "Notebooks e Desktops",
+  "ram": 8,
+  "ssd": 256,
+  "tela": 15.6,
+  "garantias": [
+   12
+  ],
+  "disp": "em estoque",
+  "resumo": "Core i3 (2024), 8 GB, SSD 256 GB, 15,6\", Windows 11 Pro"
+ },
+ {
+  "id": "DT-M",
+  "tipo": "MICROCOMPUTADOR",
+  "nome": "Desktop TesteTech DT-M",
+  "familia": "Notebooks e Desktops",
+  "ram": 16,
+  "ssd": 512,
+  "nucleos": 10,
+  "garantias": [
+   12,
+   36
+  ],
+  "disp": "sob encomenda",
+  "resumo": "Core i5 14ª geração, 16 GB, SSD 512 GB, gabinete compacto, Windows 11 Pro"
+ },
+ {
+  "id": "WS-32",
+  "tipo": "MICROCOMPUTADOR",
+  "nome": "Workstation TesteTech WS-32",
+  "familia": "Notebooks e Desktops",
+  "ram": 32,
+  "ssd": 1000,
+  "nucleos": 14,
+  "garantias": [
+   36,
+   60
+  ],
+  "disp": "sob encomenda",
+  "resumo": "Core i7 14ª geração, 32 GB, SSD 1 TB, placa de vídeo 8 GB"
+ },
+ {
+  "id": "AIO-24",
+  "tipo": "ALL IN ONE",
+  "nome": "All in One TesteTech AIO-24",
+  "familia": "Notebooks e Desktops",
+  "ram": 16,
+  "ssd": 512,
+  "nucleos": 10,
+  "tela": 23.8,
+  "garantias": [
+   12,
+   36
+  ],
+  "disp": "em estoque",
+  "resumo": "Core i5, 16 GB, SSD 512 GB, tela 23,8\" Full HD"
+ },
+ {
+  "id": "MN-24",
+  "tipo": "MONITOR",
+  "nome": "Monitor TesteTech MN-24",
+  "familia": "Monitores e Periféricos",
+  "tela": 23.8,
+  "hz": 75,
+  "garantias": [
+   36
+  ],
+  "disp": "em estoque",
+  "resumo": "23,8\" Full HD IPS, 75 Hz, HDMI e DisplayPort, regulagem de altura"
+ },
+ {
+  "id": "MN-27",
+  "tipo": "MONITOR",
+  "nome": "Monitor TesteTech MN-27",
+  "familia": "Monitores e Periféricos",
+  "tela": 27,
+  "hz": 165,
+  "garantias": [
+   36
+  ],
+  "disp": "sob encomenda",
+  "resumo": "27\" QHD IPS, 165 Hz, HDMI, DisplayPort e USB-C"
+ },
+ {
+  "id": "MS-10",
+  "tipo": "MOUSE",
+  "nome": "Mouse TesteTech MS-10",
+  "familia": "Monitores e Periféricos",
+  "garantias": [
+   12
+  ],
+  "disp": "em estoque",
+  "resumo": "Óptico, USB, 1.200 dpi"
+ },
+ {
+  "id": "TC-20",
+  "tipo": "TECLADO",
+  "nome": "Teclado TesteTech TC-20",
+  "familia": "Monitores e Periféricos",
+  "garantias": [
+   12
+  ],
+  "disp": "em estoque",
+  "resumo": "ABNT2, USB"
+ },
+ {
+  "id": "WC-1080",
+  "tipo": "WEBCAM",
+  "nome": "Webcam TesteTech WC-1080",
+  "familia": "Monitores e Periféricos",
+  "garantias": [
+   12
+  ],
+  "disp": "em estoque",
+  "resumo": "Full HD, microfone embutido"
+ },
+ {
+  "id": "MF-40",
+  "tipo": "IMPRESSORA MULTIFUNCIONAL",
+  "nome": "Multifuncional TesteTech MF-40",
+  "familia": "Impressoras",
+  "ppm": 40,
+  "garantias": [
+   12
+  ],
+  "disp": "sob encomenda",
+  "resumo": "Laser monocromática, 40 ppm, duplex, rede"
+ },
+ {
+  "id": "LP-38",
+  "tipo": "IMPRESSORA LASER",
+  "nome": "Impressora TesteTech LP-38",
+  "familia": "Impressoras",
+  "ppm": 38,
+  "garantias": [
+   12
+  ],
+  "disp": "em estoque",
+  "resumo": "Laser monocromática, 38 ppm, duplex"
+ },
+ {
+  "id": "NB-1200",
+  "tipo": "NOBREAK",
+  "nome": "Nobreak TesteTech 1200 VA",
+  "familia": "Energia",
+  "garantias": [
+   12
+  ],
+  "disp": "em estoque",
+  "resumo": "1200 VA, bivolt (sem dicionário: conferência só pelo tipo)"
+ }
+]

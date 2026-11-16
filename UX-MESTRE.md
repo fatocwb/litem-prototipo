@@ -30,6 +30,29 @@ Formato: **Decisão** · por quê · onde · data · status
 - **Controle de respostas mede só quem respondeu e em quanto tempo, sem preços** · é o número que decide se o pedido de cotação vira pilar (taxa de resposta); preço do distribuidor não pode ficar numa página pública · Controle de respostas · 16/11/2026 · em teste
 - **Menu lateral com a estrutura final e etiqueta da versão (V1, V1.1, V2)** · mostra para onde o produto vai sem prometer data · menu lateral · 16/11/2026 · em teste
 
+## Wireframe recriado (16/11/2026, as 18 telas do Miro)
+
+- **Editais reais do PNCP nos exemplos, conferência simulada e avisada no topo** · cartão inventado com nome de órgão real parece dado verdadeiro num link público; o aviso deixa claro o que é simulação · Geral e edital · 16/11/2026 · em teste
+- **Catálogo de exemplo com marca fictícia (TesteTech)** · ninguém confunde com um produto real · catálogo · 16/11/2026 · em teste
+- **Exemplo fictício só onde não há caso real, com faixa amarela "Exemplo fictício"** · nenhum edital real da amostra tinha lote conhecido; a aba Parcial precisava de um caso · edital de exemplo · 16/11/2026 · em teste
+- **Selos NOVO/ABERTO guardados no navegador de quem olha** · mostram o que ainda não foi aberto sem precisar de conta · Geral · 16/11/2026 · em teste
+- **↻ ATUALIZADO quando o PNCP registra alteração 1 dia ou mais depois da publicação** · dado real da API (data de atualização); o motivo não vem na API · Geral e edital · 16/11/2026 · em teste
+- **Revisão resolvida com um clique ("Confirmo que atende") e lembrada** · decisão de 04/11: a resposta fica salva para sempre · aba Conferência · 16/11/2026 · em teste
+- **Itens que você não vende ficam recolhidos e em cinza** · item disputado sozinho que o cliente não vende não pesa · aba Conferência · 16/11/2026 · em teste
+- **Funções futuras com prévia apagada e "Quero ser avisado"** · os cliques medem o interesse (decisão do menu lateral) · Inteligência de Mercado, Minhas Propostas, Montar proposta, Documentos · 16/11/2026 · em teste
+
+## Falta na Flex (lista para procurar nas outras UIs)
+
+Peças que a Flex UI não tem e foram feitas à mão, no estilo dela:
+
+- **Indicador de passos (stepper)** · primeiro acesso e importar catálogo (`components/comum/Passos.astro`)
+- **Chave liga/desliga (switch)** · "Mostrar o nome do órgão no pedido"
+- **Dica ao passar o mouse (tooltip)** · ⓘ do modo de disputa e ? das abas (hoje é o `title` do navegador)
+- **Selos/badges** · Compatível, NOVO, ATUALIZADO, ✓ ⚠ ✗ ◐, versão V1.1/V2
+- **Tela "Em breve" com prévia apagada** (`components/comum/EmBreve.astro`)
+- **Área de arrastar arquivo (dropzone)** · importar catálogo (conferir se o forms-01 da Flex serve)
+- **Lista que abre e fecha (acordeão)** · detalhe de cada item
+
 ## A testar com fornecedores
 
 - O fornecedor entende sozinho as abas, sem explicação?

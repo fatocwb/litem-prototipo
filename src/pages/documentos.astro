@@ -1,0 +1,21 @@
+---
+// Documentos (V2): prévia apagada + "Quero ser avisado" (wireframe do Miro).
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+import EmBreve from "@components/comum/EmBreve.astro";
+const linhas = [
+	["Certidão negativa federal", "válida até 02/01/2027"],
+	["FGTS", "vence em 5 dias"],
+	["Certidão trabalhista", "válida até 20/03/2027"],
+	["Balanço patrimonial", "exercício 2025"],
+];
+---
+
+<AppLayout title="Documentos" ativo="documentos">
+	<Titulo titulo="Documentos" versao="V2" sub="Certidões da empresa e validades, com alerta de vencimento." />
+	<EmBreve funcao="documentos" versao="V2" descricao="As certidões da empresa num lugar só, com aviso antes de vencer e a lista do que cada edital pede na habilitação.">
+		<table class="w-full text-left text-sm">
+			{linhas.map((l) => <tr class="border-t border-gray-100">{l.map((c) => <td class="py-3">{c}</td>)}</tr>)}
+		</table>
+	</EmBreve>
+</AppLayout>

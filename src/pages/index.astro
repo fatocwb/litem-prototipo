@@ -1,63 +1,132 @@
 ---
-// Página inicial do protótipo: lista dos editais que já têm análise.
-// Por enquanto é um só (Barra do Garças). As abas da triagem (Compatíveis, Revisão, Parcial)
-// entram quando o wireframe inteiro for refeito aqui.
+// Página Geral (wireframe do Miro: Geral · Editais Gerais / Compatíveis / Revisão necessária / Parcial).
+// Os editais são reais (PNCP, Centro-Oeste); a conferência é uma simulação com o catálogo de exemplo.
 import AppLayout from "@layouts/AppLayout.astro";
-import SeloRamo from "@components/app/SeloRamo.astro";
-import { editais } from "@data/editais";
+import CartaoEdital from "@components/geral/CartaoEdital.astro";
+import geral from "@data/geral.json";
 import { dataBR, reaisCurto } from "@scripts/formatar";
+import { INFO } from "@components/app/icones-flex";
+
+const lista: any[] = geral.editais;
+// ordem: os conferidos primeiro (por data da disputa), depois os sem itens, depois os de fora do setor
+const peso: Record<string, number> = { revisao: 0, parcial: 0, compativeis: 0, sem_itens: 1, fora_nicho: 2 };
+lista.sort((a, b) => peso[a.aba] - peso[b.aba] || (a.disputa || "").localeCompare(b.disputa || ""));
+
+const triagem = lista.filter((e) => ["compativeis", "revisao", "parcial"].includes(e.aba));
+const ti = lista.filter((e) => e.aba !== "fora_nicho");
+const valorCompat = triagem.reduce((s, e) => s + (e.cartao?.valorSeus || 0), 0);
+
+// dados mínimos para os filtros e contadores do Alpine
+const resumoLista = lista.map((e) => ({
+	slug: e.slug,
+	aba: e.aba,
+	uf: e.uf,
+	estoque: e.cartao?.emEstoque || 0,
+	encomenda: e.cartao?.sobEncomenda || 0,
+	ti: e.aba !== "fora_nicho",
+}));
+
+const abas = [
+	{ id: "gerais", nome: "Editais Gerais", ajuda: "Todos os pregões com proposta aberta na região: os do seu setor e os de outros setores (estes só com os dados do PNCP)." },
+	{ id: "compativeis", nome: "Compatíveis", ajuda: "Você tem produto que atende os itens que importam. Item que você não vende, disputado sozinho, não atrapalha." },
+	{ id: "revisao", nome: "Revisão necessária", ajuda: "Falta um dado para decidir (ex.: a garantia que você consegue). Você resolve com um clique e a resposta fica salva." },
+	{ id: "parcial", nome: "Parcial", ajuda: "Um lote obriga a fornecer vários itens juntos, e você não tem todos." },
+];
+const ufs = ["MT", "GO", "MS", "DF"];
+const select = "rounded-lg border border-gray-300 bg-white py-2 pr-8 pl-3 text-sm font-medium text-gray-600 shadow-xs outline-hidden focus:border-indigo-500";
 ---
 
-<AppLayout title="Editais">
-	<!-- Título (Flex UI › page-heading-02, sem botões) -->
-	<section class="bg-white p-6 sm:p-8 text-gray-800">
-		<h1 class="font-semibold text-black text-2xl sm:text-3xl">Editais</h1>
-		<p class="mt-1 text-sm font-medium text-gray-500">Editais já lidos item a item. Clique para ver o resumo, os pontos de atenção, os itens e os pedidos de cotação.</p>
-	</section>
+<AppLayout title="Geral" ativo="editais">
+	<script is:inline type="application/json" id="geral-dados" set:html={JSON.stringify(resumoLista)} />
 
-	<section class="min-h-screen bg-gray-50 py-8 text-gray-800">
-	<ul class="container mx-auto grid gap-4 px-4 sm:px-6 lg:grid-cols-2">
-		{
-			editais.map((e) => {
-				const doRamo = e.itens.filter((i) => i.ramo !== "Não");
-				return (
-					<li>
-						<a href={`/editais/${e.slug}/`} class="block rounded-md border border-l-4 border-gray-100 border-l-emerald-500 bg-white p-6 shadow-sm transition hover:shadow-md">
-							<div class="flex items-start justify-between gap-3">
-								<div class="min-w-0">
-									<p class="text-xs font-medium text-gray-500">
-										{e.orgao}-{e.uf}
-									</p>
-									<h2 class="mt-0.5 font-semibold text-gray-900">{e.titulo}</h2>
-									<p class="mt-0.5 text-sm text-gray-600">{e.objeto}</p>
-								</div>
-								<span class="shrink-0 rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-semibold text-indigo-600">● Novo</span>
-							</div>
-							<dl class="mt-4 grid grid-cols-3 gap-3 text-sm">
-								<div>
-									<dt class="text-xs text-gray-500">Disputa</dt>
-									<dd class="font-medium text-gray-800">{dataBR(e.datas.disputa)}</dd>
-									<dd class="text-xs text-gray-500" x-data={`faltam('${e.datas.disputa}')`} x-text="texto" />
-								</div>
-								<div>
-									<dt class="text-xs text-gray-500">Valor estimado</dt>
-									<dd class="font-medium text-gray-800">{reaisCurto(e.valorTotal)}</dd>
-								</div>
-								<div>
-									<dt class="text-xs text-gray-500">Seus itens</dt>
-									<dd class="font-medium text-gray-800">
-										{doRamo.length} de {e.itens.length}
-									</dd>
-								</div>
-							</dl>
-							<p class="mt-4 flex flex-wrap items-center gap-2 text-xs text-gray-500">
-								<SeloRamo ramo="Sim" /> Disputa em: {e.plataforma.nome} · {e.modo}
-							</p>
-						</a>
-					</li>
-				);
-			})
-		}
-	</ul>
-	</section>
+	<div x-data="geral">
+		<!-- Título (Flex UI › page-heading-02) -->
+		<section class="bg-white p-6 sm:p-8 text-gray-800">
+			<div class="flex flex-wrap items-center justify-between gap-4">
+				<div>
+					<h1 class="font-semibold text-black text-2xl sm:text-3xl">Geral</h1>
+					<p class="mt-1 text-sm font-medium text-gray-500">
+						{ti.length} editais de TI abertos · {triagem.length} na triagem · {reaisCurto(valorCompat)} em itens que são seus
+					</p>
+				</div>
+				<div class="flex flex-wrap gap-2">
+					<label class="sr-only" for="uf">Região</label>
+					<select id="uf" x-model="uf" class={select}>
+						<option value="">Região: Centro-Oeste (todos)</option>
+						{ufs.map((u) => <option value={u}>Só {u}</option>)}
+					</select>
+					<label class="sr-only" for="disp">Disponibilidade</label>
+					<select id="disp" x-model="disp" class={select}>
+						<option value="">Disponibilidade: todas</option>
+						<option value="estoque">Com itens em estoque</option>
+						<option value="encomenda">Com itens sob encomenda</option>
+					</select>
+				</div>
+			</div>
+
+			<!-- Aviso de simulação (Flex UI › alerts-05, informativo) -->
+			<div class="mt-6 p-4 bg-indigo-50 border border-indigo-100 rounded-md">
+				<div class="flex gap-2">
+					<svg xmlns="http://www.w3.org/2000/svg" class="mt-0.5 shrink-0 text-indigo-500" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d={INFO} fill="currentColor"></path></svg>
+					<p class="text-sm font-medium text-indigo-700">
+						<b>Protótipo:</b> os editais são reais ({geral.fonte}). A conferência é uma <b>simulação</b>: compara os itens com um
+						<a class="underline" href="/catalogo/">catálogo de exemplo (marca fictícia TesteTech)</a> usando só o resumo do PNCP. O LiTem de verdade lê o Termo de Referência inteiro.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Abas (Flex UI › section-heading-05) -->
+		<section class="bg-white px-6 sm:px-8 text-gray-800">
+			<p class="mb-2 text-xs font-medium text-gray-500"><b class="uppercase">Triagem automática</b> · leitura automática de todos os editais de TI</p>
+			<div class="sem-barra relative overflow-x-auto">
+				<ul class="flex min-w-max border-b border-gray-100" role="tablist">
+					{
+						abas.map((a) => (
+							<li>
+								<button
+									type="button"
+									role="tab"
+									title={a.ajuda}
+									x-on:click={`ir('${a.id}')`}
+									x-bind:aria-selected={`aba === '${a.id}'`}
+									class="flex items-center gap-2 px-4 pb-4 text-sm font-medium whitespace-nowrap border-b-2 hover:text-indigo-500 hover:border-indigo-500"
+									x-bind:class={`aba === '${a.id}' ? 'text-indigo-500 border-indigo-500' : 'text-gray-500 border-transparent'`}
+								>
+									{a.nome}
+									<span class="rounded-md bg-gray-100 px-2 py-0.5 text-xs font-semibold text-gray-600" x-text={`conta('${a.id}')`} />
+									{a.id !== "gerais" && <span class="text-xs font-semibold text-green-700" x-show={`novos('${a.id}')`} x-text={`novos('${a.id}') + ' novo' + (novos('${a.id}') > 1 ? 's' : '')`} />}
+									<span class="grid size-4 place-items-center rounded-full border border-gray-300 text-[10px] text-gray-400" aria-hidden="true">?</span>
+								</button>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+		</section>
+
+		<section class="min-h-screen bg-gray-50 py-8 text-gray-800">
+			<div class="container mx-auto px-4 sm:px-6">
+				<!-- Explicação de cada aba -->
+				{abas.map((a) => <p class="mb-4 text-sm font-medium text-gray-500" x-show={`aba === '${a.id}'`} x-cloak={a.id !== "compativeis"}>{a.ajuda}</p>)}
+
+				<div class="mb-4 flex flex-wrap items-center gap-3" x-show="aba === 'gerais'" x-cloak>
+					<label class="inline-flex cursor-pointer items-center gap-2 text-sm font-medium text-gray-600">
+						<input type="checkbox" x-model="soTI" class="size-4 rounded-sm" />
+						Esconder os editais de outros setores
+					</label>
+					{geral.foraNichoNaoMostrados > 0 && <span class="text-xs text-gray-400">(+{geral.foraNichoNaoMostrados} pregões de outros setores não mostrados no protótipo)</span>}
+				</div>
+
+				<div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+					{lista.map((e, k) => <CartaoEdital e={e} k={k} />)}
+				</div>
+
+				<p x-show="conta(aba) === 0" x-cloak class="rounded-md border border-dashed border-gray-300 bg-white p-8 text-center text-sm font-medium text-gray-500">
+					Nenhum edital nesta aba com esses filtros.
+				</p>
+				<p class="mt-6 text-xs text-gray-400">Dados do PNCP consultados em {dataBR(geral.geradoEm)}. Editais com proposta encerrada saem da lista.</p>
+			</div>
+		</section>
+	</div>
 </AppLayout>

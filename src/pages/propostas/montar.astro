@@ -1,0 +1,22 @@
+---
+// Montar proposta (V2): prévia apagada + "Quero ser avisado" (wireframe do Miro).
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+import EmBreve from "@components/comum/EmBreve.astro";
+const linhas = [
+	["Item 1 · Microcomputador", "WS-32 (sob encomenda)", "Trocar ▸"],
+	["Item 2 · Microcomputador", "DT-M (sob encomenda)", "Trocar ▸"],
+	["Item 3 · Notebook", "NB-A (em estoque)", "Trocar ▸"],
+	["Item 5 · Notebook 64 GB", "Sem produto: Adicionar ou Pular", ""],
+];
+---
+
+<AppLayout title="Montar proposta" ativo="propostas">
+	<Titulo titulo="Montar proposta" versao="V2" caminho={[{ nome: "Minhas Propostas", href: "/propostas/" }, { nome: "Montar proposta" }]} />
+	<EmBreve funcao="montar-proposta" versao="V2" descricao="Uma recomendação pronta por item, como um carrinho já montado: atende todos os requisitos, depois em estoque, depois menor custo. Botão 'Aceitar todas' e textos para copiar no portal.">
+		<div class="flex gap-2 text-sm"><span class="rounded-md border px-3 py-1">Critério: menor custo que atende ▾</span><span class="rounded-md bg-indigo-500 px-3 py-1 text-white">Aceitar todas as recomendações</span></div>
+		<table class="mt-6 w-full text-left text-sm">
+			{linhas.map((l) => <tr class="border-t border-gray-100">{l.map((c) => <td class="py-3">{c}</td>)}</tr>)}
+		</table>
+	</EmBreve>
+</AppLayout>

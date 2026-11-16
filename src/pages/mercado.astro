@@ -1,0 +1,23 @@
+---
+// Inteligência de Mercado (V1.1): prévia apagada + "Quero ser avisado" (wireframe do Miro).
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+import EmBreve from "@components/comum/EmBreve.astro";
+const linhas = [
+	["Notebook 16 GB · SSD 512 GB", "R$ 4.380", "R$ 4.910", "12"],
+	["Desktop 16 GB · SSD 512 GB", "R$ 3.650", "R$ 4.120", "18"],
+	["Monitor 24\" Full HD", "R$ 690", "R$ 815", "25"],
+	["Multifuncional laser 40 ppm", "R$ 2.150", "R$ 2.640", "9"],
+];
+---
+
+<AppLayout title="Inteligência de Mercado" ativo="mercado">
+	<Titulo titulo="Inteligência de Mercado" versao="V1.1" sub="Preço vencedor da mesma configuração, marca e modelo de quem venceu, órgãos e concorrentes." />
+	<EmBreve funcao="mercado" versao="V1.1" descricao="Quanto venceu a mesma configuração nos últimos 12 meses, com qual marca e modelo, e em quais órgãos. Os dados vêm de graça das APIs do PNCP e do Compras.gov.br.">
+		<div class="flex gap-2 text-sm"><span class="rounded-md border px-3 py-1">Família: todas ▾</span><span class="rounded-md border px-3 py-1">Config.: notebook 16 GB ▾</span><span class="rounded-md border px-3 py-1">Últimos 12 meses ▾</span></div>
+		<table class="mt-6 w-full text-left text-sm">
+			<tr class="text-xs uppercase text-gray-500"><th class="py-2">Configuração</th><th>Menor preço vencedor</th><th>Preço médio</th><th>Pregões</th></tr>
+			{linhas.map((l) => <tr class="border-t border-gray-100">{l.map((c) => <td class="py-3">{c}</td>)}</tr>)}
+		</table>
+	</EmBreve>
+</AppLayout>

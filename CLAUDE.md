@@ -6,7 +6,8 @@ Instruções para o Claude (e para quem mais mexer neste repositório).
 
 Protótipo navegável do **LiTem** (Licitações conferidas item a item; antes chamado de TItem).
 Só front-end, sem backend: serve para mostrar a ideia a fornecedores e testar o que funciona na tela.
-A primeira tela é o edital **Pregão Eletrônico SRP 30/2026 de Barra do Garças-MT**, que antes era uma planilha.
+Tem as 18 telas do wireframe do Miro (16/11/2026): Geral com 4 abas, edital (Compatível, Revisão, Parcial, Análise profunda), Meu Catálogo, catálogo por família, importar catálogo, primeiro acesso, configurações e as prévias V1.1/V2.
+O edital de **Barra do Garças-MT (PE SRP 30/2026)** é o caso analisado à mão (antes era uma planilha), com resumo, pontos de atenção, itens e pedidos de cotação.
 
 - **Quem é quem:** *fornecedor* = cliente do LiTem, a empresa que vende ao governo. *Distribuidor* = quem vende ao fornecedor.
 - O dono do projeto é iniciante (HTML, CSS, JS, PHP). Explique de forma simples e comente o código em português.
@@ -35,6 +36,13 @@ A primeira tela é o edital **Pregão Eletrônico SRP 30/2026 de Barra do Garça
 Ícones copiados da Flex ficam em `components/app/icones-flex.ts`. Abrir/fechar (menu no celular) é feito com Alpine.js.
 Convenções da Flex seguidas: cinzas `gray`, destaque `indigo` (botão principal `bg-indigo-500 hover:bg-indigo-600`), cartões `bg-white border border-gray-100 rounded-md shadow-sm`, fonte padrão do Tailwind. O modo escuro (`dark:`) já está ligado no CSS, mas o protótipo ainda é só claro.
 
+## Dados de demonstração
+
+- Os editais da tela Geral são **reais** (API do PNCP, Centro-Oeste, consulta de 16/11/2026), guardados em `ferramentas/pncp/`.
+- A conferência é **simulada**: `ferramentas/gerar_demo.py` descobre o tipo de cada item e compara com o catálogo de exemplo (marca fictícia **TesteTech**), usando só o resumo do PNCP. O LiTem de verdade lê o Termo de Referência.
+- Para atualizar: baixar listas e itens novos do PNCP para `ferramentas/pncp/` e rodar `python3 ferramentas/gerar_demo.py`. Ele regrava `src/data/geral.json`, `src/data/catalogo-exemplo.json`, os `src/data/editais/pncp-*.json` e acrescenta a conferência em Barra do Garças.
+- Caso fictício (com faixa "Exemplo fictício"): só `exemplo-lote`, para mostrar a aba Parcial.
+
 ## Como rodar
 
 ```bash
@@ -52,8 +60,12 @@ src/
   layouts/AppLayout.astro    casca: menu lateral + topo + conteúdo
   components/app/            peças gerais (menu lateral, selo "do seu ramo")
   components/edital/         as 5 abas do edital + o cabeçalho
-  pages/index.astro          lista de editais
-  pages/editais/[slug].astro uma página por edital
+  pages/index.astro          Geral (abas da triagem)
+  pages/editais/[slug].astro uma página por edital (aba Conferência + as abas do caso completo)
+  pages/catalogo/            Meu Catálogo, família e importar
+  pages/*.astro              primeiro acesso, configurações e as prévias (mercado, propostas, documentos)
+  components/comum/          título, passos e tela "Em breve"
+  components/geral/          cartão de edital da tela Geral
   scripts/app.ts             JavaScript do navegador (Alpine.js): abas, filtros, pedidos de cotação, controle
   scripts/formatar.ts        dinheiro, datas e "faltam X dias"
   styles/global.css          Tailwind 4 + cores da marca (@theme)

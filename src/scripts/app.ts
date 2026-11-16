@@ -84,6 +84,10 @@ async function copiar(texto: string) {
 	}
 }
 
+// Guardar e ler no navegador a partir do HTML do Alpine (ex.: x-on:change="$guardar('chave', valor)")
+Alpine.magic("guardar", () => (chave: string, valor: unknown) => gravar(chave, valor));
+Alpine.magic("lerLocal", () => (chave: string, padrao: unknown) => ler(chave, padrao));
+
 // Deixa as funções de formatação disponíveis dentro do HTML do Alpine (ex.: x-text="reais(item.total)").
 Alpine.magic("fmt", () => ({ reais, reaisCurto, inteiro, dataBR, textoFaltam }));
 
@@ -93,9 +97,9 @@ Alpine.data("casca", () => ({
 }));
 
 // ---------- Abas do edital (guarda a aba no endereço: #itens, #cotacao...) ----------
-const ABAS = ["resumo", "atencao", "itens", "cotacao", "controle"];
-Alpine.data("abasEdital", () => ({
-	aba: "resumo",
+const ABAS = ["conferencia", "resumo", "atencao", "itens", "cotacao", "controle"];
+Alpine.data("abasEdital", (padrao: string = "resumo") => ({
+	aba: padrao,
 	init() {
 		const h = location.hash.slice(1);
 		if (ABAS.includes(h)) this.aba = h;
@@ -343,6 +347,155 @@ Alpine.data("controleRespostas", () => ({
 			this.exportado = true;
 			setTimeout(() => (this.exportado = false), 2000);
 		}
+	},
+}));
+
+// ---------- Página Geral: abas da triagem, filtros e selos NOVO / ABERTO ----------
+type CartaoLista = { slug: string | null; aba: string; uf: string; estoque: number; encomenda: number; ti: boolean };
+const CHAVE_VISTOS = "litem:editais-vistos";
+const ABAS_GERAL = ["gerais", "compativeis", "revisao", "parcial"];
+
+Alpine.data("geral", () => ({
+	aba: "compativeis",
+	uf: "",
+	disp: "",
+	soTI: false,
+	lista: [] as CartaoLista[],
+	vistos: {} as Record<string, boolean>,
+	pedidos: {} as Record<string, boolean>,
+	init() {
+		const el = document.getElementById("geral-dados");
+		this.lista = JSON.parse(el?.textContent || "[]");
+		this.vistos = ler<Record<string, boolean>>(CHAVE_VISTOS, {});
+		const h = location.hash.slice(1);
+		if (ABAS_GERAL.includes(h)) this.aba = h;
+		window.addEventListener("hashchange", () => {
+			const h2 = location.hash.slice(1);
+			if (ABAS_GERAL.includes(h2)) this.aba = h2;
+		});
+	},
+	ir(nome: string) {
+		this.aba = nome;
+		history.replaceState(null, "", `#${nome}`);
+	},
+	// Em que aba cada cartão aparece: Editais Gerais mostra todos; as outras, só os da triagem
+	naAba(c: CartaoLista, aba: string) {
+		if (aba === "gerais") return true;
+		const mapa: Record<string, string> = { compativeis: "compativeis", revisao: "revisao", parcial: "parcial" };
+		return c.aba === mapa[aba];
+	},
+	passa(c: CartaoLista) {
+		if (this.uf && c.uf !== this.uf) return false;
+		if (this.disp === "estoque" && !c.estoque) return false;
+		if (this.disp === "encomenda" && !c.encomenda) return false;
+		if (this.aba === "gerais" && this.soTI && !c.ti) return false;
+		return true;
+	},
+	mostra(k: number) {
+		const c = this.lista[k];
+		return !!c && this.naAba(c, this.aba) && this.passa(c);
+	},
+	conta(aba: string) {
+		return this.lista.filter((c) => this.naAba(c, aba) && this.passa(c)).length;
+	},
+	novos(aba: string) {
+		return this.lista.filter((c) => c.slug && this.naAba(c, aba) && this.passa(c) && !this.vistos[c.slug]).length;
+	},
+	visto(slug: string) {
+		return !!this.vistos[slug];
+	},
+	marcarVisto(slug: string) {
+		this.vistos = { ...this.vistos, [slug]: true };
+		gravar(CHAVE_VISTOS, this.vistos);
+	},
+	queroSetor(k: number) {
+		this.pedidos = { ...this.pedidos, [k]: true };
+	},
+}));
+
+// ---------- Aba Conferência do edital (Compatível / Revisão necessária / Parcial) ----------
+type ItemConf = {
+	n: number;
+	tipo: string;
+	desc: string;
+	qtd: number;
+	und: string;
+	total: number;
+	resultado: string;
+	motivo: string;
+	produto?: string | null;
+	disp?: string | null;
+	prova?: string | null;
+	lote?: string;
+};
+
+Alpine.data("conferencia", (slug: string) => ({
+	itens: [] as ItemConf[],
+	lotes: null as Record<string, number[]> | null,
+	confirmados: {} as Record<number, boolean>,
+	aberto: null as number | null,
+	verFora: false,
+	chave: `litem:confirmados:${slug}`,
+	init() {
+		const d = JSON.parse(document.getElementById("conferencia-dados")?.textContent || "{}");
+		this.itens = d.itens || [];
+		this.lotes = d.lotes || null;
+		this.confirmados = ler<Record<number, boolean>>(this.chave, {});
+	},
+	res(i: ItemConf) {
+		return this.confirmados[i.n] && i.resultado === "revisao" ? "ok" : i.resultado;
+	},
+	confirmar(i: ItemConf) {
+		this.confirmados = { ...this.confirmados, [i.n]: true };
+		gravar(this.chave, this.confirmados);
+	},
+	desfazer(i: ItemConf) {
+		const c = { ...this.confirmados };
+		delete c[i.n];
+		this.confirmados = c;
+		gravar(this.chave, c);
+	},
+	get revisar() {
+		return this.itens.filter((i) => this.res(i) === "revisao");
+	},
+	get seus() {
+		return this.itens.filter((i) => ["ok", "mesmo_tipo", "nao_atende"].includes(this.res(i)));
+	},
+	get fora() {
+		return this.itens.filter((i) => i.resultado === "fora");
+	},
+	lotesIncompletos() {
+		if (!this.lotes) return [];
+		return Object.entries(this.lotes)
+			.map(([nome, ns]) => {
+				const its = ns.map((n) => this.itens.find((i) => i.n === n)!).filter(Boolean);
+				const atende = its.filter((i) => ["ok", "mesmo_tipo"].includes(this.res(i))).length;
+				return { nome, total: its.length, atende, itens: its };
+			})
+			.filter((l) => l.atende > 0 && l.atende < l.total);
+	},
+	get situacao() {
+		if (this.revisar.length) return "revisao";
+		if (this.lotesIncompletos().length) return "parcial";
+		if (this.itens.some((i) => ["ok", "mesmo_tipo"].includes(this.res(i)))) return "compativeis";
+		return "sem_itens";
+	},
+	conta(r: string) {
+		return this.itens.filter((i) => this.res(i) === r).length;
+	},
+	alternar(n: number) {
+		this.aberto = this.aberto === n ? null : n;
+	},
+	selo(r: string) {
+		return (
+			{
+				ok: ["✓ conferido", "bg-green-50 text-green-700"],
+				revisao: ["⚠ revisão", "bg-yellow-50 text-yellow-800"],
+				nao_atende: ["✗ não atende", "bg-red-50 text-red-700"],
+				mesmo_tipo: ["◐ mesmo tipo, confira", "bg-indigo-50 text-indigo-600"],
+				fora: ["✗ não está no seu catálogo", "bg-gray-100 text-gray-500"],
+			} as Record<string, string[]>
+		)[r];
 	},
 }));
 

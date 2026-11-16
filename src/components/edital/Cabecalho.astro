@@ -1,46 +1,74 @@
 ---
-// Topo da página do edital.
+// Topo da página do edital (wireframe: Edital · Compatível / Revisão / Parcial / Análise profunda).
 // Base: Flex UI › page-heading-02 (breadcrumb, título e botões), stats-04 (cartão da disputa)
-// e alerts-01 (aviso amarelo do prazo de esclarecimento).
-import type { Edital } from "@data/editais";
+// e alerts-01 (aviso amarelo). Serve para os 3 tipos de edital (real, demo e ilustrativo).
+import type { EditalPagina } from "@data/editais";
 import { dataBR } from "@scripts/formatar";
 import { SEPARADOR, ALERTA, ICONES_STATS } from "@components/app/icones-flex";
 
 interface Props {
-	edital: Edital;
+	edital: EditalPagina;
 }
 const { edital: e } = Astro.props;
-const horaDisputa = e.datas.disputa.slice(11, 16).replace(":", "h");
-const chips = [`Disputa na ${e.plataforma.nome}`, e.modo, e.julgamento, "Ata de 12 meses"];
+const horaDisputa = e.disputa ? e.disputa.slice(11, 16).replace(":", "h") : "";
+const chips = [`Disputa em: ${e.plataforma.nome}`, `Modo: ${e.modo}`, e.forma].filter(Boolean);
 const botao =
 	"flex flex-wrap items-center justify-center py-3 px-4 w-full text-base text-gray-500 font-medium bg-white border border-gray-200 hover:border-gray-300 rounded-md shadow-xs";
+const notaAtualizacao =
+	e.tipo === "real"
+		? "edital retificado: a data da disputa mudou de 27/10 para 25/11."
+		: e.tipo === "ilustrativo"
+			? "no exemplo, o item 4 foi alterado."
+			: "o PNCP registrou uma alteração depois da publicação. Na versão real, o LiTem mostra o que mudou.";
 ---
 
 <section class="bg-white p-6 sm:p-8 text-gray-800">
+	{
+		e.tipo === "ilustrativo" && (
+			<div class="mb-4 rounded-md border border-yellow-100 bg-yellow-50 px-4 py-3 text-sm font-medium text-yellow-800">
+				<b>Exemplo fictício.</b> Órgão e números inventados, só para mostrar como o LiTem trata um lote que você não atende por completo.
+			</div>
+		)
+	}
 	<div class="flex flex-wrap items-center -m-2">
 		<div class="w-full lg:w-2/3 p-2">
 			<ul class="flex flex-wrap items-center gap-x-3 mb-2">
-				<li><a class="flex font-medium text-xs text-gray-500 hover:text-gray-600" href="/">Editais</a></li>
+				<li><a class="flex font-medium text-xs text-gray-500 hover:text-gray-600" href="/">Geral</a></li>
 				<li>
 					<svg xmlns="http://www.w3.org/2000/svg" width="6" height="15" viewBox="0 0 6 15" fill="none" aria-hidden="true"><path d={SEPARADOR} fill="#d1d5db"></path></svg>
 				</li>
 				<li><span class="flex font-medium text-xs text-gray-500">{e.cidade}-{e.uf}</span></li>
 			</ul>
 			<h1 class="font-semibold text-black text-2xl sm:text-3xl">{e.titulo}</h1>
-			<p class="mt-1 text-sm font-medium text-gray-500 sm:text-base">{e.orgao}-{e.uf} · {e.objeto}</p>
+			<p class="mt-1 text-sm font-medium text-gray-500 sm:text-base">{e.orgao} · {e.cidade}-{e.uf}</p>
+			<p class="mt-1 text-sm text-gray-500">{e.objeto}</p>
 			<ul class="mt-3 flex flex-wrap gap-2">
 				{chips.map((c) => <li class="rounded-md border border-gray-200 bg-white px-3 py-1 text-xs font-medium text-gray-500">{c}</li>)}
+				<li class="rounded-md border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-medium text-gray-600">
+					{e.analiseProfunda ? `✔ Análise profunda · ${dataBR(e.analiseProfunda)}` : "🔎 Triagem"}
+				</li>
 			</ul>
 		</div>
 		<div class="hidden w-full lg:block lg:w-1/3 p-2">
 			<div class="flex flex-wrap justify-end -m-2">
 				<div class="w-full md:w-auto p-2">
-					<a class={botao} href={e.links.pncp} target="_blank" rel="noopener">Ver no PNCP <span class="ml-1" aria-hidden="true">↗</span></a>
+					<a class={botao} href="/propostas/montar/">Montar proposta <span class="ml-1 rounded-sm bg-gray-100 px-1.5 text-xs font-semibold">V2</span></a>
 				</div>
 				{
-					e.links.prefeitura && (
+					e.links.pncp && (
 						<div class="w-full md:w-auto p-2">
-							<a class={botao} href={e.links.prefeitura} target="_blank" rel="noopener">Edital em PDF <span class="ml-1" aria-hidden="true">↗</span></a>
+							<a class={botao} href={e.links.pncp} target="_blank" rel="noopener">
+								Ver no PNCP <span class="ml-1" aria-hidden="true">↗</span>
+							</a>
+						</div>
+					)
+				}
+				{
+					e.links.pdf && (
+						<div class="w-full md:w-auto p-2">
+							<a class={botao} href={e.links.pdf} target="_blank" rel="noopener">
+								Edital em PDF <span class="ml-1" aria-hidden="true">↗</span>
+							</a>
 						</div>
 					)
 				}
@@ -48,8 +76,16 @@ const botao =
 		</div>
 	</div>
 
-	<!-- As duas datas que mais importam -->
+	{
+		e.atualizado && (
+			<div class="mt-4 rounded-md border border-indigo-100 bg-indigo-50 px-4 py-3 text-sm font-medium text-indigo-700">
+				↻ <b>Atualizado em {dataBR(e.atualizado)}:</b> {notaAtualizacao}
+			</div>
+		)
+	}
+
 	<div class="mt-6 flex flex-wrap -m-3">
+		<!-- Disputa (Flex UI › stats-04) -->
 		<div class="w-full md:w-1/2 p-3">
 			<div class="h-full p-6 bg-white border border-gray-100 rounded-md shadow-sm">
 				<div class="flex items-center gap-4">
@@ -58,28 +94,51 @@ const botao =
 					</div>
 					<div>
 						<p class="text-xs font-medium text-gray-500">Disputa · horário de Brasília</p>
-						<h2 class="font-semibold text-2xl text-gray-800 tracking-tighter">{dataBR(e.datas.disputa)} às {horaDisputa}</h2>
-						<p class="text-xs font-medium text-indigo-500" x-data={`faltam('${e.datas.disputa}')`} x-text="texto"></p>
+						<h2 class="font-semibold text-2xl text-gray-800 tracking-tighter">{e.disputa ? `${dataBR(e.disputa)} às ${horaDisputa}` : "Data não informada"}</h2>
+						{e.disputa && <p class="text-xs font-medium text-indigo-500" x-data={`faltam('${e.disputa}')`} x-text="texto" />}
 					</div>
 				</div>
 			</div>
 		</div>
+
 		<div class="w-full md:w-1/2 p-3">
-			<div class="h-full p-6 bg-yellow-50 border border-yellow-100 rounded-md">
-				<div class="flex flex-wrap -m-1">
-					<div class="w-auto p-1 text-yellow-500">
-						<svg xmlns="http://www.w3.org/2000/svg" class="relative top-0.5" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d={ALERTA} fill="currentColor"></path></svg>
+			{
+				e.esclarecimentoAte ? (
+					<div class="h-full p-6 bg-yellow-50 border border-yellow-100 rounded-md">
+						<div class="flex flex-wrap -m-1">
+							<div class="w-auto p-1 text-yellow-500">
+								<svg xmlns="http://www.w3.org/2000/svg" class="relative top-0.5" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+									<path d={ALERTA} fill="currentColor" />
+								</svg>
+							</div>
+							<div class="flex-1 p-1">
+								<h3 class="mb-2 font-medium text-sm text-yellow-800">
+									Pedir esclarecimento até {dataBR(e.esclarecimentoAte)} · <span x-data={`faltam('${e.esclarecimentoAte}')`} x-text="texto" />
+								</h3>
+								<p class="font-medium text-sm text-yellow-600">
+									Depois disso, dúvida no edital vira risco de desclassificação.{e.notaEsclarecimento && ` Neste edital, ${e.notaEsclarecimento}.`}
+								</p>
+							</div>
+						</div>
 					</div>
-					<div class="flex-1 p-1">
-						<h3 class="mb-2 font-medium text-sm text-yellow-800">
-							Pedir esclarecimento até {dataBR(e.datas.esclarecimentoAte)} · <span x-data={`faltam('${e.datas.esclarecimentoAte}')`} x-text="texto"></span>
-						</h3>
-						<p class="font-medium text-sm text-yellow-600">
-							Depois disso, dúvida no edital vira risco de desclassificação.{e.notaEsclarecimento && ` Neste edital, ${e.notaEsclarecimento}.`}
+				) : (
+					<!-- Análise profunda sob demanda (wireframe: Edital · Análise profunda) -->
+					<div class="h-full p-6 bg-white border border-gray-100 rounded-md shadow-sm" x-data="{ pedido: false }">
+						<p class="text-xs font-medium text-gray-500">Análise profunda · habilitação, prazos, amostra, riscos</p>
+						<button
+							type="button"
+							x-on:click="pedido = true"
+							class="mt-2 inline-flex items-center gap-2 rounded-md bg-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-xs hover:bg-indigo-600"
+						>
+							🔎 Analisar profundamente
+						</button>
+						<p class="mt-2 text-xs font-medium text-gray-500">12 de 30 análises novas usadas este mês · análise já feita por outro cliente não gasta cota</p>
+						<p x-show="pedido" x-cloak class="mt-2 text-xs font-medium text-indigo-600">
+							No protótipo a análise não roda. Veja um exemplo pronto no <a class="underline" href="/editais/barra-do-garcas-pe30-2026/#atencao">edital de Barra do Garças</a>.
 						</p>
 					</div>
-				</div>
-			</div>
+				)
+			}
 		</div>
 	</div>
 </section>

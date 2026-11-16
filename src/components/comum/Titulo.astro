@@ -1,0 +1,35 @@
+---
+// Título de página (Flex UI › page-heading-02): breadcrumb opcional, título, subtítulo e botões no slot.
+interface Props {
+	titulo: string;
+	sub?: string;
+	caminho?: { nome: string; href?: string }[];
+	versao?: string;
+}
+const { titulo, sub, caminho = [], versao } = Astro.props;
+---
+
+<section class="bg-white p-6 sm:p-8 text-gray-800">
+	<div class="flex flex-wrap items-center justify-between gap-4">
+		<div>
+			{
+				caminho.length > 0 && (
+					<ul class="mb-2 flex flex-wrap items-center gap-x-3">
+						{caminho.map((c, k) => (
+							<>
+								{k > 0 && <li class="text-xs text-gray-300">/</li>}
+								<li>{c.href ? <a class="text-xs font-medium text-gray-500 hover:text-gray-600" href={c.href}>{c.nome}</a> : <span class="text-xs font-medium text-gray-500">{c.nome}</span>}</li>
+							</>
+						))}
+					</ul>
+				)
+			}
+			<h1 class="flex flex-wrap items-center gap-3 font-semibold text-black text-2xl sm:text-3xl">
+				{titulo}
+				{versao && <span class="rounded-md bg-gray-100 px-2 py-0.5 text-sm font-semibold text-gray-500">{versao} · Em breve</span>}
+			</h1>
+			{sub && <p class="mt-1 text-sm font-medium text-gray-500">{sub}</p>}
+		</div>
+		<div class="flex flex-wrap gap-2"><slot /></div>
+	</div>
+</section>

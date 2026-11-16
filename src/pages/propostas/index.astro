@@ -1,0 +1,24 @@
+---
+// Minhas Propostas (V2): prévia apagada + "Quero ser avisado" (wireframe do Miro).
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+import EmBreve from "@components/comum/EmBreve.astro";
+const linhas = [
+	["Pregão 82/2026 · STF", "Proposta pronta", "23/11"],
+	["Pregão SRP 30/2026 · Barra do Garças", "Em análise", "25/11"],
+	["Pregão 8/2026 · Cachoeira Alta", "Enviada", "17/11"],
+	["Pregão 35/2026 · Novo Horizonte do Norte", "Aguardando amostra", "19/11"],
+];
+---
+
+<AppLayout title="Minhas Propostas" ativo="propostas">
+	<Titulo titulo="Minhas Propostas" versao="V2" sub="Pregões em que você vai participar, com a proposta pré-preenchida pela conferência.">
+		<a href="/propostas/montar/" class="rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-500 shadow-xs">Ver a prévia de "Montar proposta"</a>
+	</Titulo>
+	<EmBreve funcao="propostas" versao="V2" descricao="Os editais em que você decidiu participar, com status (em análise, pronta, enviada, aguardando amostra) e o ganhou/perdeu automático pelo resultado no PNCP.">
+		<table class="w-full text-left text-sm">
+			<tr class="text-xs uppercase text-gray-500"><th class="py-2">Edital</th><th>Status</th><th>Disputa</th></tr>
+			{linhas.map((l) => <tr class="border-t border-gray-100">{l.map((c) => <td class="py-3">{c}</td>)}</tr>)}
+		</table>
+	</EmBreve>
+</AppLayout>

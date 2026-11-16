@@ -1,0 +1,29 @@
+---
+// Indicador de passos (1 · Região › 2 · Catálogo › 3 · Alertas). A Flex UI não tem stepper: feito no estilo das abas dela.
+// Usa a variável "passo" do x-data da página.
+interface Props {
+	passos: string[];
+}
+const { passos } = Astro.props;
+---
+
+<ol class="flex flex-wrap items-center gap-2 text-sm font-medium">
+	{
+		passos.map((p, k) => (
+			<>
+				{k > 0 && <li class="text-gray-300">›</li>}
+				<li>
+					<button
+						type="button"
+						x-on:click={`passo = ${k + 1}`}
+						class="flex items-center gap-2 rounded-md px-3 py-1.5"
+						x-bind:class={`passo === ${k + 1} ? 'bg-indigo-50 text-indigo-500' : (passo > ${k + 1} ? 'text-green-700' : 'text-gray-400')`}
+					>
+						<span class="grid size-6 place-items-center rounded-full border text-xs" x-bind:class={`passo >= ${k + 1} ? 'border-current' : 'border-gray-300'`} x-text={`passo > ${k + 1} ? '✓' : '${k + 1}'`} />
+						{p}
+					</button>
+				</li>
+			</>
+		))
+	}
+</ol>

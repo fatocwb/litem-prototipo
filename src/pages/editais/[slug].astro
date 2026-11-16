@@ -1,38 +1,57 @@
 ---
-// Página de um edital. Uma página é gerada para cada .json em src/data/editais/.
+// Página de um edital. Uma página para cada .json em src/data/editais/.
+// - Todos têm a aba "Conferência" (wireframe: Edital · Compatível / Revisão necessária / Parcial).
+// - O edital analisado à mão (Barra do Garças) tem também Resumo, Pontos de atenção, Itens, Pedidos de cotação e Controle.
 import AppLayout from "@layouts/AppLayout.astro";
 import Cabecalho from "@components/edital/Cabecalho.astro";
+import AbaConferencia from "@components/edital/AbaConferencia.astro";
 import AbaResumo from "@components/edital/AbaResumo.astro";
 import AbaPontos from "@components/edital/AbaPontos.astro";
 import AbaItens from "@components/edital/AbaItens.astro";
 import AbaCotacao from "@components/edital/AbaCotacao.astro";
 import AbaControle from "@components/edital/AbaControle.astro";
-import { editais, type Edital } from "@data/editais";
+import { editais, type EditalPagina } from "@data/editais";
 
 export function getStaticPaths() {
 	return editais.map((edital) => ({ params: { slug: edital.slug }, props: { edital } }));
 }
 
-const { edital } = Astro.props as { edital: Edital };
+const { edital } = Astro.props as { edital: EditalPagina };
+const c = edital.completo;
 
 const abas = [
-	{ id: "resumo", nome: "Resumo", conta: null },
-	{ id: "atencao", nome: "Pontos de atenção", conta: edital.pontos.length },
-	{ id: "itens", nome: "Itens", conta: edital.itens.length },
-	{ id: "cotacao", nome: "Pedidos de cotação", conta: edital.categorias.length },
-	{ id: "controle", nome: "Controle de respostas", conta: null },
+	...(c
+		? [
+				{ id: "resumo", nome: "Resumo", conta: null },
+				{ id: "atencao", nome: "Pontos de atenção", conta: c.pontos.length },
+			]
+		: []),
+	{ id: "conferencia", nome: c ? "Conferência (simulação)" : "Conferência", conta: edital.itens.length },
+	...(c
+		? [
+				{ id: "itens", nome: "Itens", conta: c.itens.length },
+				{ id: "cotacao", nome: "Pedidos de cotação", conta: c.categorias.length },
+				{ id: "controle", nome: "Controle de respostas", conta: null },
+			]
+		: []),
 ];
+const padrao = c ? "resumo" : "conferencia";
 
 // Dados para o JavaScript do navegador (o "<" vira código para não fechar a tag por engano)
-const dadosJson = JSON.stringify(edital).replace(/</g, "\\u003c");
+const json = (v: unknown) => JSON.stringify(v).replace(/</g, "\\u003c");
+const conferencia = {
+	lotes: edital.lotes ?? null,
+	itens: edital.itens.map(({ n, tipo, desc, qtd, und, total, resultado, motivo, produto, disp, prova, lote }) => ({ n, tipo, desc, qtd, und, total, resultado, motivo, produto, disp, prova, lote })),
+};
 ---
 
 <AppLayout title={`${edital.titulo} · ${edital.cidade}-${edital.uf}`}>
-	<script is:inline type="application/json" id="edital-dados" set:html={dadosJson} />
+	{c && <script is:inline type="application/json" id="edital-dados" set:html={json(c)} />}
+	<script is:inline type="application/json" id="conferencia-dados" set:html={json(conferencia)} />
 
 	<Cabecalho edital={edital} />
 
-	<div x-data="abasEdital">
+	<div x-data={`abasEdital('${padrao}')`}>
 		<!-- Abas (Flex UI › section-heading-05) -->
 		<section class="bg-white px-6 sm:px-8 text-gray-800">
 			<div class="sem-barra relative overflow-x-auto">
@@ -68,11 +87,18 @@ const dadosJson = JSON.stringify(edital).replace(/</g, "\\u003c");
 		<!-- Conteúdo das abas: faixa cinza com cartões brancos, como nos painéis da Flex UI -->
 		<section class="min-h-screen bg-gray-50 py-8 text-gray-800">
 			<div class="container px-4 sm:px-6 mx-auto">
-				<div role="tabpanel" x-show="aba === 'resumo'"><AbaResumo edital={edital} /></div>
-				<div role="tabpanel" x-show="aba === 'atencao'" x-cloak><AbaPontos edital={edital} /></div>
-				<div role="tabpanel" x-show="aba === 'itens'" x-cloak><AbaItens edital={edital} /></div>
-				<div role="tabpanel" x-show="aba === 'cotacao'" x-cloak><AbaCotacao /></div>
-				<div role="tabpanel" x-show="aba === 'controle'" x-cloak><AbaControle /></div>
+				<div role="tabpanel" x-show="aba === 'conferencia'" x-cloak={padrao !== "conferencia"}><AbaConferencia slug={edital.slug} /></div>
+				{
+					c && (
+						<>
+							<div role="tabpanel" x-show="aba === 'resumo'"><AbaResumo edital={c} /></div>
+							<div role="tabpanel" x-show="aba === 'atencao'" x-cloak><AbaPontos edital={c} /></div>
+							<div role="tabpanel" x-show="aba === 'itens'" x-cloak><AbaItens edital={c} /></div>
+							<div role="tabpanel" x-show="aba === 'cotacao'" x-cloak><AbaCotacao /></div>
+							<div role="tabpanel" x-show="aba === 'controle'" x-cloak><AbaControle /></div>
+						</>
+					)
+				}
 			</div>
 		</section>
 	</div>

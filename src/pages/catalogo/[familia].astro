@@ -1,0 +1,72 @@
+---
+// Catálogo de uma família (wireframe do Miro: "Catálogo · Notebooks e Desktops").
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+import { familias, ficha, editaisDo, type Produto } from "@data/catalogo";
+
+export function getStaticPaths() {
+	return familias.map((f) => ({ params: { familia: f.slug }, props: { f } }));
+}
+const { f } = Astro.props as { f: (typeof familias)[number] };
+const specs = (p: Produto) =>
+	[p.ram && `${p.ram} GB RAM`, p.ssd && `SSD ${p.ssd >= 1000 ? p.ssd / 1000 + " TB" : p.ssd + " GB"}`, p.nucleos && `${p.nucleos} núcleos`, p.tela && `${String(p.tela).replace(".", ",")}"`, p.hz && `${p.hz} Hz`, p.ppm && `${p.ppm} ppm`]
+		.filter(Boolean)
+		.join(" · ");
+const select = "rounded-lg border border-gray-300 bg-white py-1.5 pr-8 pl-2 text-xs font-medium text-gray-600 shadow-xs outline-hidden focus:border-indigo-500";
+---
+
+<AppLayout title={f.nome} ativo="catalogo">
+	<Titulo titulo={f.nome} caminho={[{ nome: "Meu Catálogo", href: "/catalogo/" }, { nome: f.nome }]} sub={`${f.produtos.length} produtos · ${f.editais} editais compatíveis · ${f.incompletas} fichas incompletas · disponibilidade editável em cada linha`}>
+		<a href="/catalogo/importar/" class="rounded-md bg-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-xs hover:bg-indigo-600">Importar ou atualizar</a>
+	</Titulo>
+
+	<section class="min-h-screen bg-gray-50 py-8 text-gray-800">
+		<div class="container mx-auto px-4 sm:px-6">
+			<!-- Tabela (Flex UI › tables-03) -->
+			<div class="overflow-hidden border border-gray-100 rounded-md shadow-sm">
+				<div class="overflow-x-auto">
+					<table class="w-full min-w-[860px]">
+						<tr class="whitespace-nowrap h-11 bg-gray-50/80 border-b border-gray-100">
+							{["Produto", "Especificação", "Garantias disponíveis", "Ficha", "Editais ✓", "Disponibilidade"].map((h) => <th class="px-4 font-semibold text-xs text-gray-500 uppercase text-left">{h}</th>)}
+						</tr>
+						{
+							f.produtos.map((p) => {
+								const fi = ficha(p);
+								const eds = editaisDo(p);
+								return (
+									<tr class="h-18 border-b border-gray-100 bg-white align-middle" x-data={`{ disp: $lerLocal('litem:disp:${p.id}', '${p.disp}') }`}>
+										<td class="px-4 py-3">
+											<p class="text-sm font-semibold text-gray-700">{p.nome}</p>
+											<p class="text-xs font-medium text-gray-500">{p.id} · tipo {p.tipo.toLowerCase()}</p>
+										</td>
+										<td class="px-4 py-3 text-sm font-medium text-gray-700">
+											{specs(p) || "-"}
+											<p class="text-xs font-normal text-gray-500">{p.resumo}</p>
+										</td>
+										<td class="px-4 py-3 text-sm font-medium text-gray-700">{p.garantias.map((g) => `${g} meses`).join(", ")}</td>
+										<td class="px-4 py-3">
+											<span class={`rounded-md px-2 py-0.5 text-xs font-semibold ${fi === 100 ? "bg-green-50 text-green-700" : "bg-yellow-50 text-yellow-800"}`}>{fi}%</span>
+										</td>
+										<td class="px-4 py-3 text-sm font-medium text-indigo-500" title={eds.map((e) => `${e.titulo} · ${e.orgao}`).join("\n")}>
+											{eds.length}
+										</td>
+										<td class="px-4 py-3">
+											<select class={select} x-model="disp" x-on:change={`$guardar('litem:disp:${p.id}', disp)`}>
+												<option value="em estoque">Em estoque</option>
+												<option value="sob encomenda">Sob encomenda</option>
+												<option value="sem estoque">Sem estoque</option>
+											</select>
+										</td>
+									</tr>
+								);
+							})
+						}
+					</table>
+				</div>
+			</div>
+			<p class="mt-4 text-xs text-gray-400">
+				Disponibilidade é só etiqueta e filtro (não muda o resultado da conferência). Garantia não é característica fixa: o fornecedor informa as garantias que consegue contratar para cada modelo.
+			</p>
+		</div>
+	</section>
+</AppLayout>

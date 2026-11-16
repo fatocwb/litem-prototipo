@@ -10,13 +10,13 @@ interface Props {
 const { ativo } = Astro.props;
 
 const principal = [
-	{ id: "editais", nome: "Editais", href: "/", versao: null },
-	{ id: "catalogo", nome: "Meu Catálogo", href: null, versao: "V1" },
-	{ id: "propostas", nome: "Minhas Propostas", href: null, versao: "V2" },
-	{ id: "documentos", nome: "Documentos", href: null, versao: "V2" },
-	{ id: "mercado", nome: "Inteligência de Mercado", href: null, versao: "V1.1" },
+	{ id: "editais", nome: "Geral", href: "/", versao: null },
+	{ id: "catalogo", nome: "Meu Catálogo", href: "/catalogo/", versao: null },
+	{ id: "propostas", nome: "Minhas Propostas", href: "/propostas/", versao: "V2" },
+	{ id: "documentos", nome: "Documentos", href: "/documentos/", versao: "V2" },
+	{ id: "mercado", nome: "Inteligência de Mercado", href: "/mercado/", versao: "V1.1" },
 ];
-const ajustes = [{ id: "config", nome: "Configurações", href: null, versao: "V1" }];
+const ajustes = [{ id: "config", nome: "Configurações", href: "/configuracoes/", versao: null }];
 
 const classeLink = "p-3 py-4 flex items-center justify-between rounded-md";
 ---
@@ -90,23 +90,25 @@ const classeLink = "p-3 py-4 flex items-center justify-between rounded-md";
 		<p class="px-8 mb-2 text-xs font-medium text-gray-500 uppercase">Ajustes</p>
 		<ul class="px-4 pb-6">
 			{
-				ajustes.map((i) => (
-					<li>
-						<span class={`${classeLink} text-gray-300 cursor-not-allowed`} title="Ainda não está no protótipo">
-							<div class="flex items-center">
-								<svg xmlns="http://www.w3.org/2000/svg" class="mr-2 shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-									<path d={ICONES[i.id]} fill="currentColor" />
-								</svg>
-								<p class="font-medium text-base text-gray-400">{i.nome}</p>
-							</div>
-							<span class="rounded-sm bg-gray-100 px-1.5 py-0.5 text-xs font-semibold text-gray-500">{i.versao}</span>
-						</span>
-					</li>
-				))
+				ajustes.map((i) => {
+					const marcado = i.id === ativo;
+					return (
+						<li>
+							<a class={`${classeLink} ${marcado ? "bg-white text-indigo-500 shadow-xs" : "text-gray-500 hover:text-indigo-500 hover:bg-white"}`} href={i.href} aria-current={marcado ? "page" : undefined}>
+								<div class="flex items-center">
+									<svg xmlns="http://www.w3.org/2000/svg" class="mr-2 shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+										<path d={ICONES[i.id]} fill="currentColor" />
+									</svg>
+									<p class={`font-medium text-base ${marcado ? "text-indigo-500" : "text-gray-700"}`}>{i.nome}</p>
+								</div>
+							</a>
+						</li>
+					);
+				})
 			}
 		</ul>
 		<div class="mx-4 mb-6 rounded-md border border-gray-100 bg-white p-4 text-xs font-medium leading-relaxed text-gray-500">
-			<b class="font-semibold text-gray-700">LiTem</b> · licitações conferidas item a item. Protótipo de demonstração: os dados vêm de um edital real, sem sistema por trás.
+			<b class="font-semibold text-gray-700">LiTem</b> · licitações conferidas item a item. Protótipo de demonstração: editais reais do PNCP, conferência simulada com um catálogo de exemplo. <a class="text-indigo-500" href="/primeiro-acesso/">Ver o primeiro acesso</a>.
 		</div>
 	</div>
 </div>

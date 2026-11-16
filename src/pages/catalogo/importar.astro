@@ -1,0 +1,108 @@
+---
+// Importar catálogo (wireframes do Miro: "Importar catálogo" e "Importar catálogo · 3. Confirmar").
+// Passos: 1 enviar o arquivo · 2 conferir as colunas · 3 confirmar (novos, alterados, que saíram).
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+import Passos from "@components/comum/Passos.astro";
+
+const colunas = [
+	["Descrição", "Nome do produto"],
+	["PN", "Part number"],
+	["Fabricante", "Marca"],
+	["Processador", "Processador"],
+	["Memória", "Memória RAM (GB)"],
+	["Disco", "SSD (GB)"],
+	["Garantia", "Garantias disponíveis (meses)"],
+	["Qtd", "Quantidade em estoque (opcional)"],
+	["Custo", "Custo (opcional, V2)"],
+];
+const campos = [...new Set(colunas.map((c) => c[1])), "Ignorar esta coluna"];
+const card = "p-6 bg-white border border-gray-100 rounded-md shadow-sm";
+const primario = "rounded-md bg-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-xs hover:bg-indigo-600";
+const secundario = "rounded-md border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-500 shadow-xs hover:border-gray-300";
+const resumo = [
+	{ n: 3, rotulo: "Novos", cor: "text-green-700", ex: "NB-C, MN-32, SW-24" },
+	{ n: 10, rotulo: "Sem mudança", cor: "text-gray-600", ex: "" },
+	{ n: 2, rotulo: "Alterados", cor: "text-indigo-500", ex: "DT-M (garantia 60 meses), MF-40 (custo)" },
+	{ n: 1, rotulo: "Não estão na planilha nova", cor: "text-orange-600", ex: "NB-B" },
+];
+---
+
+<AppLayout title="Importar catálogo" ativo="catalogo">
+	<div x-data="{ passo: 1, arquivo: '', modo: 'completa', saiu: 'arquivar', salvo: false }">
+		<Titulo titulo="Importar catálogo" caminho={[{ nome: "Meu Catálogo", href: "/catalogo/" }, { nome: "Importar" }]} sub="Excel, CSV ou PDF. O LiTem reconhece as colunas, você confere, e o mapeamento fica guardado para a próxima vez." />
+
+		<section class="min-h-screen bg-gray-50 py-8 text-gray-800">
+			<div class="container mx-auto space-y-6 px-4 sm:px-6">
+				<Passos passos={["Enviar arquivo", "Conferir colunas", "Confirmar"]} />
+
+				<!-- 1. Enviar -->
+				<div x-show="passo === 1" class={card}>
+					<label class="flex cursor-pointer flex-col items-center justify-center rounded-md border-2 border-dashed border-gray-300 px-6 py-12 text-center hover:border-indigo-500">
+						<span class="text-sm font-semibold text-gray-700">Arraste a planilha aqui ou clique para escolher</span>
+						<span class="mt-1 text-xs font-medium text-gray-500">.xlsx, .csv ou .pdf · no protótipo o arquivo não sai do seu computador</span>
+						<input type="file" class="sr-only" accept=".xlsx,.csv,.pdf" x-on:change="arquivo = $event.target.files[0]?.name || ''; if (arquivo) passo = 2" />
+					</label>
+					<div class="mt-4 flex flex-wrap items-center gap-4 text-sm font-medium text-gray-600">
+						<span>Modo da importação:</span>
+						<label class="inline-flex items-center gap-2"><input type="radio" value="completa" x-model="modo" /> Planilha completa</label>
+						<label class="inline-flex items-center gap-2"><input type="radio" value="adicionar" x-model="modo" /> Só adicionar e atualizar</label>
+					</div>
+					<button type="button" class={`${secundario} mt-4`} x-on:click="arquivo = 'catalogo-testetech.xlsx'; passo = 2">Usar a planilha de exemplo</button>
+				</div>
+
+				<!-- 2. Conferir colunas -->
+				<div x-show="passo === 2" x-cloak class={card}>
+					<h2 class="font-semibold text-gray-800">Conferir colunas · <span class="font-medium text-gray-500" x-text="arquivo"></span></h2>
+					<p class="mt-1 text-sm font-medium text-gray-500">O LiTem sugeriu um campo para cada coluna. Troque o que estiver errado.</p>
+					<div class="mt-4 overflow-hidden border border-gray-100 rounded-md">
+						{
+							colunas.map(([col, campo]) => (
+								<div class="flex flex-wrap items-center justify-between gap-2 border-b border-gray-100 px-4 py-2 last:border-0">
+									<span class="text-sm font-semibold text-gray-700">{col}</span>
+									<select class="rounded-lg border border-gray-300 bg-white py-1.5 pr-8 pl-2 text-sm font-medium text-gray-600 shadow-xs outline-hidden focus:border-indigo-500">
+										{campos.map((c) => <option selected={c === campo}>{c}</option>)}
+									</select>
+								</div>
+							))
+						}
+					</div>
+					<p class="mt-3 text-xs text-gray-500">Descrição livre ou PDF: a IA separa em campos, e o que for preenchido sozinho fica marcado "confira".</p>
+					<div class="mt-4 flex gap-2">
+						<button type="button" class={secundario} x-on:click="passo = 1">Voltar</button>
+						<button type="button" class={primario} x-on:click="passo = 3">Continuar</button>
+					</div>
+				</div>
+
+				<!-- 3. Confirmar -->
+				<div x-show="passo === 3" x-cloak class="space-y-4">
+					<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+						{
+							resumo.map((r) => (
+								<div class={card}>
+									<h2 class={`font-semibold text-2xl tracking-tighter ${r.cor}`}>{r.n}</h2>
+									<p class="text-xs font-medium text-gray-500">{r.rotulo}</p>
+									{r.ex && <p class="mt-1 text-xs text-gray-400">{r.ex}</p>}
+								</div>
+							))
+						}
+					</div>
+					<div class={card} x-show="modo === 'completa'">
+						<h3 class="font-semibold text-gray-800">E o produto que não está na planilha nova (NB-B)?</h3>
+						<div class="mt-3 flex flex-wrap gap-4 text-sm font-medium text-gray-600">
+							<label class="inline-flex items-center gap-2"><input type="radio" value="arquivar" x-model="saiu" /> Arquivar todos (padrão)</label>
+							<label class="inline-flex items-center gap-2"><input type="radio" value="manter" x-model="saiu" /> Manter todos</label>
+							<label class="inline-flex items-center gap-2"><input type="radio" value="escolher" x-model="saiu" /> Escolher um a um</label>
+						</div>
+						<p class="mt-2 text-xs text-gray-500">Arquivar não apaga: o produto sai da conferência, o histórico fica e dá para desfazer.</p>
+					</div>
+					<div class="flex flex-wrap items-center gap-2">
+						<button type="button" class={secundario} x-on:click="passo = 2">Voltar</button>
+						<button type="button" class={primario} x-on:click="salvo = true">Salvar catálogo</button>
+						<span x-show="salvo" x-cloak class="text-sm font-medium text-green-700">Salvo (simulação). A IA lê só os produtos novos ou alterados e a conferência é refeita.</span>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</AppLayout>
