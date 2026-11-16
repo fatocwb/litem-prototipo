@@ -1,16 +1,14 @@
 @import "tailwindcss";
-@import "@fontsource-variable/inter";
 
-/* Cores e fonte do protótipo. Quando os componentes da Flex UI entrarem,
-   as cores da marca passam a vir daqui (um lugar só para trocar). */
-@theme {
-	--font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+/* Convenções da Flex UI (catalogo-flex-ui.md): cores oficiais do Tailwind,
+   destaque indigo, cinzas gray e a fonte padrão do Tailwind. */
 
-	--color-marca-50: oklch(0.97 0.02 255);
-	--color-marca-100: oklch(0.93 0.04 255);
-	--color-marca-500: oklch(0.58 0.17 258);
-	--color-marca-600: oklch(0.51 0.18 260);
-	--color-marca-700: oklch(0.44 0.16 262);
+/* Modo escuro por classe (<html class="dark">). O protótipo ainda é só claro. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+button:not(:disabled),
+[role="button"]:not(:disabled) {
+	cursor: pointer;
 }
 
 /* Alpine.js: esconde o que ainda não foi montado */

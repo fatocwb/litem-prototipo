@@ -5,6 +5,11 @@ Regra: uma linha nova a cada decisão; nunca apagar (se mudar, marcar como "subs
 
 Formato: **Decisão** · por quê · onde · data · status
 
+## Visual geral
+
+- **Base visual: Flex UI (Shuffle), modo claro** · uma linguagem só em todas as telas; cinzas gray, destaque indigo, cartões brancos sobre faixa cinza · todo o protótipo · 16/11/2026 · em teste
+- **Menu lateral fixo no computador (a partir de 1280 px) e gaveta no celular** · padrão da Flex (vertical-02) · menu lateral · 16/11/2026 · em teste
+
 ## Página do edital (16/11/2026, a partir da planilha de Barra do Garças)
 
 - **Duas datas no topo: disputa e prazo de esclarecimento, com "faltam X dias"** · são os dois prazos que fazem o fornecedor perder o edital; o de esclarecimento é o que mais se esquece · Cabeçalho · 16/11/2026 · em teste

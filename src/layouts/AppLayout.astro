@@ -1,5 +1,5 @@
 ---
-// Casca do aplicativo: menu lateral + barra do topo + conteúdo.
+// Casca do aplicativo: menu lateral (Flex UI vertical-02) + conteúdo.
 // Toda página do protótipo usa este layout.
 import "@styles/global.css";
 import Sidebar from "@components/app/Sidebar.astro";
@@ -8,7 +8,7 @@ interface Props {
 	title: string;
 	ativo?: string; // item do menu lateral que fica marcado
 }
-const { title, ativo = "geral" } = Astro.props;
+const { title, ativo = "editais" } = Astro.props;
 ---
 
 <!doctype html>
@@ -20,35 +20,18 @@ const { title, ativo = "geral" } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title} · LiTem</title>
 	</head>
-	<body class="bg-slate-50 font-sans text-slate-800 antialiased" x-data="casca">
-		<!-- Menu lateral: fixo no computador, gaveta no celular -->
-		<div class="fixed inset-0 z-40 bg-slate-900/40 lg:hidden" x-cloak x-show="menuAberto" x-on:click="menuAberto = false"></div>
-		<aside
-			class="fixed inset-y-0 left-0 z-50 w-64 -translate-x-full border-r border-slate-200 bg-white transition-transform lg:translate-x-0"
-			x-bind:class="menuAberto && 'translate-x-0'"
-		>
+	<body class="bg-white text-gray-800 antialiased" x-data="casca" x-on:keydown.escape="menuAberto = false">
+		<section class="overflow-hidden min-h-screen text-gray-800">
+			<!-- Fundo escuro atrás do menu, só no celular (Flex: navbar-backdrop) -->
+			<div class="fixed xl:hidden inset-0 z-40 bg-gray-800 opacity-60" x-cloak x-show="menuAberto" x-on:click="menuAberto = false"></div>
+
 			<Sidebar ativo={ativo} />
-		</aside>
 
-		<div class="lg:pl-64">
-			<!-- Barra do topo (no celular, tem o botão do menu) -->
-			<header class="sticky top-0 z-30 flex h-14 items-center gap-3 border-b border-slate-200 bg-white/90 px-4 backdrop-blur lg:hidden">
-				<button
-					type="button"
-					class="-ml-1 rounded-md p-2 text-slate-600 hover:bg-slate-100"
-					aria-label="Abrir menu"
-					x-on:click="menuAberto = true"
-				>
-					<svg class="size-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-				</button>
-				<span class="text-base font-bold tracking-tight">Li<span class="text-marca-600">Tem</span></span>
-				<span class="ml-auto rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-semibold text-amber-800">Protótipo</span>
-			</header>
-
-			<main class="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
+			<!-- Conteúdo da página (Flex: a div "xl:ml-80" no fim do componente) -->
+			<div class="xl:ml-80">
 				<slot />
-			</main>
-		</div>
+			</div>
+		</section>
 
 		<script>
 			import "@scripts/app.ts";

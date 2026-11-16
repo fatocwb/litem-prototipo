@@ -21,6 +21,20 @@ A primeira tela é o edital **Pregão Eletrônico SRP 30/2026 de Barra do Garça
 6. **O que deu certo na tela vai para `UX-MESTRE.md`** (decisões de UX com o motivo).
 7. Orçamento mínimo: nada de serviço pago. Hospedagem: Cloudflare Pages (grátis).
 
+## Componentes da Flex UI já usados
+
+| Peça do LiTem | Componente da Flex UI | Onde |
+|---|---|---|
+| Menu lateral e topo no celular | dashboard › navigation › vertical-02 | `components/app/Sidebar.astro`, `layouts/AppLayout.astro` |
+| Título com breadcrumb e botões | dashboard › navigation › page-heading-02 | `components/edital/Cabecalho.astro`, `pages/index.astro` |
+| Abas | dashboard › navigation › section-heading-05 | `pages/editais/[slug].astro` |
+| Cartões de números | dashboard › stats › stats-04 | `Cabecalho.astro` (disputa), `AbaResumo.astro` |
+| Aviso amarelo | dashboard › announcements › alerts-01 | `Cabecalho.astro` (prazo de esclarecimento) |
+| Tabela (cabeçalho, linhas, valores em indigo) | dashboard › data › tables-03 | `AbaItens.astro` |
+
+Ícones copiados da Flex ficam em `components/app/icones-flex.ts`. Abrir/fechar (menu no celular) é feito com Alpine.js.
+Convenções da Flex seguidas: cinzas `gray`, destaque `indigo` (botão principal `bg-indigo-500 hover:bg-indigo-600`), cartões `bg-white border border-gray-100 rounded-md shadow-sm`, fonte padrão do Tailwind. O modo escuro (`dark:`) já está ligado no CSS, mas o protótipo ainda é só claro.
+
 ## Como rodar
 
 ```bash

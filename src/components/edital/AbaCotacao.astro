@@ -6,35 +6,35 @@
 
 <div x-data="pedidosCotacao" class="space-y-4">
 	<!-- Seus dados (ficam salvos neste navegador) -->
-	<section class="rounded-xl bg-white p-4 ring-1 ring-slate-200 sm:p-5">
+	<section class="rounded-md bg-white p-4 border border-gray-100 shadow-sm sm:p-5">
 		<div class="flex flex-wrap items-baseline justify-between gap-2">
-			<h2 class="font-semibold text-slate-900">Seus dados no pedido</h2>
-			<p class="text-xs text-slate-400">Ficam salvos só neste navegador.</p>
+			<h2 class="font-semibold text-gray-900">Seus dados no pedido</h2>
+			<p class="text-xs text-gray-400">Ficam salvos só neste navegador.</p>
 		</div>
 		<div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
 			<label class="block text-sm">
-				<span class="text-slate-600">Seu nome</span>
-				<input x-model="d.nome" type="text" placeholder="Ex.: Ana" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+				<span class="text-gray-600">Seu nome</span>
+				<input x-model="d.nome" type="text" placeholder="Ex.: Ana" class="mt-1 w-full rounded-lg bg-white px-3 py-2 border border-gray-300 shadow-xs outline-hidden focus:border-indigo-500" />
 			</label>
 			<label class="block text-sm">
-				<span class="text-slate-600">Empresa</span>
-				<input x-model="d.empresa" type="text" placeholder="Ex.: Ana Informática" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+				<span class="text-gray-600">Empresa</span>
+				<input x-model="d.empresa" type="text" placeholder="Ex.: Ana Informática" class="mt-1 w-full rounded-lg bg-white px-3 py-2 border border-gray-300 shadow-xs outline-hidden focus:border-indigo-500" />
 			</label>
 			<label class="block text-sm">
-				<span class="text-slate-600">Cidade/UF</span>
-				<input x-model="d.cidade" type="text" placeholder="Ex.: Cuiabá-MT" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+				<span class="text-gray-600">Cidade/UF</span>
+				<input x-model="d.cidade" type="text" placeholder="Ex.: Cuiabá-MT" class="mt-1 w-full rounded-lg bg-white px-3 py-2 border border-gray-300 shadow-xs outline-hidden focus:border-indigo-500" />
 			</label>
 			<label class="block text-sm">
-				<span class="text-slate-600">Nome do contato</span>
-				<input x-model="d.contato" type="text" placeholder="Opcional" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+				<span class="text-gray-600">Nome do contato</span>
+				<input x-model="d.contato" type="text" placeholder="Opcional" class="mt-1 w-full rounded-lg bg-white px-3 py-2 border border-gray-300 shadow-xs outline-hidden focus:border-indigo-500" />
 			</label>
 			<label class="block text-sm">
-				<span class="text-slate-600">Responder até</span>
-				<input x-model="d.prazo" type="date" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+				<span class="text-gray-600">Responder até</span>
+				<input x-model="d.prazo" type="date" class="mt-1 w-full rounded-lg bg-white px-3 py-2 border border-gray-300 shadow-xs outline-hidden focus:border-indigo-500" />
 			</label>
 		</div>
 
-		<div class="mt-4 flex flex-col gap-3 border-t border-slate-100 pt-4 sm:flex-row sm:items-center sm:justify-between">
+		<div class="mt-4 flex flex-col gap-3 border-t border-gray-100 pt-4 sm:flex-row sm:items-center sm:justify-between">
 			<label class="flex cursor-pointer items-start gap-3">
 				<button
 					type="button"
@@ -42,17 +42,17 @@
 					x-bind:aria-checked="mostrarOrgao"
 					x-on:click="mostrarOrgao = !mostrarOrgao"
 					class="relative mt-0.5 inline-flex h-5 w-9 shrink-0 rounded-full transition-colors"
-					x-bind:class="mostrarOrgao ? 'bg-marca-600' : 'bg-slate-300'"
+					x-bind:class="mostrarOrgao ? 'bg-indigo-500' : 'bg-gray-300'"
 				>
 					<span class="absolute top-0.5 left-0.5 size-4 rounded-full bg-white shadow-sm transition-transform" x-bind:class="mostrarOrgao && 'translate-x-4'"></span>
 				</button>
 				<span class="text-sm">
-					<span class="font-medium text-slate-800">Mostrar o nome do órgão no pedido</span>
-					<span class="block text-slate-500" x-text="mostrarOrgao ? 'O distribuidor sabe qual é o edital (alguns fabricantes só dão preço especial assim).' : 'O pedido cita só a cidade, a quantidade e o prazo.'"></span>
+					<span class="font-medium text-gray-800">Mostrar o nome do órgão no pedido</span>
+					<span class="block text-gray-500" x-text="mostrarOrgao ? 'O distribuidor sabe qual é o edital (alguns fabricantes só dão preço especial assim).' : 'O pedido cita só a cidade, a quantidade e o prazo.'"></span>
 				</span>
 			</label>
-			<label class="inline-flex cursor-pointer items-center gap-2 text-sm text-slate-700">
-				<input type="checkbox" x-model="soRamo" class="size-4 rounded border-slate-300 text-marca-600 focus:ring-marca-500" />
+			<label class="inline-flex cursor-pointer items-center gap-2 text-sm text-gray-700">
+				<input type="checkbox" x-model="soRamo" class="size-4 rounded border-gray-300 text-indigo-500 focus:ring-indigo-500" />
 				Só do meu ramo
 			</label>
 		</div>
@@ -61,44 +61,44 @@
 	<!-- Um cartão por tipo de distribuidor -->
 	<ul class="space-y-3">
 		<template x-for="c in visiveis" x-bind:key="c.nome">
-			<li class="rounded-xl bg-white ring-1 ring-slate-200">
+			<li class="rounded-md bg-white border border-gray-100 shadow-sm">
 				<div class="flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:p-5">
 					<div class="min-w-0 flex-1">
 						<div class="flex flex-wrap items-center gap-2">
-							<h3 class="font-semibold text-slate-900" x-text="c.nome"></h3>
+							<h3 class="font-semibold text-gray-900" x-text="c.nome"></h3>
 							<span
 								class="rounded-full px-2 py-0.5 text-xs font-medium ring-1 ring-inset"
-								x-bind:class="{ 'bg-emerald-50 text-emerald-700 ring-emerald-600/20': c.ramo === 'Sim', 'bg-amber-50 text-amber-800 ring-amber-600/20': c.ramo === 'Talvez', 'bg-slate-100 text-slate-500 ring-slate-500/10': c.ramo === 'Não' }"
+								x-bind:class="{ 'bg-emerald-50 text-emerald-700 ring-emerald-600/20': c.ramo === 'Sim', 'bg-yellow-50 text-yellow-800 ring-yellow-600/20': c.ramo === 'Talvez', 'bg-gray-100 text-gray-500 ring-gray-500/10': c.ramo === 'Não' }"
 								x-text="c.ramo === 'Sim' ? 'Do seu ramo' : (c.ramo === 'Talvez' ? 'Talvez' : 'Fora do ramo')"
 							></span>
 						</div>
-						<p class="mt-0.5 text-sm text-slate-500">
+						<p class="mt-0.5 text-sm text-gray-500">
 							<span x-text="c.itens.length + (c.itens.length > 1 ? ' itens' : ' item')"></span> ·
 							<span x-text="$fmt.reais(c.total)"></span> estimados ·
 							itens <span x-text="c.itens.join(', ')"></span>
 						</p>
 					</div>
 					<div class="flex flex-wrap gap-2">
-						<button type="button" x-on:click="copiar(c)" class="inline-flex items-center gap-1.5 rounded-lg bg-marca-600 px-3 py-2 text-sm font-medium text-white hover:bg-marca-700">
+						<button type="button" x-on:click="copiar(c)" class="inline-flex items-center gap-1.5 rounded-md bg-indigo-500 shadow-xs px-3 py-2 text-sm font-medium text-white hover:bg-indigo-600">
 							<svg class="size-4" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"></path></svg>
 							<span x-text="copiado === c.nome ? 'Copiado!' : 'Copiar'"></span>
 						</button>
-						<a x-bind:href="linkWhatsApp(c)" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-2 text-sm font-medium text-slate-700 ring-1 ring-slate-200 hover:bg-slate-50">WhatsApp</a>
-						<a x-bind:href="linkEmail(c)" class="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-2 text-sm font-medium text-slate-700 ring-1 ring-slate-200 hover:bg-slate-50">E-mail</a>
-						<button type="button" x-on:click="verTexto = verTexto === c.nome ? null : c.nome" class="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-marca-600 hover:bg-marca-50" x-text="verTexto === c.nome ? 'Esconder texto' : 'Ver texto'"></button>
+						<a x-bind:href="linkWhatsApp(c)" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-2 text-sm font-medium text-gray-700 border border-gray-200 shadow-xs hover:bg-gray-50">WhatsApp</a>
+						<a x-bind:href="linkEmail(c)" class="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-2 text-sm font-medium text-gray-700 border border-gray-200 shadow-xs hover:bg-gray-50">E-mail</a>
+						<button type="button" x-on:click="verTexto = verTexto === c.nome ? null : c.nome" class="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-indigo-500 hover:bg-indigo-50" x-text="verTexto === c.nome ? 'Esconder texto' : 'Ver texto'"></button>
 					</div>
 				</div>
-				<div x-show="verTexto === c.nome" x-cloak class="border-t border-slate-100 p-4 sm:p-5">
-					<p x-show="textoLongo(c)" class="mb-3 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-900">
+				<div x-show="verTexto === c.nome" x-cloak class="border-t border-gray-100 p-4 sm:p-5">
+					<p x-show="textoLongo(c)" class="mb-3 rounded-lg bg-yellow-50 px-3 py-2 text-xs text-yellow-900">
 						Texto longo: alguns aplicativos de e-mail e o WhatsApp no computador cortam mensagens grandes. Se isso acontecer, use <b>Copiar</b> e cole na conversa.
 					</p>
-					<pre class="max-h-[28rem] overflow-auto rounded-lg bg-slate-50 p-4 font-sans text-sm leading-relaxed whitespace-pre-wrap text-slate-700" x-text="texto(c)"></pre>
+					<pre class="max-h-[28rem] overflow-auto rounded-lg bg-gray-50 p-4 font-sans text-sm leading-relaxed whitespace-pre-wrap text-gray-700" x-text="texto(c)"></pre>
 				</div>
 			</li>
 		</template>
 	</ul>
 
-	<p class="text-xs text-slate-400">
-		Dica: anote cada envio na aba <a href="#controle" class="underline hover:text-slate-600">Controle de respostas</a> para saber quem respondeu e em quanto tempo.
+	<p class="text-xs text-gray-400">
+		Dica: anote cada envio na aba <a href="#controle" class="underline hover:text-gray-600">Controle de respostas</a> para saber quem respondeu e em quanto tempo.
 	</p>
 </div>
