@@ -6,8 +6,8 @@ import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-	// Trocar pelo endereço do Cloudflare Pages quando o projeto for publicado.
-	site: "https://litem-prototipo.pages.dev",
+	// Endereço público (Cloudflare Workers). Trocar se o projeto mudar de endereço.
+	site: "https://litem-prototipo.workers.dev",
 
 	// Gera /editais/barra-do-garcas-pe30-2026/index.html (links sempre terminam em /).
 	trailingSlash: "always",

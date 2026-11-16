@@ -11,11 +11,13 @@ npm run dev     # http://localhost:4321
 npm run build   # gera dist/
 ```
 
-## Publicar no Cloudflare Pages (grátis)
+## Publicar no Cloudflare (grátis)
 
-1. Cloudflare → Workers & Pages → Create → Pages → Connect to Git → escolha `litem-prototipo`.
-2. Framework preset: **Astro**. Build command: `npm run build`. Output directory: `dist`.
-3. Cada push na `main` atualiza o site; cada branch ganha um link de prévia.
+O projeto está ligado ao Cloudflare como **Worker com arquivos estáticos** (Workers & Pages → `litem-prototipo`).
+
+- Build command: `npm run build` · Deploy command: `npx wrangler deploy`.
+- O arquivo `wrangler.jsonc` diz ao Wrangler para publicar a pasta `dist/`. **Não apague:** sem ele o Wrangler tenta instalar um adaptador do Astro e o deploy falha.
+- Cada push na `main` publica sozinho, no endereço `litem-prototipo.<sua-conta>.workers.dev`.
 
 A página não aparece no Google (`noindex`), mas quem tiver o link consegue abrir.
 

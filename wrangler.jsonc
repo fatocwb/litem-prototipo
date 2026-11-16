@@ -1,0 +1,12 @@
+// Configuração do Cloudflare (Workers com arquivos estáticos).
+// Diz ao "npx wrangler deploy" para publicar a pasta dist/ (gerada pelo "npm run build") como site estático.
+// Sem este arquivo, o Wrangler tenta configurar o projeto sozinho, instala um adaptador do Astro e o deploy falha.
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "litem-prototipo",
+	"compatibility_date": "2026-09-01",
+	"assets": {
+		"directory": "./dist",
+		"not_found_handling": "404-page"
+	}
+}

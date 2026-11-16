@@ -1,0 +1,11 @@
+---
+// Página de "não encontrada" (o Cloudflare mostra esta página quando o endereço não existe).
+import AppLayout from "@layouts/AppLayout.astro";
+import Titulo from "@components/comum/Titulo.astro";
+---
+
+<AppLayout title="Página não encontrada">
+	<Titulo titulo="Página não encontrada" sub="Este endereço não existe no protótipo. Edital com proposta encerrada sai da lista.">
+		<a href="/" class="rounded-md bg-indigo-500 px-4 py-2 text-sm font-medium text-white shadow-xs hover:bg-indigo-600">Voltar para a tela Geral</a>
+	</Titulo>
+</AppLayout>

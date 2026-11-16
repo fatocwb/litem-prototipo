@@ -20,7 +20,7 @@ O edital de **Barra do Garças-MT (PE SRP 30/2026)** é o caso analisado à mão
 4. **Dados separados do visual:** cada edital é um arquivo `.json` em `src/data/editais/`. Para mostrar outro edital, cria-se outro `.json` no mesmo formato (tipo `Edital` em `src/data/editais.ts`). Nada de texto do edital escrito direto nos componentes.
 5. **Sem dados sensíveis na página:** o link é público. Preços que os distribuidores responderem não entram aqui.
 6. **O que deu certo na tela vai para `UX-MESTRE.md`** (decisões de UX com o motivo).
-7. Orçamento mínimo: nada de serviço pago. Hospedagem: Cloudflare Pages (grátis).
+7. Orçamento mínimo: nada de serviço pago. Hospedagem: Cloudflare Workers com arquivos estáticos (grátis), configurado no `wrangler.jsonc` (não apagar).
 
 ## Componentes da Flex UI já usados
 
@@ -48,7 +48,7 @@ Convenções da Flex seguidas: cinzas `gray`, destaque `indigo` (botão principa
 ```bash
 npm install
 npm run dev      # abre em http://localhost:4321
-npm run build    # gera a pasta dist/ (é o que o Cloudflare Pages publica)
+npm run build    # gera a pasta dist/ (é o que o Cloudflare publica, via wrangler.jsonc)
 ```
 
 ## Estrutura
