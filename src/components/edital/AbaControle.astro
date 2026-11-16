@@ -1,0 +1,103 @@
+---
+// Aba "Controle de respostas": anota para quem o pedido foi, por onde e quando respondeu.
+// Fica salvo só neste navegador (localStorage). Componente Alpine "controleRespostas".
+---
+
+<div x-data="controleRespostas" class="space-y-4">
+	<!-- Resumo -->
+	<div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+		<div class="rounded-xl bg-white p-4 ring-1 ring-slate-200">
+			<p class="text-xs font-medium text-slate-500">Pedidos enviados</p>
+			<p class="mt-1 text-2xl font-semibold text-slate-900" x-text="envios.length">0</p>
+		</div>
+		<div class="rounded-xl bg-white p-4 ring-1 ring-slate-200">
+			<p class="text-xs font-medium text-slate-500">Responderam</p>
+			<p class="mt-1 text-2xl font-semibold text-slate-900" x-text="responderam">0</p>
+		</div>
+		<div class="rounded-xl bg-white p-4 ring-1 ring-slate-200">
+			<p class="text-xs font-medium text-slate-500">Taxa de resposta</p>
+			<p class="mt-1 text-2xl font-semibold text-slate-900" x-text="taxa + '%'">0%</p>
+		</div>
+		<div class="rounded-xl bg-white p-4 ring-1 ring-slate-200">
+			<p class="text-xs font-medium text-slate-500">Tempo médio para responder</p>
+			<p class="mt-1 text-2xl font-semibold text-slate-900" x-text="tempoTexto(mediaHoras)">-</p>
+		</div>
+	</div>
+
+	<!-- Novo envio -->
+	<form x-on:submit.prevent="adicionar()" class="rounded-xl bg-white p-4 ring-1 ring-slate-200 sm:p-5">
+		<h2 class="font-semibold text-slate-900">Anotar um pedido enviado</h2>
+		<div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+			<label class="block text-sm">
+				<span class="text-slate-600">Distribuidor</span>
+				<input x-model="novo.distribuidor" required type="text" placeholder="Nome do distribuidor" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+			</label>
+			<label class="block text-sm">
+				<span class="text-slate-600">Tipo de distribuidor</span>
+				<select x-model="novo.categoria" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:ring-2 focus:ring-marca-500 focus:outline-hidden">
+					<template x-for="c in categorias" x-bind:key="c"><option x-bind:value="c" x-text="c"></option></template>
+				</select>
+			</label>
+			<label class="block text-sm">
+				<span class="text-slate-600">Canal</span>
+				<select x-model="novo.canal" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:ring-2 focus:ring-marca-500 focus:outline-hidden">
+					<option>WhatsApp</option><option>E-mail</option><option>Telefone</option><option>Portal do distribuidor</option><option>Outro</option>
+				</select>
+			</label>
+			<label class="block text-sm">
+				<span class="text-slate-600">Enviado em</span>
+				<input x-model="novo.enviadoEm" type="datetime-local" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+			</label>
+			<label class="block text-sm sm:col-span-2 lg:col-span-3">
+				<span class="text-slate-600">Observações</span>
+				<input x-model="novo.obs" type="text" placeholder="Ex.: pediu o número do edital" class="mt-1 w-full rounded-lg border-0 bg-slate-50 px-3 py-2 ring-1 ring-slate-200 focus:bg-white focus:ring-2 focus:ring-marca-500 focus:outline-hidden" />
+			</label>
+			<label class="flex items-end gap-2 pb-2 text-sm text-slate-700">
+				<input x-model="novo.mostrouEdital" type="checkbox" class="size-4 rounded border-slate-300 text-marca-600 focus:ring-marca-500" />
+				Mostrei o edital
+			</label>
+		</div>
+		<button type="submit" class="mt-4 rounded-lg bg-marca-600 px-4 py-2 text-sm font-medium text-white hover:bg-marca-700">Anotar</button>
+	</form>
+
+	<!-- Lista -->
+	<section class="overflow-hidden rounded-xl bg-white ring-1 ring-slate-200">
+		<header class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 px-4 py-3 sm:px-5">
+			<h2 class="font-semibold text-slate-900">Pedidos anotados</h2>
+			<button type="button" x-show="envios.length" x-on:click="exportar()" class="text-sm font-medium text-marca-600 hover:text-marca-700" x-text="exportado ? 'Copiado! Cole numa planilha' : 'Copiar tudo para planilha'"></button>
+		</header>
+		<p x-show="!envios.length" class="px-4 py-8 text-center text-sm text-slate-500 sm:px-5">
+			Nada anotado ainda. Depois de mandar um pedido da aba <a href="#cotacao" class="font-medium text-marca-600">Pedidos de cotação</a>, anote aqui.
+		</p>
+		<ul class="divide-y divide-slate-100" x-show="envios.length" x-cloak>
+			<template x-for="e in envios" x-bind:key="e.id">
+				<li class="flex flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center sm:px-5">
+					<div class="min-w-0 flex-1">
+						<p class="text-sm font-medium text-slate-900">
+							<span x-text="e.distribuidor"></span>
+							<span class="font-normal text-slate-500" x-text="' · ' + e.categoria"></span>
+						</p>
+						<p class="text-xs text-slate-500">
+							<span x-text="e.canal"></span> · enviado em <span x-text="dataHora(e.enviadoEm)"></span>
+							<span x-text="e.mostrouEdital ? ' · mostrou o edital' : ' · sem o órgão'"></span>
+							<span x-show="e.obs" x-text="' · ' + e.obs"></span>
+						</p>
+					</div>
+					<div class="flex items-center gap-2">
+						<template x-if="e.respondeuEm">
+							<span class="rounded-full bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700" x-text="'Respondeu em ' + tempoTexto(horas(e))"></span>
+						</template>
+						<template x-if="!e.respondeuEm">
+							<button type="button" x-on:click="marcarResposta(e)" class="rounded-lg bg-white px-3 py-1.5 text-xs font-medium text-slate-700 ring-1 ring-slate-200 hover:bg-slate-50">Respondeu agora</button>
+						</template>
+						<button type="button" x-on:click="remover(e)" class="rounded-lg px-2 py-1.5 text-xs text-slate-400 hover:bg-red-50 hover:text-red-700" aria-label="Remover">Remover</button>
+					</div>
+				</li>
+			</template>
+		</ul>
+	</section>
+
+	<p class="text-xs text-slate-400">
+		Os preços que os distribuidores mandarem não ficam nesta página: guarde-os com você. Aqui fica só quem respondeu e em quanto tempo.
+	</p>
+</div>

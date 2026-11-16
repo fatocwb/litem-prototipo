@@ -1,0 +1,3409 @@
+{
+ "slug": "barra-do-garcas-pe30-2026",
+ "titulo": "Pregão Eletrônico SRP nº 30/2026",
+ "orgao": "Prefeitura de Barra do Garças",
+ "cidade": "Barra do Garças",
+ "uf": "MT",
+ "objeto": "Materiais de informática · registro de preços de 12 meses",
+ "analisadoEm": "2026-11-14",
+ "fonte": "Edital retificado publicado no PNCP (211 páginas)",
+ "datas": {
+  "esclarecimentoAte": "2026-11-18",
+  "disputa": "2026-11-25T08:30:00-03:00"
+ },
+ "notaEsclarecimento": "os itens 6 e 16 (cabos em \"metro\") pedem esclarecimento",
+ "plataforma": {
+  "nome": "Licitanet",
+  "url": "https://licitanet.com.br"
+ },
+ "modo": "Aberto, com inversão de fases",
+ "julgamento": "Menor preço por item",
+ "valorTotal": 16194648.63,
+ "links": {
+  "pncp": "https://pncp.gov.br/app/editais/03439239000150/2026/104",
+  "prefeitura": "https://www.barradogarcas.mt.gov.br/fotos_licitacao/1571.pdf"
+ },
+ "perfil": {
+  "descricao": "notebooks e desktops, monitores e periféricos, impressoras e suprimentos, rede",
+  "nota": "\"Talvez\" = componentes, que costumam vir dos mesmos distribuidores."
+ },
+ "resumo": [
+  {
+   "campo": "Órgão",
+   "texto": "Município de Barra do Garças-MT (CNPJ 03.439.239/0001-50), Setor de Licitação e Contratos",
+   "onde": "Capa",
+   "destaque": false
+  },
+  {
+   "campo": "Número",
+   "texto": "Pregão Eletrônico SRP nº 30/2026 · Processo Administrativo nº 100/2026 · edital RETIFICADO (a data mudou de 27/10 para 25/11)",
+   "onde": "Capa",
+   "destaque": false
+  },
+  {
+   "campo": "Disputa",
+   "texto": "25/11/2026, às 08h30 (horário de Brasília), na plataforma Licitanet (licitanet.com.br)",
+   "onde": "Itens 1 e 8.1",
+   "destaque": false
+  },
+  {
+   "campo": "Modo de disputa",
+   "texto": "Aberto, COM INVERSÃO DE FASES: a habilitação é analisada ANTES dos lances. Proposta e documentos de habilitação têm de estar no sistema até a abertura.",
+   "onde": "Itens 5.1, 8.2 e 11.2",
+   "destaque": true
+  },
+  {
+   "campo": "Julgamento",
+   "texto": "Menor preço POR ITEM (cada item tem o seu vencedor). 92 itens.",
+   "onde": "TR 2.4 e 2.5",
+   "destaque": false
+  },
+  {
+   "campo": "ME/EPP",
+   "texto": "Itens de até R$ 80 mil são EXCLUSIVOS para ME, EPP e MEI (64 itens); os outros 28 são de ampla concorrência. Empate ficto de 5% para ME/EPP. Prioridade de até 10% para ME/EPP/MEI sediadas em Barra do Garças.",
+   "onde": "TR 2.6; itens 9.1 a 9.7",
+   "destaque": false
+  },
+  {
+   "campo": "Registro de preços",
+   "texto": "Ata de 12 meses. O município pede aos poucos, conforme a necessidade, e não é obrigado a comprar tudo. O preço fica travado.",
+   "onde": "TR 2.3.3 e 4.1.3",
+   "destaque": false
+  },
+  {
+   "campo": "Entrega",
+   "texto": "15 dias corridos após cada Ordem de Fornecimento. Entregas parceladas em dezenas de endereços de Barra do Garças (secretarias, cerca de 30 escolas e creches, inclusive na BR-158, km 698 e 700). Horário: 7h às 11h e 13h às 17h.",
+   "onde": "TR 4.1.2 e 4.2",
+   "destaque": false
+  },
+  {
+   "campo": "Recebimento",
+   "texto": "Provisório na entrega; definitivo em até 5 dias úteis, após conferência e testes (inclusive marca e modelo).",
+   "onde": "TR 4.3.2 a 4.3.4",
+   "destaque": false
+  },
+  {
+   "campo": "Pagamento",
+   "texto": "Até 30 dias após a liquidação. Ordem entregue pela metade não é paga até completar.",
+   "onde": "TR 6.6.1 e 4.3.8",
+   "destaque": false
+  },
+  {
+   "campo": "Garantia",
+   "texto": "A do Código de Defesa do Consumidor, salvo quando o item exige prazo maior (vários exigem 12 meses). Assistência: iniciar em até 2 dias úteis e resolver em até 10 dias úteis; transporte por conta do fornecedor.",
+   "onde": "TR 4.4",
+   "destaque": false
+  },
+  {
+   "campo": "Amostra",
+   "texto": "Não se aplica.",
+   "onde": "Item 10.16",
+   "destaque": false
+  },
+  {
+   "campo": "Documentação técnica",
+   "texto": "Com a proposta, enviar catálogo, ficha técnica ou datasheet OFICIAL do fabricante de cada produto, com marca, modelo e características.",
+   "onde": "Itens 10.3.12 a 10.3.16",
+   "destaque": false
+  },
+  {
+   "campo": "Qualificação técnica",
+   "texto": "Pelo menos 1 atestado (ou declaração) de capacidade técnica de fornecimento compatível. Não precisa ser do mesmo produto, marca ou modelo.",
+   "onde": "Itens 11.13.1 a 11.13.4",
+   "destaque": false
+  },
+  {
+   "campo": "Qualificação econômica",
+   "texto": "Balanço e demonstrações dos 2 últimos exercícios; índices LG, SG e LC maiores que 1 (ou capital mínimo de 10% do valor dos itens disputados), atestados por contador; certidão de falência de até 90 dias.",
+   "onde": "Item 11.12",
+   "destaque": true
+  },
+  {
+   "campo": "Validade da proposta",
+   "texto": "Mínimo de 60 dias.",
+   "onde": "Item 6.11",
+   "destaque": false
+  },
+  {
+   "campo": "Preço",
+   "texto": "Deve incluir impostos, frete e todas as despesas até a entrega.",
+   "onde": "Anexo II, observação 5",
+   "destaque": false
+  },
+  {
+   "campo": "Esclarecimento e impugnação",
+   "texto": "Até 3 dias úteis antes da abertura, pela Licitanet ou por e-mail (pregao@barradogarcas.mt.gov.br). Como 20/11 é feriado nacional, a contagem cai em 18 ou 19/11: para não correr risco, mande até 18/11.",
+   "onde": "Itens 7.1 a 7.3",
+   "destaque": false
+  },
+  {
+   "campo": "Histórico (importante)",
+   "texto": "Na ata anterior (Pregão SRP 020/2025) os preços dos componentes subiram muito, o fornecedor pediu suspensão dos pedidos e o reequilíbrio foi aceito. Preço travado por 12 meses é risco real neste edital.",
+   "onde": "TR 3.1",
+   "destaque": true
+  },
+  {
+   "campo": "Valor total estimado",
+   "texto": "R$ 16.194.648,63 (soma dos 92 itens)",
+   "onde": "Item 1.5",
+   "destaque": false
+  }
+ ],
+ "pontos": [
+  {
+   "n": 1,
+   "titulo": "A numeração dos itens muda entre o Termo de Referência e o resto do edital",
+   "porque": "Na tabela do Termo de Referência (Anexo I) os itens estão em ordem alfabética e com outra numeração; no Anexo II, na Ata e no sistema estão em outra ordem. 87 dos 92 itens têm número diferente (ex.: o notebook corporativo é o 48 no sistema e o 59 no TR). O próprio TR cita \"itens 42, 43 e 44\" para as licenças, que no sistema são 89, 92 e 27.",
+   "fazer": "Identifique cada item pelo código COPLAN e pela descrição, nunca só pelo número. Na dúvida, peça esclarecimento antes do prazo. A aba \"Itens\" mostra os dois números.",
+   "onde": "TR 3.2 x Anexo II",
+   "prioridade": true
+  },
+  {
+   "n": 2,
+   "titulo": "Habilitação ANTES dos lances (inversão de fases)",
+   "porque": "Se faltar um documento, a empresa é inabilitada antes de dar o primeiro lance, sem chance de corrigir depois da sessão.",
+   "fazer": "Suba todos os documentos de habilitação junto com a proposta, até as 08h30 de 25/11.",
+   "onde": "Itens 5.1, 8.2 e 11.2",
+   "prioridade": true
+  },
+  {
+   "n": 3,
+   "titulo": "Balanço dos 2 últimos exercícios e índices maiores que 1",
+   "porque": "Para MEI e empresa pequena costuma ser o documento que falta. Se os índices não passarem, é preciso capital mínimo de 10% do valor dos itens disputados.",
+   "fazer": "Confirme com o contador antes de decidir em quais itens entrar (o capital mínimo soma os itens).",
+   "onde": "Item 11.12",
+   "prioridade": true
+  },
+  {
+   "n": 4,
+   "titulo": "Datasheet oficial do fabricante para cada produto",
+   "porque": "Sem o documento técnico que prove cada requisito, a proposta é recusada, mesmo com a empresa habilitada.",
+   "fazer": "Peça o datasheet ao distribuidor junto com o preço (já está no texto dos pedidos de cotação).",
+   "onde": "Itens 10.3.12 a 10.3.14",
+   "prioridade": false
+  },
+  {
+   "n": 5,
+   "titulo": "Preço travado por 12 meses, com histórico de reequilíbrio",
+   "porque": "Na ata anterior os preços subiram, houve suspensão dos pedidos e reequilíbrio. Reequilíbrio é demorado e incerto.",
+   "fazer": "Pergunte ao distribuidor por quanto tempo ele segura o preço. Se ele não segurar, embuta uma folga no seu preço mínimo.",
+   "onde": "TR 3.1",
+   "prioridade": false
+  },
+  {
+   "n": 6,
+   "titulo": "Entrega em até 15 dias corridos, em dezenas de endereços",
+   "porque": "Entregas parceladas, inclusive em escolas da zona rural (BR-158). O frete pode sair várias vezes.",
+   "fazer": "Pergunte o prazo e o frete até Barra do Garças-MT. Calcule o frete por entrega, não por pedido grande.",
+   "onde": "TR 4.1 e 4.2",
+   "prioridade": false
+  },
+  {
+   "n": 7,
+   "titulo": "Kit completo nos computadores",
+   "porque": "Workstation (item 9) e desktop (item 10) incluem monitor de 21,5\", teclado, mouse e Windows 11 Pro licenciado. Esquecer o monitor no preço é prejuízo garantido.",
+   "fazer": "Peça cotação do conjunto completo.",
+   "onde": "Itens 9 e 10",
+   "prioridade": false
+  },
+  {
+   "n": 8,
+   "titulo": "Unidades estranhas em cabos",
+   "porque": "Item 6 (cabo HDMI de 5 m) e item 16 (caixa de cabo de rede de 305 m) estão em \"METRO\", com preço de unidade ou de caixa. Não dá para saber se a quantidade é em metros ou em unidades.",
+   "fazer": "Peça esclarecimento antes de cotar esses dois itens.",
+   "onde": "Itens 6 e 16",
+   "prioridade": false
+  },
+  {
+   "n": 9,
+   "titulo": "Equivalência de processador e placa de vídeo",
+   "porque": "Itens 36, 48, 39 e 90 aceitam \"equivalente em desempenho\". A análise da proposta compara com o modelo citado.",
+   "fazer": "Se ofertar outro modelo, guarde um comparativo de desempenho (ex.: PassMark) para responder ao pregoeiro.",
+   "onde": "Itens 36, 48, 39 e 90",
+   "prioridade": false
+  },
+  {
+   "n": 10,
+   "titulo": "Prioridade para empresas de Barra do Garças",
+   "porque": "ME/EPP/MEI sediadas no município podem ficar com o item mesmo com preço até 10% maior que o seu.",
+   "fazer": "Conte com isso ao decidir o quanto vale baixar o preço nos itens exclusivos.",
+   "onde": "TR 2.6",
+   "prioridade": false
+  },
+  {
+   "n": 11,
+   "titulo": "Pagamento só com a ordem completa",
+   "porque": "Ordem de fornecimento entregue pela metade não é paga até ser completada. Pagamento em até 30 dias depois da liquidação.",
+   "fazer": "Só aceite a ordem quando tiver toda a quantidade garantida com o distribuidor.",
+   "onde": "TR 4.3.8 e 6.6.1",
+   "prioridade": false
+  },
+  {
+   "n": 12,
+   "titulo": "Garantia e assistência",
+   "porque": "Defeito na garantia: começar o atendimento em até 2 dias úteis e resolver em até 10 dias úteis, com retirada e transporte por sua conta.",
+   "fazer": "Confirme se a garantia é do fabricante e se há assistência que atenda Barra do Garças.",
+   "onde": "TR 4.4.5 a 4.4.7",
+   "prioridade": false
+  },
+  {
+   "n": 13,
+   "titulo": "O resumo do PNCP corta descrições",
+   "porque": "Nos itens 10, 57, 67, 69 e 92, a descrição no PNCP é mais curta que a do edital (no desktop, some o monitor, a memória e o SSD).",
+   "fazer": "Use sempre o texto do edital. A aba \"Itens\" já usa o texto completo.",
+   "onde": "PNCP x Anexo II",
+   "prioridade": false
+  }
+ ],
+ "categorias": [
+  {
+   "nome": "Computadores e notebooks",
+   "ramo": "Sim",
+   "itens": [
+    9,
+    10,
+    36,
+    48
+   ],
+   "total": 7740934.88,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida e quem atende (fabricante ou revenda);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "itens": [
+    2,
+    6,
+    7,
+    12,
+    26,
+    30,
+    31,
+    32,
+    33,
+    42,
+    46,
+    49,
+    50,
+    51,
+    56,
+    58,
+    59,
+    60,
+    91
+   ],
+   "total": 322214.77,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida (o edital pede no mínimo 12 meses em vários itens) e se ela é atendida pelo fabricante;",
+    "Certificações obrigatórias (homologação ANATEL nos equipamentos sem fio, INMETRO quando exigido);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "itens": [
+    25,
+    41,
+    47,
+    53,
+    55,
+    62,
+    63,
+    84,
+    85
+   ],
+   "total": 2930701.29,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida (o edital pede no mínimo 12 meses em vários itens) e se ela é atendida pelo fabricante;",
+    "Certificações obrigatórias (homologação ANATEL nos equipamentos sem fio, INMETRO quando exigido);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Rede",
+   "ramo": "Sim",
+   "itens": [
+    1,
+    3,
+    4,
+    5,
+    11,
+    16,
+    23,
+    24,
+    40,
+    43,
+    83
+   ],
+   "total": 251630.81,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida (o edital pede no mínimo 12 meses em vários itens) e se ela é atendida pelo fabricante;",
+    "Certificações obrigatórias (homologação ANATEL nos equipamentos sem fio, INMETRO quando exigido);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "itens": [
+    8,
+    13,
+    14,
+    15,
+    19,
+    20,
+    21,
+    22,
+    28,
+    29,
+    37,
+    38,
+    39,
+    52,
+    70,
+    79,
+    80,
+    90
+   ],
+   "total": 1139555.42,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida (o edital pede no mínimo 12 meses em vários itens) e se ela é atendida pelo fabricante;",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Tablets e smartphones",
+   "ramo": "Não",
+   "itens": [
+    57,
+    61
+   ],
+   "total": 1269297.38,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida (o edital pede no mínimo 12 meses em vários itens) e se ela é atendida pelo fabricante;",
+    "Certificações obrigatórias (homologação ANATEL nos equipamentos sem fio, INMETRO quando exigido);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Energia (nobreak, estabilizador)",
+   "ramo": "Não",
+   "itens": [
+    17,
+    18,
+    34,
+    35,
+    44,
+    45
+   ],
+   "total": 724942.16,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida (o edital pede no mínimo 12 meses em vários itens) e se ela é atendida pelo fabricante;",
+    "Certificações obrigatórias (homologação ANATEL nos equipamentos sem fio, INMETRO quando exigido);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "itens": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    81,
+    82,
+    86,
+    87,
+    88
+   ],
+   "total": 994966.92,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida (o edital pede no mínimo 12 meses em vários itens) e se ela é atendida pelo fabricante;",
+    "Certificações obrigatórias (homologação ANATEL nos equipamentos sem fio, INMETRO quando exigido);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Software e licenças",
+   "ramo": "Não",
+   "itens": [
+    27,
+    89,
+    92
+   ],
+   "total": 764905.0,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida e quem atende (fabricante ou revenda);",
+    "Se o produto está em estoque hoje."
+   ]
+  },
+  {
+   "nome": "Outros",
+   "ramo": "Não",
+   "itens": [
+    54
+   ],
+   "total": 55500.0,
+   "perguntas": [
+    "Marca e modelo que atende a especificação, com o catálogo ou ficha técnica (datasheet) do fabricante (o edital exige junto da proposta);",
+    "Preço unitário e se ele muda conforme a quantidade de cada pedido;",
+    "Validade do preço e se vocês mantêm o preço para pedidos parciais durante os 12 meses da ata (ou por quanto tempo);",
+    "Prazo de entrega em Barra do Garças-MT (o edital dá 15 dias corridos depois de cada pedido);",
+    "Se o frete está incluso e de qual estado sai a mercadoria (para o cálculo do ICMS);",
+    "Garantia oferecida e quem atende (fabricante ou revenda);",
+    "Se o produto está em estoque hoje."
+   ]
+  }
+ ],
+ "itens": [
+  {
+   "n": 1,
+   "tr": 1,
+   "cod": "87205",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "ADAPTADOR DE REDE SEM FIO USB, COMPATIVEL COM BANDA DUPLA (2.4GHZ E 5GHZ), COM SUPORTE AOS PROTOCOLOS IEEE 802.11 A/B/G/N/AC. TAXA DE TRANSMISSAO COMBINADA DE ATE 1200 MBPS. CONECTOR USB 3.0, ANTENA INTERNA OU EXTERNA (DEPENDENDO DO MODELO), COMPATIVEL COM SISTEMAS OPERACIONAIS WINDOWS E LINUX. PLUG AND PLAY COM INSTALACAO RAPIDA E DRIVER INCLUSO.",
+   "und": "unidade",
+   "qtd": 195,
+   "unit": 74.0,
+   "total": 14430.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Adaptador de rede sem fio usb",
+    "Compativel com banda dupla (2.4ghz e 5ghz)",
+    "Com suporte aos protocolos ieee 802.11 a/b/g/n/ac",
+    "Taxa de transmissao combinada de ate 1200 mbps",
+    "Conector usb 3.0",
+    "Antena interna ou externa (dependendo do modelo)",
+    "Compativel com sistemas operacionais windows e linux",
+    "Plug and play com instalacao rapida e driver incluso"
+   ],
+   "atencao": [],
+   "critico": false
+  },
+  {
+   "n": 2,
+   "tr": 2,
+   "cod": "88465",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "ADAPTADOR DISPLAYPORT PARA VGA, COMPATIVEL COM RESOLUCAO MINIMA FULL HD (1920 X 1080), TECNOLOGIA PLUG AND PLAY, DESTINADO A CONEXAO ENTRE EQUIPAMENTOS COM SAIDA DISPLAYPORT E DISPOSITIVOS COM ENTRADA VGA, TAIS COMO MONITORES E PROJETORES. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 96,
+   "unit": 69.0,
+   "total": 6624.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Adaptador displayport para vga",
+    "Compativel com resolucao minima full hd (1920 x 1080)",
+    "Tecnologia plug and play",
+    "Destinado a conexao entre equipamentos com saida displayport e dispositivos com entrada vga",
+    "Tais como monitores e projetores",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [],
+   "critico": false
+  },
+  {
+   "n": 3,
+   "tr": 3,
+   "cod": "83544",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "ALICATE - DE CRIMPAR PARA CONECTOR RJ45 E RJ11, COM DESCASCADOR E GARANTIA MINIMA DE 12 MESES",
+   "und": "unidade",
+   "qtd": 10,
+   "unit": 33.28,
+   "total": 332.8,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Alicate - de crimpar para conector rj45 e rj11",
+    "Com descascador e garantia minima de 12 meses"
+   ],
+   "atencao": [],
+   "critico": false
+  },
+  {
+   "n": 4,
+   "tr": 4,
+   "cod": "88468",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "ANTENA WIRELESS TIPO CPE EXTERNA, DESTINADA A TRANSMISSAO E RECEPCAO DE DADOS EM REDE SEM FIO PONTO A PONTO OU PONTO MULTIPONTO, OPERANDO NA FAIXA DE 5 GHZ, COM ANTENA INTEGRADA DE GANHO MINIMO DE 13 DBI, COMPATIVEL COM PADRAO IEEE 802.11A/N OU SUPERIOR, INTERFACE ETHERNET RJ45 10/100 MBPS OU SUPERIOR, ALIMENTACAO VIA POE, SUPORTE A MODOS ACCESS POINT, STATION E BRIDGE, GERENCIAMENTO POR INTERFACE WEB OU APLICATIVO DO FABRICANTE, PROTECAO ADEQUADA PARA INSTALACAO EXTERNA E ACOMPANHADA DOS ACESSORIOS NECESSARIOS A INSTALACAO E FUNCIONAMENTO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 28,
+   "unit": 599.0,
+   "total": 16772.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Antena wireless tipo cpe externa",
+    "Destinada a transmissao e recepcao de dados em rede sem fio ponto a ponto ou ponto multiponto",
+    "Operando na faixa de 5 ghz",
+    "Com antena integrada de ganho minimo de 13 dbi",
+    "Compativel com padrao ieee 802.11a/n ou superior",
+    "Interface ethernet rj45 10/100 mbps ou superior",
+    "Alimentacao via poe",
+    "Suporte a modos access point",
+    "Station e bridge",
+    "Gerenciamento por interface web ou aplicativo do fabricante",
+    "Protecao adequada para instalacao externa e acompanhada dos acessorios necessarios a instalacao e funcionamento",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [],
+   "critico": false
+  },
+  {
+   "n": 5,
+   "tr": 7,
+   "cod": "88511",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "CABO DE REDE UTP CATEGORIA 6, CAIXA COM 305 METROS, COR AZUL OU OUTRA DEFINIDA PELA ADMINISTRACAO, CONDUTORES 100% COBRE SOLIDO, NAO SENDO ADMITIDO CONDUTOR CCA, DESTINADO A TRANSMISSAO DE DADOS EM REDES ETHERNET 10/100/1000 MBPS, ACONDICIONADO EM CAIXA TIPO EASY PULL OU EQUIVALENTE, COM REVESTIMENTO EXTERNO EM PVC OU MATERIAL EQUIVALENTE, ATENDENDO AS NORMAS TECNICAS APLICAVEIS E COM CERTIFICACOES/HOMOLOGACOES EXIGIDAS PELOS ORGAOS COMPETENTES. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 52,
+   "unit": 1070.0,
+   "total": 55640.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "\"Certificações/homologações exigidas pelos órgãos competentes\""
+   ],
+   "requisitos": [
+    "Cabo de rede utp categoria 6",
+    "Caixa com 305 metros",
+    "Cor azul ou outra definida pela administracao",
+    "Condutores 100% cobre solido",
+    "Nao sendo admitido condutor cca",
+    "Destinado a transmissao de dados em redes ethernet 10/100/1000 mbps",
+    "Acondicionado em caixa tipo easy pull ou equivalente",
+    "Com revestimento externo em pvc ou material equivalente",
+    "Atendendo as normas tecnicas aplicaveis e com certificacoes/homologacoes exigidas pelos orgaos competentes",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Condutor 100% cobre: cabo CCA (alumínio cobreado) é recusado.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 7."
+   ],
+   "critico": false
+  },
+  {
+   "n": 6,
+   "tr": 8,
+   "cod": "87188",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "CABO HDMI VERSAO 2.0, COM COMPRIMENTO DE 5 METROS, COMPATIVEL COM RESOLUCOES DE ATE 4K (2160P), OFERECENDO ALTA TAXA DE TRANSFERENCIA DE DADOS, MINIMA DE 10.2 GBPS. SUPORTE A CANAIS DE RETORNO DE AUDIO (ARC), CANAL ETHERNET INTEGRADO, TRANSMISSAO SIMULTANEA DE AUDIO E VIDEO, ALEM DE COMPATIBILIDADE COM OS PADROES HDMI CEC E 3D",
+   "und": "metro",
+   "qtd": 109,
+   "unit": 45.9,
+   "total": 5003.1,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Cabo hdmi versao 2.0",
+    "Com comprimento de 5 metros",
+    "Compativel com resolucoes de ate 4k (2160p)",
+    "Oferecendo alta taxa de transferencia de dados",
+    "Minima de 10.2 gbps",
+    "Suporte a canais de retorno de audio (arc)",
+    "Canal ethernet integrado",
+    "Transmissao simultanea de audio e video",
+    "Alem de compatibilidade com os padroes hdmi cec e 3d"
+   ],
+   "atencao": [
+    "Unidade \"METRO\" para um cabo de 5 m: não está claro se são 109 cabos ou 109 metros. Vale pedir esclarecimento.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 8."
+   ],
+   "critico": true
+  },
+  {
+   "n": 7,
+   "tr": 9,
+   "cod": "88528",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "CABO HDMI VERSAO 2.0 OU SUPERIOR, BLINDADO, COM COMPRIMENTO DE 15 METROS, COMPATIVEL COM RESOLUCAO 4K, TRANSMISSAO SIMULTANEA DE AUDIO E VIDEO, SUPORTE A 3D, CANAL ETHERNET E RECURSOS COMPATIVEIS COM O PADRAO HDMI, COM CONECTORES HDMI MACHO NAS EXTREMIDADES. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 38,
+   "unit": 124.33,
+   "total": 4724.54,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Cabo hdmi versao 2.0 ou superior",
+    "Blindado",
+    "Com comprimento de 15 metros",
+    "Compativel com resolucao 4k",
+    "Transmissao simultanea de audio e video",
+    "Suporte a 3d",
+    "Canal ethernet e recursos compativeis com o padrao hdmi",
+    "Com conectores hdmi macho nas extremidades",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 9."
+   ],
+   "critico": false
+  },
+  {
+   "n": 8,
+   "tr": 15,
+   "cod": "88529",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "CARTAO DE MEMORIA SD, CAPACIDADE MINIMA DE 64 GB, CLASSE 10, UHS-I OU SUPERIOR, COMPATIVEL COM CAMERAS FOTOGRAFICAS, FILMADORAS E DISPOSITIVOS QUE UTILIZEM PADRAO SD, COM VELOCIDADE DE LEITURA COMPATIVEL COM GRAVACAO DE FOTOS E VIDEOS EM ALTA DEFINICAO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 142,
+   "unit": 68.75,
+   "total": 9762.5,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Cartao de memoria sd",
+    "Capacidade minima de 64 gb",
+    "Classe 10",
+    "Uhs-i ou superior",
+    "Compativel com cameras fotograficas",
+    "Filmadoras e dispositivos que utilizem padrao sd",
+    "Com velocidade de leitura compativel com gravacao de fotos e videos em alta definicao",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 15."
+   ],
+   "critico": false
+  },
+  {
+   "n": 9,
+   "tr": 17,
+   "cod": "88530",
+   "categoria": "Computadores e notebooks",
+   "ramo": "Sim",
+   "desc": "COMPUTADOR TIPO WORKSTATION, DESTINADO A ATIVIDADES DE ALTO DESEMPENHO, MODELAGEM, PROJETOS GRAFICOS, EDICAO DE IMAGENS, GEOPROCESSAMENTO, ENGENHARIA, ARQUITETURA OU OUTRAS ATIVIDADES TECNICAS ESPECIALIZADAS DA ADMINISTRACAO, COM PROCESSADOR DE NO MINIMO 10 NUCLEOS, MEMORIA RAM MINIMA DE 32 GB DDR4 OU SUPERIOR, EXPANSIVEL, ARMAZENAMENTO SSD NVME DE NO MINIMO 1 TB, PLACA DE VIDEO DEDICADA COM NO MINIMO 8 GB DE MEMORIA, COMPATIVEL COM DIRECTX 12 OU TECNOLOGIA EQUIVALENTE, PLACA-MAE COMPATIVEL COM OS COMPONENTES, PORTAS USB 3.0 OU SUPERIOR, HDMI E/OU DISPLAYPORT, FONTE DE ALIMENTACAO COMPATIVEL COM A CONFIGURACAO, COM CERTIFICACAO DE EFICIENCIA 80 PLUS OU EQUIVALENTE, GABINETE COM VENTILACAO ADEQUADA, MONITOR DE NO MINIMO 21,5 POLEGADAS, RESOLUCAO FULL HD OU SUPERIOR, TECLADO PADRAO ABNT2 E MOUSE. SISTEMA OPERACIONAL WINDOWS 11 PRO 64 BITS, LICENCIADO E ATIVADO, CONFORME JUSTIFICATIVA DE PADRONIZACAO, COMPATIBILIDADE E USO INSTITUCIONAL CONSTANTE DO ETP. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 227,
+   "unit": 9464.0,
+   "total": 2148328.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Fonte 80 Plus",
+    "Windows 11 Pro original, licenciado e ativado"
+   ],
+   "requisitos": [
+    "Computador tipo workstation",
+    "Destinado a atividades de alto desempenho",
+    "Modelagem",
+    "Projetos graficos",
+    "Edicao de imagens",
+    "Geoprocessamento",
+    "Engenharia",
+    "Arquitetura ou outras atividades tecnicas especializadas da administracao",
+    "Com processador de no minimo 10 nucleos",
+    "Memoria ram minima de 32 gb ddr4 ou superior",
+    "Expansivel",
+    "Armazenamento ssd nvme de no minimo 1 tb",
+    "Placa de video dedicada com no minimo 8 gb de memoria",
+    "Compativel com directx 12 ou tecnologia equivalente",
+    "Placa-mae compativel com os componentes",
+    "Portas usb 3.0 ou superior",
+    "Hdmi e/ou displayport",
+    "Fonte de alimentacao compativel com a configuracao",
+    "Com certificacao de eficiencia 80 plus ou equivalente",
+    "Gabinete com ventilacao adequada",
+    "Monitor de no minimo 21,5 polegadas",
+    "Resolucao full hd ou superior",
+    "Teclado padrao abnt2 e mouse",
+    "Sistema operacional windows 11 pro 64 bits",
+    "Licenciado e ativado",
+    "Conforme justificativa de padronizacao",
+    "Compatibilidade e uso institucional constante do etp",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Kit completo: inclui monitor de 21,5\" Full HD, teclado ABNT2, mouse, fonte 80 Plus e Windows 11 Pro licenciado e ativado. O preço tem que cobrir tudo isso.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 17."
+   ],
+   "critico": false
+  },
+  {
+   "n": 10,
+   "tr": 16,
+   "cod": "88526",
+   "categoria": "Computadores e notebooks",
+   "ramo": "Sim",
+   "desc": "COMPUTADOR DESKTOP, DESTINADO A ATIVIDADES ADMINISTRATIVAS, OPERACIONAIS E DE APOIO, COM PROCESSADOR DE NO MINIMO 6 NUCLEOS FISICOS OU DESEMPENHO EQUIVALENTE, MEMORIA RAM MINIMA DE 8 GB DDR4 OU SUPERIOR, ARMAZENAMENTO SSD DE NO MINIMO 480 GB, PLACA-MAE COMPATIVEL COM OS COMPONENTES INSTALADOS, INTERFACES USB, HDMI OU DISPLAYPORT, REDE ETHERNET GIGABIT, AUDIO INTEGRADO, GABINETE COM VENTILACAO ADEQUADA, FONTE COMPATIVEL COM A CONFIGURACAO, MONITOR DE NO MINIMO 21,5 POLEGADAS COM RESOLUCAO FULL HD, TECLADO PADRAO ABNT2 E MOUSE USB. SISTEMA OPERACIONAL WINDOWS 11 PRO 64 BITS, LICENCIADO E ATIVADO, CONFORME JUSTIFICATIVA DE PADRONIZACAO, COMPATIBILIDADE E USO INSTITUCIONAL CONSTANTE DO ETP. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 270,
+   "unit": 5852.4,
+   "total": 1580148.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Windows 11 Pro original, licenciado e ativado"
+   ],
+   "requisitos": [
+    "Computador desktop",
+    "Destinado a atividades administrativas",
+    "Operacionais e de apoio",
+    "Com processador de no minimo 6 nucleos fisicos ou desempenho equivalente",
+    "Memoria ram minima de 8 gb ddr4 ou superior",
+    "Armazenamento ssd de no minimo 480 gb",
+    "Placa-mae compativel com os componentes instalados",
+    "Interfaces usb",
+    "Hdmi ou displayport",
+    "Rede ethernet gigabit",
+    "Audio integrado",
+    "Gabinete com ventilacao adequada",
+    "Fonte compativel com a configuracao",
+    "Monitor de no minimo 21,5 polegadas com resolucao full hd",
+    "Teclado padrao abnt2 e mouse usb",
+    "Sistema operacional windows 11 pro 64 bits",
+    "Licenciado e ativado",
+    "Conforme justificativa de padronizacao",
+    "Compatibilidade e uso institucional constante do etp",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Kit completo: inclui monitor de 21,5\" Full HD, teclado ABNT2, mouse USB e Windows 11 Pro licenciado e ativado. O preço tem que cobrir tudo isso.",
+    "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 16."
+   ],
+   "critico": false
+  },
+  {
+   "n": 11,
+   "tr": 18,
+   "cod": "88475",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "CONECTOR MODULAR RJ45 CAT 5E (8P8C), PARA TERMINACAO DE CABOS DE PAR TRANCADO CATEGORIA 5E, COM CONTATOS METALICOS PARA CRIMPAGEM, COMPATIVEL COM REDES ETHERNET, PRODUTO NOVO E DE PRIMEIRO USO. PACOTE COM 100 UNIDADES.",
+   "und": "unidade",
+   "qtd": 60,
+   "unit": 127.0,
+   "total": 7620.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Conector modular rj45 cat 5e (8p8c)",
+    "Para terminacao de cabos de par trancado categoria 5e",
+    "Com contatos metalicos para crimpagem",
+    "Compativel com redes ethernet",
+    "Produto novo e de primeiro uso",
+    "Pacote com 100 unidades"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 18."
+   ],
+   "critico": false
+  },
+  {
+   "n": 12,
+   "tr": 20,
+   "cod": "87204",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "CONVERSOR HDMI PARA VGA, PROJETADO PARA CONEXOES DE DISPOSITIVOS COM SAIDA HDMI E ENTRADA VGA, PERMITINDO A TRANSMISSAO DE VIDEO EM ALTA DEFINICAO. SUPORTANDO FORMATOS DE ENTRADA HDMI NAS RESOLUCOES 480I, 576I, 480P, 576P, 720P, 1080I E 1080P, COM FREQUENCIA DE ATE 60HZ. OFERECE SUPORTE PARA FORMATOS DE SAIDA VGA COM AS MESMAS RESOLUCOES E FREQUENCIA.",
+   "und": "unidade",
+   "qtd": 78,
+   "unit": 16.0,
+   "total": 1248.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Conversor hdmi para vga",
+    "Projetado para conexoes de dispositivos com saida hdmi e entrada vga",
+    "Permitindo a transmissao de video em alta definicao",
+    "Suportando formatos de entrada hdmi nas resolucoes 480i",
+    "576i",
+    "480p",
+    "576p",
+    "720p",
+    "1080i e 1080p",
+    "Com frequencia de ate 60hz",
+    "Oferece suporte para formatos de saida vga com as mesmas resolucoes e frequencia"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 20."
+   ],
+   "critico": false
+  },
+  {
+   "n": 13,
+   "tr": 21,
+   "cod": "86863",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "COOLER - COOLER EXAUSTOR PARA GABINETE, PARA SLOT PARA GABINETE, COM TENSAO 12VDC, COM CABOLIGACAO NA FONTE., COM 2.200 RPM, GARANTIA DE 1 ANO",
+   "und": "unidade",
+   "qtd": 78,
+   "unit": 37.0,
+   "total": 2886.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 1 ano",
+   "certificacoes": [],
+   "requisitos": [
+    "Cooler - cooler exaustor para gabinete",
+    "Para slot para gabinete",
+    "Com tensao 12vdc",
+    "Com caboligacao na fonte",
+    "Com 2.200 rpm",
+    "Garantia de 1 ano"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 21."
+   ],
+   "critico": false
+  },
+  {
+   "n": 14,
+   "tr": 88,
+   "cod": "88512",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "UNIDADE DE ARMAZENAMENTO EM ESTADO SOLIDO SSD, CAPACIDADE MINIMA DE 480 GB, INTERFACE SATA III OU SUPERIOR, FORMATO 2,5 POLEGADAS OU COMPATIVEL COM O EQUIPAMENTO A QUE SE DESTINA, VELOCIDADE COMPATIVEL COM O PADRAO DA INTERFACE, DESTINADA A INSTALACAO EM COMPUTADORES E NOTEBOOKS. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 433,
+   "unit": 416.0,
+   "total": 180128.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Unidade de armazenamento em estado solido ssd",
+    "Capacidade minima de 480 gb",
+    "Interface sata iii ou superior",
+    "Formato 2,5 polegadas ou compativel com o equipamento a que se destina",
+    "Velocidade compativel com o padrao da interface",
+    "Destinada a instalacao em computadores e notebooks",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 88."
+   ],
+   "critico": false
+  },
+  {
+   "n": 15,
+   "tr": 22,
+   "cod": "87202",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "DISPOSITIVO DE ARMAZENAMENTO EM ESTADO SOLIDO (SSD), COM CAPACIDADE DE 1TB, FORMATO M.2 2280, INTERFACE PCIE GEN4 X4, COMPATIVEL COM SISTEMAS OPERACIONAIS WINDOWS 11, 10, 8.1, E COM CONSOLES QUE POSSUAM SLOT M.2 COM DISSIPADOR (QUANDO APLICAVEL). COM VELOCIDADE MINIMA DE LEITURA SEQUENCIAL: 7.300MB/S, VELOCIDADE MINIMA DE GRAVACAO SEQUENCIAL: 6.300MB/S E DESEMPENHO MINIMO DE LEITURA ALEATORIA: 800.000 IOPS.",
+   "und": "unidade",
+   "qtd": 102,
+   "unit": 969.18,
+   "total": 98856.36,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Dispositivo de armazenamento em estado solido (ssd)",
+    "Com capacidade de 1tb",
+    "Formato m.2 2280",
+    "Interface pcie gen4 x4",
+    "Compativel com sistemas operacionais windows 11",
+    "8.1",
+    "E com consoles que possuam slot m.2 com dissipador (quando aplicavel)",
+    "Com velocidade minima de leitura sequencial: 7.300mb/s",
+    "Velocidade minima de gravacao sequencial: 6.300mb/s e desempenho minimo de leitura aleatoria: 800.000 iops"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 22."
+   ],
+   "critico": false
+  },
+  {
+   "n": 16,
+   "tr": 6,
+   "cod": "87185",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "CABO DE REDE CATEGORIA 5 (CAT 5), COR AZUL, 305 METROS DE COMPRIMENTO, ACONDICIONADO EM CAIXA TIPO EASY PULL, COM CERTIFICACAO DE CONFORMIDADE COM OS PADROES DE TELECOMUNICACAO E HOMOLOGACAO NACIONAL VIGENTE, ATENDENDO AOS REQUISITOS DE DESEMPENHO PARA TRANSMISSAO DE DADOS EM REDES ETHERNET 10/100 MBPS. REVESTIMENTO EXTERNO EM PVC RESISTENTE E CONDUTORES INTERNOS EM COBRE, COM ISOLACAO ADEQUADA PARA REDUZIR INTERFERENCIAS.",
+   "und": "metro",
+   "qtd": 49,
+   "unit": 780.0,
+   "total": 38220.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "\"Certificações/homologações exigidas pelos órgãos competentes\""
+   ],
+   "requisitos": [
+    "Cabo de rede categoria 5 (cat 5)",
+    "Cor azul",
+    "305 metros de comprimento",
+    "Acondicionado em caixa tipo easy pull",
+    "Com certificacao de conformidade com os padroes de telecomunicacao e homologacao nacional vigente",
+    "Atendendo aos requisitos de desempenho para transmissao de dados em redes ethernet 10/100 mbps",
+    "Revestimento externo em pvc resistente e condutores internos em cobre",
+    "Com isolacao adequada para reduzir interferencias"
+   ],
+   "atencao": [
+    "Unidade \"METRO\" com preço de caixa de 305 m (R$ 780): não está claro se são 49 caixas ou 49 metros. Vale pedir esclarecimento.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 6."
+   ],
+   "critico": true
+  },
+  {
+   "n": 17,
+   "tr": 23,
+   "cod": "88476",
+   "categoria": "Energia (nobreak, estabilizador)",
+   "ramo": "Não",
+   "desc": "ESTABILIZADOR DE TENSAO COM POTENCIA NOMINAL MINIMA DE 1200 VA, BIVOLT, MICROPROCESSADO, COM NO MINIMO 4 TOMADAS NO PADRAO NBR 14136, PROTECAO CONTRA SUBTENSAO, SOBRETENSAO, SOBRECARGA, CURTO-CIRCUITO E SURTOS ELETRICOS, FILTRO DE LINHA INTEGRADO E CERTIFICACAO COMPULSORIA VIGENTE DO INMETRO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 404,
+   "unit": 835.0,
+   "total": 337340.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "INMETRO",
+    "Normas NBR citadas"
+   ],
+   "requisitos": [
+    "Estabilizador de tensao com potencia nominal minima de 1200 va",
+    "Bivolt",
+    "Microprocessado",
+    "Com no minimo 4 tomadas no padrao nbr 14136",
+    "Protecao contra subtensao",
+    "Sobretensao",
+    "Sobrecarga",
+    "Curto-circuito e surtos eletricos",
+    "Filtro de linha integrado e certificacao compulsoria vigente do inmetro",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Certificação compulsória do INMETRO.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 23."
+   ],
+   "critico": false
+  },
+  {
+   "n": 18,
+   "tr": 25,
+   "cod": "88513",
+   "categoria": "Energia (nobreak, estabilizador)",
+   "ramo": "Não",
+   "desc": "FILTRO DE LINHA PROFISSIONAL, COM PROTECAO CONTRA SURTOS ELETRICOS, CURTO-CIRCUITO E SOBRECARGA, MINIMO DE 5 TOMADAS NO PADRAO NBR 14136, CABO DE ALIMENTACAO COM COMPRIMENTO MINIMO DE 1,5 METRO, PLUGUE PADRAO NBR 14136, TENSAO BIVOLT (127/220 V), INDICADOR LUMINOSO DE FUNCIONAMENTO E CHAVE LIGA/DESLIGA. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 313,
+   "unit": 54.0,
+   "total": 16902.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Normas NBR citadas"
+   ],
+   "requisitos": [
+    "Filtro de linha profissional",
+    "Com protecao contra surtos eletricos",
+    "Curto-circuito e sobrecarga",
+    "Minimo de 5 tomadas no padrao nbr 14136",
+    "Cabo de alimentacao com comprimento minimo de 1,5 metro",
+    "Plugue padrao nbr 14136",
+    "Tensao bivolt (127/220 v)",
+    "Indicador luminoso de funcionamento e chave liga/desliga",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 25."
+   ],
+   "critico": false
+  },
+  {
+   "n": 19,
+   "tr": 30,
+   "cod": "88514",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "FONTE DE ALIMENTACAO PARA COMPUTADOR PADRAO ATX, POTENCIA NOMINAL MINIMA DE 450 W REAIS, COMPATIVEL COM REDES ELETRICAS DE 100 A 240 V (BIVOLT AUTOMATICO), CERTIFICACAO DE EFICIENCIA ENERGETICA 80 PLUS WHITE OU SUPERIOR, EQUIPADA COM PROTECOES CONTRA SOBRETENSAO (OVP), SUBTENSAO (UVP), SOBRECORRENTE (OCP), SOBRECARGA (OPP) E CURTO-CIRCUITO (SCP). COMPATIVEL COM GABINETES E PLACAS-MAE PADRAO ATX, DOTADA DE SISTEMA DE REFRIGERACAO POR VENTOINHA INTEGRADA. PRODUTO NOVO, DE PRIMEIRO USO, ACOMPANHADO DOS CABOS NECESSARIOS PARA INSTALACAO E FUNCIONAMENTO.",
+   "und": "unidade",
+   "qtd": 221,
+   "unit": 206.32,
+   "total": 45596.72,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Fonte 80 Plus"
+   ],
+   "requisitos": [
+    "Fonte de alimentacao para computador padrao atx",
+    "Potencia nominal minima de 450 w reais",
+    "Compativel com redes eletricas de 100 a 240 v (bivolt automatico)",
+    "Certificacao de eficiencia energetica 80 plus white ou superior",
+    "Equipada com protecoes contra sobretensao (ovp)",
+    "Subtensao (uvp)",
+    "Sobrecorrente (ocp)",
+    "Sobrecarga (opp) e curto-circuito (scp)",
+    "Compativel com gabinetes e placas-mae padrao atx",
+    "Dotada de sistema de refrigeracao por ventoinha integrada",
+    "Produto novo",
+    "De primeiro uso",
+    "Acompanhado dos cabos necessarios para instalacao e funcionamento"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 30."
+   ],
+   "critico": false
+  },
+  {
+   "n": 20,
+   "tr": 91,
+   "cod": "88515",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "UNIDADE EXTERNA DE ARMAZENAMENTO, CAPACIDADE MINIMA DE 1 TB, CONEXAO USB 3.0 OU SUPERIOR, COMPATIVEL COM WINDOWS E LINUX. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 152,
+   "unit": 438.42,
+   "total": 66639.84,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Unidade externa de armazenamento",
+    "Capacidade minima de 1 tb",
+    "Conexao usb 3.0 ou superior",
+    "Compativel com windows e linux",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 91."
+   ],
+   "critico": false
+  },
+  {
+   "n": 21,
+   "tr": 89,
+   "cod": "88516",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "UNIDADE DE ARMAZENAMENTO EXTERNA (HD EXTERNO), COM CAPACIDADE MINIMA DE 4 TB, CONEXAO USB 3.0 OU SUPERIOR, COMPATIVEL COM SISTEMAS OPERACIONAIS WINDOWS E LINUX, ALIMENTACAO VIA PORTA USB OU FONTE EXTERNA QUANDO APLICAVEL, VELOCIDADE DE TRANSFERENCIA COMPATIVEL COM A INTERFACE FORNECIDA, ACOMPANHADO DE CABO DE CONEXAO. PRODUTO NOVO, DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 76,
+   "unit": 881.5,
+   "total": 66994.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Unidade de armazenamento externa (hd externo)",
+    "Com capacidade minima de 4 tb",
+    "Conexao usb 3.0 ou superior",
+    "Compativel com sistemas operacionais windows e linux",
+    "Alimentacao via porta usb ou fonte externa quando aplicavel",
+    "Velocidade de transferencia compativel com a interface fornecida",
+    "Acompanhado de cabo de conexao",
+    "Produto novo",
+    "De primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 89."
+   ],
+   "critico": false
+  },
+  {
+   "n": 22,
+   "tr": 90,
+   "cod": "88457",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "UNIDADE DE ESTADO SOLIDO (SSD) NVME M.2, CAPACIDADE MINIMA DE 500 GB, INTERFACE PCI EXPRESS 3.0 X4 OU SUPERIOR, VELOCIDADE MINIMA DE LEITURA SEQUENCIAL DE 2.000 MB/S E GRAVACAO SEQUENCIAL DE 1.500 MB/S, COMPATIVEL COM COMPUTADORES E NOTEBOOKS QUE POSSUAM INTERFACE M.2 NVME. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 83,
+   "unit": 420.74,
+   "total": 34921.42,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Unidade de estado solido (ssd) nvme m.2",
+    "Capacidade minima de 500 gb",
+    "Interface pci express 3.0 x4 ou superior",
+    "Velocidade minima de leitura sequencial de 2.000 mb/s e gravacao sequencial de 1.500 mb/s",
+    "Compativel com computadores e notebooks que possuam interface m.2 nvme",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 90."
+   ],
+   "critico": false
+  },
+  {
+   "n": 23,
+   "tr": 78,
+   "cod": "88532",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "SWITCH GERENCIAVEL OU NAO GERENCIAVEL (CONFORME NECESSIDADE DA ADMINISTRACAO), COM 16 PORTAS RJ45 10/100/1000 MBPS, SUPORTE A AUTO NEGOTIATION, AUTO MDI/MDIX, FONTE DE ALIMENTACAO INTERNA OU EXTERNA, DESTINADO A INTERCONEXAO DE EQUIPAMENTOS DE REDE LOCAL. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 35,
+   "unit": 452.0,
+   "total": 15820.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Switch gerenciavel ou nao gerenciavel (conforme necessidade da administracao)",
+    "Com 16 portas rj45 10/100/1000 mbps",
+    "Suporte a auto negotiation",
+    "Auto mdi/mdix",
+    "Fonte de alimentacao interna ou externa",
+    "Destinado a interconexao de equipamentos de rede local",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 78."
+   ],
+   "critico": false
+  },
+  {
+   "n": 24,
+   "tr": 79,
+   "cod": "88533",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "SWITCH GERENCIAVEL OU NAO GERENCIAVEL (CONFORME NECESSIDADE DA ADMINISTRACAO), COM 24 PORTAS RJ45 10/100/1000 MBPS, SUPORTE A AUTO NEGOTIATION E AUTO MDI/MDIX, DESTINADO A INTERCONEXAO DE EQUIPAMENTOS DE REDE LOCAL. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 43,
+   "unit": 545.0,
+   "total": 23435.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Switch gerenciavel ou nao gerenciavel (conforme necessidade da administracao)",
+    "Com 24 portas rj45 10/100/1000 mbps",
+    "Suporte a auto negotiation e auto mdi/mdix",
+    "Destinado a interconexao de equipamentos de rede local",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 79."
+   ],
+   "critico": false
+  },
+  {
+   "n": 25,
+   "tr": 37,
+   "cod": "88522",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "IMPRESSORA MULTIFUNCIONAL LASER MONOCROMATICA, COM FUNCOES DE IMPRESSAO, COPIA E DIGITALIZACAO, VELOCIDADE MINIMA DE 40 PAGINAS POR MINUTO, BANDEJA DE ENTRADA COM CAPACIDADE MINIMA PARA 250 FOLHAS, ALIMENTADOR AUTOMATICO DE DOCUMENTOS (ADF), IMPRESSAO FRENTE E VERSO (DUPLEX) AUTOMATICA, CONECTIVIDADE USB, ETHERNET E WI-FI INTEGRADAS, COMPATIVEL COM SISTEMAS OPERACIONAIS WINDOWS E LINUX. DEVERA POSSUIR CICLO MENSAL MINIMO DE 50.000 PAGINAS, TONER COM RENDIMENTO MINIMO DE 3.000 PAGINAS, CONSIDERANDO COBERTURA PADRAO DE 5%, E DISPONIBILIDADE DE SUPRIMENTOS E CONSUMIVEIS NO MERCADO NACIONAL. PRODUTO NOVO, DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 178,
+   "unit": 3578.0,
+   "total": 636884.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Impressora multifuncional laser monocromatica",
+    "Com funcoes de impressao",
+    "Copia e digitalizacao",
+    "Velocidade minima de 40 paginas por minuto",
+    "Bandeja de entrada com capacidade minima para 250 folhas",
+    "Alimentador automatico de documentos (adf)",
+    "Impressao frente e verso (duplex) automatica",
+    "Conectividade usb",
+    "Ethernet e wi-fi integradas",
+    "Compativel com sistemas operacionais windows e linux",
+    "Devera possuir ciclo mensal minimo de 50.000 paginas",
+    "Toner com rendimento minimo de 3.000 paginas",
+    "Considerando cobertura padrao de 5%",
+    "E disponibilidade de suprimentos e consumiveis no mercado nacional",
+    "Produto novo",
+    "De primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 37."
+   ],
+   "critico": false
+  },
+  {
+   "n": 26,
+   "tr": 39,
+   "cod": "88535",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "LEITOR DE CARTOES DE MEMORIA COMPATIVEL COM PADROES SD, SDHC, SDXC, MICRO SD, MICRO SDHC E MICRO SDXC, INTERFACE USB 3.0 OU SUPERIOR, COMPATIVEL COM SISTEMAS OPERACIONAIS WINDOWS E LINUX. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 27,
+   "unit": 44.94,
+   "total": 1213.38,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Leitor de cartoes de memoria compativel com padroes sd",
+    "Sdhc",
+    "Sdxc",
+    "Micro sd",
+    "Micro sdhc e micro sdxc",
+    "Interface usb 3.0 ou superior",
+    "Compativel com sistemas operacionais windows e linux",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 39."
+   ],
+   "critico": false
+  },
+  {
+   "n": 27,
+   "tr": 44,
+   "cod": "88458",
+   "categoria": "Software e licenças",
+   "ramo": "Não",
+   "desc": "LICENCA PERPETUA DE SUITE DE ESCRITORIO, EM PORTUGUES (BRASIL), CONTENDO NO MINIMO EDITOR DE TEXTOS, PLANILHA ELETRONICA, SOFTWARE DE APRESENTACAO E CLIENTE DE CORREIO ELETRONICO, COMPATIVEL COM OS FORMATOS DE ARQUIVOS UTILIZADOS PELA ADMINISTRACAO MUNICIPAL, LICENCA DEFINITIVA PARA INSTALACAO EM UM UNICO EQUIPAMENTO, COM ATIVACAO OFICIAL E DOCUMENTACAO DO FABRICANTE.",
+   "und": "unidade",
+   "qtd": 290,
+   "unit": 1216.0,
+   "total": 352640.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Licenca perpetua de suite de escritorio",
+    "Em portugues (brasil)",
+    "Contendo no minimo editor de textos",
+    "Planilha eletronica",
+    "Software de apresentacao e cliente de correio eletronico",
+    "Compativel com os formatos de arquivos utilizados pela administracao municipal",
+    "Licenca definitiva para instalacao em um unico equipamento",
+    "Com ativacao oficial e documentacao do fabricante"
+   ],
+   "atencao": [
+    "Licença perpétua (não assinatura). A proposta precisa informar fabricante, edição, versão e regras de transferência, e a entrega exige comprovação do fabricante, não só a chave (TR 3.4.20).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 44."
+   ],
+   "critico": false
+  },
+  {
+   "n": 28,
+   "tr": 47,
+   "cod": "88460",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "MEMORIA RAM DDR5, CAPACIDADE MINIMA DE 16 GB, FREQUENCIA MINIMA DE 4800 MHZ, PADRAO DIMM, COMPATIVEL COM PLACAS- MAE QUE SUPORTEM TECNOLOGIA DDR5, NAO ECC, TENSAO COMPATIVEL COM O PADRAO DDR5. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 86,
+   "unit": 1279.0,
+   "total": 109994.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Memoria ram ddr5",
+    "Capacidade minima de 16 gb",
+    "Frequencia minima de 4800 mhz",
+    "Padrao dimm",
+    "Compativel com placas- mae que suportem tecnologia ddr5",
+    "Nao ecc",
+    "Tensao compativel com o padrao ddr5",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 47."
+   ],
+   "critico": false
+  },
+  {
+   "n": 29,
+   "tr": 46,
+   "cod": "88517",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "MEMORIA RAM DDR4, CAPACIDADE MINIMA DE 16 GB, FREQUENCIA MINIMA DE 3200 MHZ, PADRAO DIMM, COMPATIVEL COM COMPUTADORES DESKTOP. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 192,
+   "unit": 623.5,
+   "total": 119712.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Memoria ram ddr4",
+    "Capacidade minima de 16 gb",
+    "Frequencia minima de 3200 mhz",
+    "Padrao dimm",
+    "Compativel com computadores desktop",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 46."
+   ],
+   "critico": false
+  },
+  {
+   "n": 30,
+   "tr": 54,
+   "cod": "88462",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "MONITOR LED, TAMANHO MINIMO DE 21,5 POLEGADAS, TELA WIDESCREEN, RESOLUCAO MINIMA FULL HD (1920 X 1080), TAXA DE ATUALIZACAO MINIMA DE 60 HZ, ENTRADAS HDMI E DISPLAYPORT OU EQUIVALENTES, AJUSTE DE INCLINACAO DA TELA, COMPATIVEL COM PADRAO DE FIXACAO VESA, COMPATIVEL COM UTILIZACAO EM AMBIENTES CORPORATIVOS E ADMINISTRATIVOS. PRODUTO NOVO E DE PRIMEIRO USO, ACOMPANHADO DOS CABOS NECESSARIOS PARA INSTALACAO E FUNCIONAMENTO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 68,
+   "unit": 599.8,
+   "total": 40786.4,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Monitor led",
+    "Tamanho minimo de 21,5 polegadas",
+    "Tela widescreen",
+    "Resolucao minima full hd (1920 x 1080)",
+    "Taxa de atualizacao minima de 60 hz",
+    "Entradas hdmi e displayport ou equivalentes",
+    "Ajuste de inclinacao da tela",
+    "Compativel com padrao de fixacao vesa",
+    "Compativel com utilizacao em ambientes corporativos e administrativos",
+    "Produto novo e de primeiro uso",
+    "Acompanhado dos cabos necessarios para instalacao e funcionamento",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 54."
+   ],
+   "critico": false
+  },
+  {
+   "n": 31,
+   "tr": 53,
+   "cod": "88518",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "MONITOR LED DE NO MINIMO 24 POLEGADAS, RESOLUCAO FULL HD OU SUPERIOR, TAXA DE ATUALIZACAO MINIMA DE 144 HZ, TEMPO DE RESPOSTA MAXIMO DE 1 MS, ENTRADAS HDMI E DISPLAYPORT, DESTINADO A APLICACOES TECNICAS ESPECIALIZADAS, MONITORAMENTO E PROCESSAMENTO GRAFICO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 122,
+   "unit": 950.0,
+   "total": 115900.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Monitor led de no minimo 24 polegadas",
+    "Resolucao full hd ou superior",
+    "Taxa de atualizacao minima de 144 hz",
+    "Tempo de resposta maximo de 1 ms",
+    "Entradas hdmi e displayport",
+    "Destinado a aplicacoes tecnicas especializadas",
+    "Monitoramento e processamento grafico",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "144 Hz e 1 ms: muitos monitores corporativos de 24\" são de 60 ou 75 Hz e não atendem.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 53."
+   ],
+   "critico": false
+  },
+  {
+   "n": 32,
+   "tr": 56,
+   "cod": "87186",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "MOUSE SEM FIO, COM TECNOLOGIA OPTICA, CONEXAO USB, DESIGN ANATOMICO EM PLASTICO, TRES BOTOES. COMPATIVEL COM NOTEBOOKS E PCS. ACONDICIONADO EM EMBALAGEM APROPRIADA.",
+   "und": "unidade",
+   "qtd": 297,
+   "unit": 38.0,
+   "total": 11286.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Mouse sem fio",
+    "Com tecnologia optica",
+    "Conexao usb",
+    "Design anatomico em plastico",
+    "Tres botoes",
+    "Compativel com notebooks e pcs",
+    "Acondicionado em embalagem apropriada"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 56."
+   ],
+   "critico": false
+  },
+  {
+   "n": 33,
+   "tr": 55,
+   "cod": "88540",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "MOUSE OPTICO COM FIO, CONEXAO USB, NO MINIMO 3 BOTOES, RODA DE ROLAGEM (SCROLL), DESIGN ERGONOMICO, COMPATIVEL COM SISTEMAS OPERACIONAIS WINDOWS E LINUX. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 390,
+   "unit": 26.99,
+   "total": 10526.1,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Mouse optico com fio",
+    "Conexao usb",
+    "No minimo 3 botoes",
+    "Roda de rolagem (scroll)",
+    "Design ergonomico",
+    "Compativel com sistemas operacionais windows e linux",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 55."
+   ],
+   "critico": false
+  },
+  {
+   "n": 34,
+   "tr": 57,
+   "cod": "88541",
+   "categoria": "Energia (nobreak, estabilizador)",
+   "ramo": "Não",
+   "desc": "NOBREAK COM POTENCIA NOMINAL MINIMA DE 1200 W, TECNOLOGIA MICROPROCESSADA, PROTECAO CONTRA SOBRETENSAO, SUBTENSAO, CURTO-CIRCUITO, SOBRECARGA, DESCARGA PROFUNDA DA BATERIA E SURTOS ELETRICOS, COM NO MINIMO 6 TOMADAS NO PADRAO NBR 14136. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 148,
+   "unit": 644.5,
+   "total": 95386.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Normas NBR citadas"
+   ],
+   "requisitos": [
+    "Nobreak com potencia nominal minima de 1200 w",
+    "Tecnologia microprocessada",
+    "Protecao contra sobretensao",
+    "Subtensao",
+    "Curto-circuito",
+    "Sobrecarga",
+    "Descarga profunda da bateria e surtos eletricos",
+    "Com no minimo 6 tomadas no padrao nbr 14136",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 57."
+   ],
+   "critico": false
+  },
+  {
+   "n": 35,
+   "tr": 58,
+   "cod": "88463",
+   "categoria": "Energia (nobreak, estabilizador)",
+   "ramo": "Não",
+   "desc": "NOBREAK SENOIDAL, POTENCIA NOMINAL MINIMA DE 3000 VA, ENTRADA BIVOLT AUTOMATICA (127V/220V), SAIDA NOMINAL DE 220V, TECNOLOGIA MICROPROCESSADA, FORMA DE ONDA SENOIDAL PURA EM OPERACAO POR BATERIA, MINIMO DE 8 TOMADAS NO PADRAO NBR 14136, PROTECAO CONTRA SOBRETENSAO, SUBTENSAO, SOBRECARGA, CURTO-CIRCUITO E SURTOS ELETRICOS, BATERIAS INTERNAS RECARREGAVEIS, ACOMPANHADO DOS CABOS NECESSARIOS AO FUNCIONAMENTO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 56,
+   "unit": 2950.0,
+   "total": 165200.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Normas NBR citadas"
+   ],
+   "requisitos": [
+    "Nobreak senoidal",
+    "Potencia nominal minima de 3000 va",
+    "Entrada bivolt automatica (127v/220v)",
+    "Saida nominal de 220v",
+    "Tecnologia microprocessada",
+    "Forma de onda senoidal pura em operacao por bateria",
+    "Minimo de 8 tomadas no padrao nbr 14136",
+    "Protecao contra sobretensao",
+    "Subtensao",
+    "Sobrecarga",
+    "Curto-circuito e surtos eletricos",
+    "Baterias internas recarregaveis",
+    "Acompanhado dos cabos necessarios ao funcionamento",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 58."
+   ],
+   "critico": false
+  },
+  {
+   "n": 36,
+   "tr": 60,
+   "cod": "88464",
+   "categoria": "Computadores e notebooks",
+   "ramo": "Sim",
+   "desc": "NOTEBOOK, EQUIPADO COM PROCESSADOR INTEL CORE I7 DE 12a GERACAO OU SUPERIOR, OU EQUIVALENTE EM DESEMPENHO, MEMORIA RAM MINIMA DE 16 GB DDR4 OU SUPERIOR, ARMAZENAMENTO SSD NVME MINIMO DE 512 GB, TELA FULL HD DE 15,6 POLEGADAS COM TECNOLOGIA ANTIRREFLEXO, CONECTIVIDADE WI-FI E BLUETOOTH, PORTAS USB E HDMI, WEBCAM INTEGRADA, SISTEMA OPERACIONAL WINDOWS 11 PROFESSIONAL OU SUPERIOR. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 424,
+   "unit": 6307.12,
+   "total": 2674218.88,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Windows 11 Pro original, licenciado e ativado"
+   ],
+   "requisitos": [
+    "Notebook",
+    "EQUIPADO COM PROCESSADOR INTEL CORE I7 DE 12a GERACAO OU SUPERIOR",
+    "Ou equivalente em desempenho",
+    "Memoria ram minima de 16 gb ddr4 ou superior",
+    "Armazenamento ssd nvme minimo de 512 gb",
+    "Tela full hd de 15,6 polegadas com tecnologia antirreflexo",
+    "Conectividade wi-fi e bluetooth",
+    "Portas usb e hdmi",
+    "Webcam integrada",
+    "Sistema operacional windows 11 professional ou superior",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "\"Core i7 de 12ª geração ou equivalente em desempenho\": se ofertar outro processador (ex.: AMD), guarde um comparativo de desempenho (ex.: PassMark) para a análise da proposta.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 60."
+   ],
+   "critico": false
+  },
+  {
+   "n": 37,
+   "tr": 61,
+   "cod": "88546",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "PASTA TERMICA PARA DISSIPACAO DE CALOR EM PROCESSADORES E COMPONENTES ELETRONICOS, ACONDICIONADA EM EMBALAGEM COM CONTEUDO MINIMO DE 100 GRAMAS, ADEQUADA PARA UTILIZACAO EM COMPUTADORES E EQUIPAMENTOS DE INFORMATICA. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 26,
+   "unit": 80.0,
+   "total": 2080.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Pasta termica para dissipacao de calor em processadores e componentes eletronicos",
+    "Acondicionada em embalagem com conteudo minimo de 100 gramas",
+    "Adequada para utilizacao em computadores e equipamentos de informatica",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 61."
+   ],
+   "critico": false
+  },
+  {
+   "n": 38,
+   "tr": 62,
+   "cod": "88545",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "PEN DRIVE COM CAPACIDADE MINIMA DE 128 GB, INTERFACE USB 3.0 OU SUPERIOR, DESTINADO AO ARMAZENAMENTO E A TRANSFERENCIA DE DADOS. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 306,
+   "unit": 122.58,
+   "total": 37509.48,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Pen drive com capacidade minima de 128 gb",
+    "Interface usb 3.0 ou superior",
+    "Destinado ao armazenamento e a transferencia de dados",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 62."
+   ],
+   "critico": false
+  },
+  {
+   "n": 39,
+   "tr": 64,
+   "cod": "88469",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "PLACA DE VIDEO DEDICADA, COM DESEMPENHO IGUAL OU SUPERIOR AO DA GEFORCE GTX 1650, MEMORIA GRAFICA DEDICADA MINIMA DE 4 GB GDDR5 OU SUPERIOR, INTERFACE PCI EXPRESS X16, SUPORTE A RESOLUCAO FULL HD E SUPERIOR, COMPATIVEL COM APLICACOES GRAFICAS, EDICAO DE IMAGENS, VIDEOS E SOFTWARES TECNICOS UTILIZADOS PELA ADMINISTRACAO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 43,
+   "unit": 1562.0,
+   "total": 67166.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Placa de video dedicada",
+    "Com desempenho igual ou superior ao da geforce gtx 1650",
+    "Memoria grafica dedicada minima de 4 gb gddr5 ou superior",
+    "Interface pci express x16",
+    "Suporte a resolucao full hd e superior",
+    "Compativel com aplicacoes graficas",
+    "Edicao de imagens",
+    "Videos e softwares tecnicos utilizados pela administracao",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Desempenho \"igual ou superior\" à placa citada: guarde um comparativo de desempenho.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 64."
+   ],
+   "critico": false
+  },
+  {
+   "n": 40,
+   "tr": 69,
+   "cod": "88506",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "ROTEADOR WIRELESS GIGABIT, PADRAO WI-FI 6 (IEEE 802.11AX) OU SUPERIOR, DUAL BAND (2,4 GHZ E 5 GHZ), COM NO MINIMO 4 PORTAS LAN GIGABIT ETHERNET (10/100/1000 MBPS) E 1 PORTA WAN GIGABIT ETHERNET (10/100/1000 MBPS), SUPORTE AOS PROTOCOLOS IPV4 E IPV6, RECURSOS DE SEGURANCA WPA2 E WPA3, GERENCIAMENTO VIA INTERFACE WEB E APLICATIVO, COMPATIVEL COM AMBIENTES CORPORATIVOS E ADMINISTRATIVOS. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 153,
+   "unit": 285.5,
+   "total": 43681.5,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Roteador wireless gigabit",
+    "Padrao wi-fi 6 (ieee 802.11ax) ou superior",
+    "Dual band (2,4 ghz e 5 ghz)",
+    "Com no minimo 4 portas lan gigabit ethernet (10/100/1000 mbps) e 1 porta wan gigabit ethernet (10/100/1000 mbps)",
+    "Suporte aos protocolos ipv4 e ipv6",
+    "Recursos de seguranca wpa2 e wpa3",
+    "Gerenciamento via interface web e aplicativo",
+    "Compativel com ambientes corporativos e administrativos",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 69."
+   ],
+   "critico": false
+  },
+  {
+   "n": 41,
+   "tr": 71,
+   "cod": "88523",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "SCANNER DE DOCUMENTOS DE ALTA VELOCIDADE, COM ALIMENTADOR AUTOMATICO DE DOCUMENTOS (ADF) PARA NO MINIMO 100 FOLHAS, VELOCIDADE MINIMA DE DIGITALIZACAO DE 65 PAGINAS POR MINUTO (PPM) OU 130 IMAGENS POR MINUTO (IPM) EM MODO DUPLEX, DIGITALIZACAO FRENTE E VERSO EM PASSAGEM UNICA, COMPATIVEL COM DOCUMENTOS COLORIDOS, MONOCROMATICOS E EM TONS DE CINZA. CAPACIDADE DE CICLO DIARIO DE TRABALHO PARA NO MINIMO 7.000 FOLHAS, CONEXAO USB DE ALTA VELOCIDADE OU SUPERIOR, COMPATIVEL COM SISTEMAS OPERACIONAIS WINDOWS E LINUX, PERMITINDO DIGITALIZACAO PARA PDF PESQUISAVEL E FORMATOS DE IMAGEM AMPLAMENTE UTILIZADOS. PRODUTO NOVO E DE PRIMEIRO USO, ACOMPANHADO DOS CABOS, DRIVERS E ACESSORIOS NECESSARIOS AO FUNCIONAMENTO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 50,
+   "unit": 6024.58,
+   "total": 301229.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Scanner de documentos de alta velocidade",
+    "Com alimentador automatico de documentos (adf) para no minimo 100 folhas",
+    "Velocidade minima de digitalizacao de 65 paginas por minuto (ppm) ou 130 imagens por minuto (ipm) em modo duplex",
+    "Digitalizacao frente e verso em passagem unica",
+    "Compativel com documentos coloridos",
+    "Monocromaticos e em tons de cinza",
+    "Capacidade de ciclo diario de trabalho para no minimo 7.000 folhas",
+    "Conexao usb de alta velocidade ou superior",
+    "Compativel com sistemas operacionais windows e linux",
+    "Permitindo digitalizacao para pdf pesquisavel e formatos de imagem amplamente utilizados",
+    "Produto novo e de primeiro uso",
+    "Acompanhado dos cabos",
+    "Drivers e acessorios necessarios ao funcionamento",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 71."
+   ],
+   "critico": false
+  },
+  {
+   "n": 42,
+   "tr": 81,
+   "cod": "88548",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "TECLADO MULTIMIDIA PARA MICROCOMPUTADOR, COM DESIGN ERGONOMICO, PADRAO ABNT2, COM TODOS OS CARACTERES DA LINGUA PORTUGUESA, CONEXAO USB, TECLAS DE ACESSO A FUNCOES MULTIMIDIA E COMPATIBILIDADE COM OS PRINCIPAIS SISTEMAS OPERACIONAIS UTILIZADOS EM AMBIENTE CORPORATIVO. DEVERA POSSUIR GRAVACAO PERMANENTE DOS CARACTERES NAS TECLAS. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 343,
+   "unit": 42.44,
+   "total": 14556.92,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Teclado multimidia para microcomputador",
+    "Com design ergonomico",
+    "Padrao abnt2",
+    "Com todos os caracteres da lingua portuguesa",
+    "Conexao usb",
+    "Teclas de acesso a funcoes multimidia e compatibilidade com os principais sistemas operacionais utilizados em ambiente corporativo",
+    "Devera possuir gravacao permanente dos caracteres nas teclas",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 81."
+   ],
+   "critico": false
+  },
+  {
+   "n": 43,
+   "tr": 84,
+   "cod": "83477",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "TESTADOR DE CABOS DE REDE - COMPOSTO DE 2 PARTES QUE SERAO UTILIZADAS SIMULTANEAMENTE EM CADA UMA DAS EXTREMIDADES DO CABO DE REDE, RJ45 COMO CONECTOR FISICO, TESTE DE CONTINUIDADE 1, 2, 3, 4, 5, 6, 7, 8 E G (TERRA), VERIFICA CONEXAO TROCADA, CURTO ABERTO E CRUZADO.",
+   "und": "unidade",
+   "qtd": 41,
+   "unit": 47.11,
+   "total": 1931.51,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Testador de cabos de rede - composto de 2 partes que serao utilizadas simultaneamente em cada uma das extremidades do cabo de rede",
+    "Rj45 como conector fisico",
+    "Teste de continuidade 1",
+    "8 e g (terra)",
+    "Verifica conexao trocada",
+    "Curto aberto e cruzado"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 84."
+   ],
+   "critico": false
+  },
+  {
+   "n": 44,
+   "tr": 85,
+   "cod": "88542",
+   "categoria": "Energia (nobreak, estabilizador)",
+   "ramo": "Não",
+   "desc": "TRANSFORMADOR DE TENSAO (AUTOTRANSFORMADOR OU EQUIVALENTE), COM POTENCIA NOMINAL MINIMA DE 3.000 VA, DESTINADO A CONVERSAO DE TENSAO ELETRICA PARA USO EM EQUIPAMENTOS ELETRONICOS E ELETRODOMESTICOS. DEVERA POSSUIR ENTRADA BIVOLT OU COMPATIVEL COM TENSOES DE 110/127 V E 220 V, COM SAIDA COMPATIVEL COM AS NECESSIDADES OPERACIONAIS DA ADMINISTRACAO, SENDO ACEITAS CONFIGURACOES 110/127 V OU 220 V, CONFORME DEMANDA. DEVERA POSSUIR TOMADAS PADRAO NBR 14136, SISTEMA DE PROTECAO CONTRA SOBRECARGA E SOBREAQUECIMENTO, E ESTRUTURA ADEQUADA PARA USO CONTINUO. PRODUTO NOVO E DE PRIMEIRO USO, ACOMPANHADO DOS ACESSORIOS NECESSARIOS AO FUNCIONAMENTO E COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 228,
+   "unit": 193.22,
+   "total": 44054.16,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [
+    "Normas NBR citadas"
+   ],
+   "requisitos": [
+    "Transformador de tensao (autotransformador ou equivalente)",
+    "Com potencia nominal minima de 3.000 va",
+    "Destinado a conversao de tensao eletrica para uso em equipamentos eletronicos e eletrodomesticos",
+    "Devera possuir entrada bivolt ou compativel com tensoes de 110/127 v e 220 v",
+    "Com saida compativel com as necessidades operacionais da administracao",
+    "Sendo aceitas configuracoes 110/127 v ou 220 v",
+    "Conforme demanda",
+    "Devera possuir tomadas padrao nbr 14136",
+    "Sistema de protecao contra sobrecarga e sobreaquecimento",
+    "E estrutura adequada para uso continuo",
+    "Produto novo e de primeiro uso",
+    "Acompanhado dos acessorios necessarios ao funcionamento e com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 85."
+   ],
+   "critico": false
+  },
+  {
+   "n": 45,
+   "tr": 86,
+   "cod": "88544",
+   "categoria": "Energia (nobreak, estabilizador)",
+   "ramo": "Não",
+   "desc": "TRANSFORMADOR DE TENSAO DO TIPO AUTOTRANSFORMADOR, COM POTENCIA NOMINAL MINIMA DE 2.000 VA, COM ENTRADA DE 220 V E SAIDA DE 110/127 V, DESTINADO A ALIMENTACAO DE EQUIPAMENTOS ELETRICOS E ELETRONICOS. DEVERA POSSUIR PROTECAO CONTRA SOBRECARGA E SOBREAQUECIMENTO, TOMADAS EM CONFORMIDADE COM O PADRAO NBR 14136 E SER ADEQUADO PARA USO CONTINUO. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 367,
+   "unit": 180.0,
+   "total": 66060.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [
+    "Normas NBR citadas"
+   ],
+   "requisitos": [
+    "Transformador de tensao do tipo autotransformador",
+    "Com potencia nominal minima de 2.000 va",
+    "Com entrada de 220 v e saida de 110/127 v",
+    "Destinado a alimentacao de equipamentos eletricos e eletronicos",
+    "Devera possuir protecao contra sobrecarga e sobreaquecimento",
+    "Tomadas em conformidade com o padrao nbr 14136 e ser adequado para uso continuo",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 86."
+   ],
+   "critico": false
+  },
+  {
+   "n": 46,
+   "tr": 26,
+   "cod": "88477",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "FONE DE OUVIDO INTRA-AURICULAR COM FIO, ESTEREO, COM ENCAIXE ANATOMICO, CABO COM COMPRIMENTO MINIMO DE 1,2 METRO, CONECTOR DE AUDIO PADRAO 3,5 MM (P2) OU COMPATIVEL COM O EQUIPAMENTO A QUE SE DESTINA, ADEQUADO PARA REPRODUCAO DE AUDIO EM COMPUTADORES, NOTEBOOKS, TABLETS, SMARTPHONES E OUTROS DISPOSITIVOS COMPATIVEIS. PRODUTO NOVO, DE PRIMEIRO USO, ACOMPANHADO DE PONTEIRAS DE SILICONE OU MATERIAL EQUIVALENTE.",
+   "und": "unidade",
+   "qtd": 42,
+   "unit": 26.95,
+   "total": 1131.9,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Fone de ouvido intra-auricular com fio",
+    "Estereo",
+    "Com encaixe anatomico",
+    "Cabo com comprimento minimo de 1,2 metro",
+    "Conector de audio padrao 3,5 mm (p2) ou compativel com o equipamento a que se destina",
+    "Adequado para reproducao de audio em computadores",
+    "Notebooks",
+    "Tablets",
+    "Smartphones e outros dispositivos compativeis",
+    "Produto novo",
+    "De primeiro uso",
+    "Acompanhado de ponteiras de silicone ou material equivalente"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 26."
+   ],
+   "critico": false
+  },
+  {
+   "n": 47,
+   "tr": 35,
+   "cod": "88521",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "IMPRESSORA MULTIFUNCIONAL LASER COLORIDA, COM FUNCOES DE IMPRESSAO, COPIA, DIGITALIZACAO E FAX, VELOCIDADE MINIMA DE 25 PAGINAS POR MINUTO (PPM) EM PRETO E EM CORES, IMPRESSAO DUPLEX AUTOMATICA, DIGITALIZACAO POR ALIMENTADOR AUTOMATICO DE DOCUMENTOS (ADF) COM CAPACIDADE MINIMA PARA 50 FOLHAS, CONEXOES USB, ETHERNET GIGABIT E WI-FI INTEGRADAS, BANDEJA DE ENTRADA COM CAPACIDADE MINIMA PARA 250 FOLHAS, SUPORTE A IMPRESSAO EM REDE TCP/IP E COMPATIBILIDADE COM OS PRINCIPAIS SISTEMAS OPERACIONAIS DO MERCADO. DEVERA POSSUIR CICLO MENSAL MINIMO DE 50.000 PAGINAS, TONER PRETO COM RENDIMENTO MINIMO DE 3.000 PAGINAS E TONERS COLORIDOS COM RENDIMENTO MINIMO DE 2.000 PAGINAS CADA, CONSIDERANDO COBERTURA PADRAO DE 5%, ALEM DE DISPONIBILIDADE DE SUPRIMENTOS E CONSUMIVEIS NO MERCADO NACIONAL. PRODUTO NOVO, DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 143,
+   "unit": 4690.0,
+   "total": 670670.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Impressora multifuncional laser colorida",
+    "Com funcoes de impressao",
+    "Copia",
+    "Digitalizacao e fax",
+    "Velocidade minima de 25 paginas por minuto (ppm) em preto e em cores",
+    "Impressao duplex automatica",
+    "Digitalizacao por alimentador automatico de documentos (adf) com capacidade minima para 50 folhas",
+    "Conexoes usb",
+    "Ethernet gigabit e wi-fi integradas",
+    "Bandeja de entrada com capacidade minima para 250 folhas",
+    "Suporte a impressao em rede tcp/ip e compatibilidade com os principais sistemas operacionais do mercado",
+    "Devera possuir ciclo mensal minimo de 50.000 paginas",
+    "Toner preto com rendimento minimo de 3.000 paginas e toners coloridos com rendimento minimo de 2.000 paginas cada",
+    "Considerando cobertura padrao de 5%",
+    "Alem de disponibilidade de suprimentos e consumiveis no mercado nacional",
+    "Produto novo",
+    "De primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 35."
+   ],
+   "critico": false
+  },
+  {
+   "n": 48,
+   "tr": 59,
+   "cod": "88543",
+   "categoria": "Computadores e notebooks",
+   "ramo": "Sim",
+   "desc": "NOTEBOOK CORPORATIVO, PROCESSADOR COM DESEMPENHO EQUIVALENTE OU SUPERIOR A FAMILIA INTEL CORE I5 DE 11a GERACAO, MEMORIA RAM MINIMA DE 8 GB EXPANSIVEL, SSD NVME MINIMO DE 512 GB, TELA DE NO MINIMO 15,6 POLEGADAS COM RESOLUCAO FULL HD E TRATAMENTO ANTIRREFLEXO, WEBCAM INTEGRADA, MICROFONE E ALTO-FALANTES EMBUTIDOS, CONECTIVIDADE WI-FI E BLUETOOTH, PORTAS USB E HDMI. SISTEMA OPERACIONAL WINDOWS 11 PROFESSIONAL OU SUPERIOR, LICENCIADO E ATIVADO, CONFORME JUSTIFICATIVA DE PADRONIZACAO E COMPATIBILIDADE CONSTANTE DO ETP. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 384,
+   "unit": 3485.0,
+   "total": 1338240.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Windows 11 Pro original, licenciado e ativado"
+   ],
+   "requisitos": [
+    "Notebook corporativo",
+    "PROCESSADOR COM DESEMPENHO EQUIVALENTE OU SUPERIOR A FAMILIA INTEL CORE I5 DE 11a GERACAO",
+    "Memoria ram minima de 8 gb expansivel",
+    "Ssd nvme minimo de 512 gb",
+    "Tela de no minimo 15,6 polegadas com resolucao full hd e tratamento antirreflexo",
+    "Webcam integrada",
+    "Microfone e alto-falantes embutidos",
+    "Conectividade wi-fi e bluetooth",
+    "Portas usb e hdmi",
+    "Sistema operacional windows 11 professional ou superior",
+    "Licenciado e ativado",
+    "Conforme justificativa de padronizacao e compatibilidade constante do etp",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "\"Equivalente ou superior ao Core i5 de 11ª geração\": com outro processador, guarde um comparativo de desempenho (ex.: PassMark).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 59."
+   ],
+   "critico": false
+  },
+  {
+   "n": 49,
+   "tr": 92,
+   "cod": "88547",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "WEBCAM COM RESOLUCAO MINIMA ULTRA HD 4K (3840 X 2160), TAXA MINIMA DE 30 QUADROS POR SEGUNDO (FPS), FOCO AUTOMATICO OU TECNOLOGIA EQUIVALENTE, MICROFONE INTEGRADO, CONEXAO USB 3.0 OU SUPERIOR, COMPATIVEL COM OS PRINCIPAIS SISTEMAS OPERACIONAIS UTILIZADOS EM AMBIENTE CORPORATIVO. DEVERA SER ADEQUADA PARA VIDEOCONFERENCIAS, TRANSMISSOES E CAPTACAO DE IMAGENS EM ALTA DEFINICAO. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 77,
+   "unit": 978.74,
+   "total": 75362.98,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Webcam com resolucao minima ultra hd 4k (3840 x 2160)",
+    "Taxa minima de 30 quadros por segundo (fps)",
+    "Foco automatico ou tecnologia equivalente",
+    "Microfone integrado",
+    "Conexao usb 3.0 ou superior",
+    "Compativel com os principais sistemas operacionais utilizados em ambiente corporativo",
+    "Devera ser adequada para videoconferencias",
+    "Transmissoes e captacao de imagens em alta definicao",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 92."
+   ],
+   "critico": false
+  },
+  {
+   "n": 50,
+   "tr": 28,
+   "cod": "88478",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "FONE DE OUVIDO SUPRA-AURICULAR COM CABO, TIPO HEADSET ESTEREO, COM HASTES AJUSTAVEIS E ALMOFADAS ACOLCHOADAS PARA MAIOR CONFORTO. POSSUIR CONEXAO POR CABO COM COMPRIMENTO MINIMO DE 1,5 METRO, COMPATIVEL COM COMPUTADORES, NOTEBOOKS E DEMAIS DISPOSITIVOS DE AUDIO. RESPOSTA DE FREQUENCIA ADEQUADA PARA REPRODUCAO DE VOZ E AUDIO MULTIMIDIA, COM ESTRUTURA RESISTENTE PARA USO CONTINUO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 103,
+   "unit": 46.31,
+   "total": 4769.93,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Fone de ouvido supra-auricular com cabo",
+    "Tipo headset estereo",
+    "Com hastes ajustaveis e almofadas acolchoadas para maior conforto",
+    "Possuir conexao por cabo com comprimento minimo de 1,5 metro",
+    "Compativel com computadores",
+    "Notebooks e demais dispositivos de audio",
+    "Resposta de frequencia adequada para reproducao de voz e audio multimidia",
+    "Com estrutura resistente para uso continuo",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 28."
+   ],
+   "critico": false
+  },
+  {
+   "n": 51,
+   "tr": 27,
+   "cod": "88479",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "FONE DE OUVIDO INTRA-AURICULAR SEM FIO, COM TECNOLOGIA BLUETOOTH VERSAO 5.0 OU SUPERIOR, ALCANCE MINIMO DE 10 METROS EM AMBIENTE SEM OBSTACULOS, BATERIA RECARREGAVEL INTEGRADA, ACOMPANHADO DE ESTOJO PARA ARMAZENAMENTO E RECARGA. DEVE POSSUIR CONTROLES DE REPRODUCAO E ATENDIMENTO DE CHAMADAS, MICROFONE INTEGRADO PARA COMUNICACAO POR VOZ E COMPATIBILIDADE COM SMARTPHONES, TABLETS, NOTEBOOKS E COMPUTADORES QUE POSSUAM CONEXAO BLUETOOTH. PRODUTO NOVO, DE PRIMEIRO USO, ACOMPANHADO DE CABO PARA CARREGAMENTO E MANUAL DO USUARIO.",
+   "und": "unidade",
+   "qtd": 41,
+   "unit": 68.6,
+   "total": 2812.6,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Fone de ouvido intra-auricular sem fio",
+    "Com tecnologia bluetooth versao 5.0 ou superior",
+    "Alcance minimo de 10 metros em ambiente sem obstaculos",
+    "Bateria recarregavel integrada",
+    "Acompanhado de estojo para armazenamento e recarga",
+    "Deve possuir controles de reproducao e atendimento de chamadas",
+    "Microfone integrado para comunicacao por voz e compatibilidade com smartphones",
+    "Tablets",
+    "Notebooks e computadores que possuam conexao bluetooth",
+    "Produto novo",
+    "De primeiro uso",
+    "Acompanhado de cabo para carregamento e manual do usuario"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 27."
+   ],
+   "critico": false
+  },
+  {
+   "n": 52,
+   "tr": 29,
+   "cod": "88531",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "FONTE DE ALIMENTACAO PADRAO ATX, POTENCIA NOMINAL MINIMA DE 650 W REAIS, BIVOLT AUTOMATICA, COMPATIVEL COM COMPUTADORES DESKTOP, EQUIPADA COM PROTECOES CONTRA SOBRETENSAO, SUBTENSAO, SOBRECORRENTE, SOBRECARGA E CURTO-CIRCUITO, COM CONECTORES COMPATIVEIS COM PLACAS- MAE E DISPOSITIVOS DE ARMAZENAMENTO UTILIZADOS NO MERCADO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 179,
+   "unit": 332.5,
+   "total": 59517.5,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Fonte de alimentacao padrao atx",
+    "Potencia nominal minima de 650 w reais",
+    "Bivolt automatica",
+    "Compativel com computadores desktop",
+    "Equipada com protecoes contra sobretensao",
+    "Subtensao",
+    "Sobrecorrente",
+    "Sobrecarga e curto-circuito",
+    "Com conectores compativeis com placas- mae e dispositivos de armazenamento utilizados no mercado",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 29."
+   ],
+   "critico": false
+  },
+  {
+   "n": 53,
+   "tr": 31,
+   "cod": "88449",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "FRAGMENTADORA DE PAPEL, CARTAO, CD E DVD, COM CAPACIDADE MINIMA PARA FRAGMENTAR 30 FOLHAS DE PAPEL (75 G/M²) POR VEZ, CORTE EM TIRAS DE ATE 6 MM, NIVEL DE SEGURANCA MINIMO P-2, ABERTURA DE ALIMENTACAO COM LARGURA MINIMA DE 240 MM, CESTO COLETOR COM CAPACIDADE MINIMA DE 30 LITROS, APTA PARA FRAGMENTACAO DE PAPEL, CARTOES PLASTICOS, CDS E DVDS. EQUIPAMENTO COM PROTECAO CONTRA SOBRECARGA E SUPERAQUECIMENTO, ALIMENTACAO ELETRICA EM TENSAO 127 V OU 220 V, CONFORME NECESSIDADE DA ADMINISTRACAO, POTENCIA COMPATIVEL COM A CAPACIDADE OPERACIONAL DO EQUIPAMENTO. PRODUTO NOVO, DE PRIMEIRO USO, ACOMPANHADO DE MANUAL E GARANTIA DO FABRICANTE.",
+   "und": "unidade",
+   "qtd": 36,
+   "unit": 4362.33,
+   "total": 157043.88,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Fragmentadora de papel",
+    "Cartao",
+    "Cd e dvd",
+    "Com capacidade minima para fragmentar 30 folhas de papel (75 g/m²) por vez",
+    "Corte em tiras de ate 6 mm",
+    "Nivel de seguranca minimo p-2",
+    "Abertura de alimentacao com largura minima de 240 mm",
+    "Cesto coletor com capacidade minima de 30 litros",
+    "Apta para fragmentacao de papel",
+    "Cartoes plasticos",
+    "Cds e dvds",
+    "Equipamento com protecao contra sobrecarga e superaquecimento",
+    "Alimentacao eletrica em tensao 127 v ou 220 v",
+    "Conforme necessidade da administracao",
+    "Potencia compativel com a capacidade operacional do equipamento",
+    "Produto novo",
+    "De primeiro uso",
+    "Acompanhado de manual e garantia do fabricante"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 31."
+   ],
+   "critico": false
+  },
+  {
+   "n": 54,
+   "tr": 33,
+   "cod": "88456",
+   "categoria": "Outros",
+   "ramo": "Não",
+   "desc": "GPS PORTATIL DE NAVEGACAO E GEORREFERENCIAMENTO, EQUIPADO COM RECEPTOR MULTISSATELITE COMPATIVEL COM SISTEMAS GPS, GLONASS, GALILEO OU EQUIVALENTES, TELA COLORIDA DE NO MINIMO 2,5 POLEGADAS, MEMORIA INTERNA PARA ARMAZENAMENTO DE MAPAS E TRILHAS, SUPORTE PARA EXPANSAO POR CARTAO DE MEMORIA, CONECTIVIDADE USB, CLASSIFICACAO MINIMA DE RESISTENCIA IPX7 OU SUPERIOR, AUTONOMIA MINIMA DE 12 HORAS DE OPERACAO E RECURSOS PARA GRAVACAO DE TRAJETOS, PONTOS DE REFERENCIA E NAVEGACAO POR COORDENADAS GEOGRAFICAS. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 15,
+   "unit": 3700.0,
+   "total": 55500.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Gps portatil de navegacao e georreferenciamento",
+    "Equipado com receptor multissatelite compativel com sistemas gps",
+    "Glonass",
+    "Galileo ou equivalentes",
+    "Tela colorida de no minimo 2,5 polegadas",
+    "Memoria interna para armazenamento de mapas e trilhas",
+    "Suporte para expansao por cartao de memoria",
+    "Conectividade usb",
+    "Classificacao minima de resistencia ipx7 ou superior",
+    "Autonomia minima de 12 horas de operacao e recursos para gravacao de trajetos",
+    "Pontos de referencia e navegacao por coordenadas geograficas",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 33."
+   ],
+   "critico": false
+  },
+  {
+   "n": 55,
+   "tr": 36,
+   "cod": "88520",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "IMPRESSORA MULTIFUNCIONAL LASER MONOCROMATICA, COM FUNCOES DE IMPRESSAO, COPIA E DIGITALIZACAO, TECNOLOGIA LASER MONOCROMATICA, CONECTIVIDADE USB, ETHERNET E WI-FI INTEGRADAS, IMPRESSAO FRENTE E VERSO AUTOMATICA (DUPLEX), ALIMENTADOR AUTOMATICO DE DOCUMENTOS (ADF) COM CAPACIDADE MINIMA PARA 35 FOLHAS, VELOCIDADE MINIMA DE IMPRESSAO DE 35 PAGINAS POR MINUTO EM PAPEL A4, RESOLUCAO DE IMPRESSAO COMPATIVEL COM USO CORPORATIVO, CAPACIDADE DE IMPRESSAO EM REDE E COMPATIBILIDADE COM OS SISTEMAS OPERACIONAIS AMPLAMENTE UTILIZADOS PELA ADMINISTRACAO PUBLICA. DEVERA POSSUIR BANDEJA DE ENTRADA COM CAPACIDADE MINIMA DE 250 FOLHAS, CICLO MENSAL MINIMO DE 50.000 PAGINAS, TONER COM RENDIMENTO MINIMO DE 3.000 PAGINAS, CONSIDERANDO COBERTURA PADRAO DE 5%, E DISPONIBILIDADE DE SUPRIMENTOS E CONSUMIVEIS NO MERCADO NACIONAL. PRODUTO NOVO E DE PRIMEIRO USO, ACOMPANHADO DOS CABOS NECESSARIOS PARA INSTALACAO E FUNCIONAMENTO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 172,
+   "unit": 2295.94,
+   "total": 394901.68,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Impressora multifuncional laser monocromatica",
+    "Com funcoes de impressao",
+    "Copia e digitalizacao",
+    "Tecnologia laser monocromatica",
+    "Conectividade usb",
+    "Ethernet e wi-fi integradas",
+    "Impressao frente e verso automatica (duplex)",
+    "Alimentador automatico de documentos (adf) com capacidade minima para 35 folhas",
+    "Velocidade minima de impressao de 35 paginas por minuto em papel a4",
+    "Resolucao de impressao compativel com uso corporativo",
+    "Capacidade de impressao em rede e compatibilidade com os sistemas operacionais amplamente utilizados pela administracao publica",
+    "Devera possuir bandeja de entrada com capacidade minima de 250 folhas",
+    "Ciclo mensal minimo de 50.000 paginas",
+    "Toner com rendimento minimo de 3.000 paginas",
+    "Considerando cobertura padrao de 5%",
+    "E disponibilidade de suprimentos e consumiveis no mercado nacional",
+    "Produto novo e de primeiro uso",
+    "Acompanhado dos cabos necessarios para instalacao e funcionamento",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 36."
+   ],
+   "critico": false
+  },
+  {
+   "n": 56,
+   "tr": 45,
+   "cod": "88453",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "MALETA PARA NOTEBOOK, CONFECCIONADA EM NYLON, POLIESTER OU MATERIAL EQUIVALENTE DE ALTA RESISTENCIA, NA COR PRETA, COM FECHAMENTO POR ZIPER, ALCA DE MAO REFORCADA E ALCA TIRACOLO REGULAVEL E REMOVIVEL. POSSUIR COMPARTIMENTO PRINCIPAL ACOLCHOADO PARA NOTEBOOK DE ATE 16 POLEGADAS OU SUPERIOR, BOLSOS INTERNOS E EXTERNOS PARA ARMAZENAMENTO DE DOCUMENTOS, CARREGADORES, PERIFERICOS E ACESSORIOS. DIMENSOES APROXIMADAS DE 30 CM DE ALTURA, 40 CM DE LARGURA E 14 CM DE PROFUNDIDADE, ADMITINDO VARIACAO COMPATIVEL COM A FINALIDADE DO PRODUTO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 34,
+   "unit": 77.22,
+   "total": 2625.48,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Maleta para notebook",
+    "Confeccionada em nylon",
+    "Poliester ou material equivalente de alta resistencia",
+    "Na cor preta",
+    "Com fechamento por ziper",
+    "Alca de mao reforcada e alca tiracolo regulavel e removivel",
+    "Possuir compartimento principal acolchoado para notebook de ate 16 polegadas ou superior",
+    "Bolsos internos e externos para armazenamento de documentos",
+    "Carregadores",
+    "Perifericos e acessorios",
+    "Dimensoes aproximadas de 30 cm de altura",
+    "40 cm de largura e 14 cm de profundidade",
+    "Admitindo variacao compativel com a finalidade do produto",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 45."
+   ],
+   "critico": false
+  },
+  {
+   "n": 57,
+   "tr": 74,
+   "cod": "88537",
+   "categoria": "Tablets e smartphones",
+   "ramo": "Não",
+   "desc": "SMARTPHONE DESTINADO AO USO CORPORATIVO, COM ARMAZENAMENTO INTERNO MINIMO DE 256 GB E MEMORIA RAM MINIMA DE 8 GB OU SUPERIOR. DEVERA POSSUIR TELA DE TECNOLOGIA AMOLED OU EQUIVALENTE, COM TAMANHO MINIMO DE 6,5 POLEGADAS. DEVERA POSSUIR CONECTIVIDADE 5G, WI-FI, BLUETOOTH E GPS INTEGRADOS, SISTEMA OPERACIONAL ANDROID NA VERSAO 13 OU SUPERIOR, COMPATIVEL COM APLICACOES CORPORATIVAS. DEVERA POSSUIR SUPORTE A DOIS CHIPS (DUAL SIM NANO-SIM), CAMERA TRASEIRA COM RESOLUCAO MINIMA DE 50 MP E CAMERA FRONTAL COM RESOLUCAO MINIMA DE 12 MP OU SUPERIOR. BATERIA COM CAPACIDADE MINIMA DE 3.900 MAH OU SUPERIOR, COM AUTONOMIA COMPATIVEL COM USO INTENSIVO DIARIO. DEVERA POSSUIR PROCESSADOR COM DESEMPENHO EQUIVALENTE A CATEGORIAS INTERMEDIARIAS OU SUPERIORES, SEM ESPECIFICACAO DE FABRICANTE OU LINHA ESPECIFICA. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 131,
+   "unit": 2069.98,
+   "total": 271167.38,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Smartphone destinado ao uso corporativo",
+    "Com armazenamento interno minimo de 256 gb e memoria ram minima de 8 gb ou superior",
+    "Devera possuir tela de tecnologia amoled ou equivalente",
+    "Com tamanho minimo de 6,5 polegadas",
+    "Devera possuir conectividade 5g",
+    "Wi-fi",
+    "Bluetooth e gps integrados",
+    "Sistema operacional android na versao 13 ou superior",
+    "Compativel com aplicacoes corporativas",
+    "Devera possuir suporte a dois chips (dual sim nano-sim)",
+    "Camera traseira com resolucao minima de 50 mp e camera frontal com resolucao minima de 12 mp ou superior",
+    "Bateria com capacidade minima de 3.900 mah ou superior",
+    "Com autonomia compativel com uso intensivo diario",
+    "Devera possuir processador com desempenho equivalente a categorias intermediarias ou superiores",
+    "Sem especificacao de fabricante ou linha especifica",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 74."
+   ],
+   "critico": false
+  },
+  {
+   "n": 58,
+   "tr": 75,
+   "cod": "86854",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "SUPORTE PARA CPU E NOBREAK EM MDF, COM DIMENSOES APROXIMADAS DE 40 cm (ALTURA) x 20 cm (LARGURA) COM PESO MEDIO SUPORTADO DE 20KG.",
+   "und": "unidade",
+   "qtd": 69,
+   "unit": 96.0,
+   "total": 6624.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Suporte para cpu e nobreak em mdf",
+    "COM DIMENSOES APROXIMADAS DE 40 cm (ALTURA) x 20 cm (LARGURA) COM PESO MEDIO SUPORTADO DE 20KG"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 75."
+   ],
+   "critico": false
+  },
+  {
+   "n": 59,
+   "tr": 76,
+   "cod": "88507",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "SUPORTE REGULAVEL PARA CPU E NOBREAK, CONFECCIONADO EM POLIPROPILENO OU MATERIAL DE RESISTENCIA EQUIVALENTE, NA COR PRETA, COM ESTRUTURA DESTINADA A ELEVACAO E ACOMODACAO DE GABINETES DE COMPUTADOR E NOBREAKS, PERMITINDO REGULAGEM PARA DIFERENTES DIMENSOES DOS EQUIPAMENTOS. DOTADO DE BASE RESISTENTE E COMPATIVEL COM USO EM AMBIENTES ADMINISTRATIVOS. DIMENSOES APROXIMADAS DE 23 X 31 X 10 CM, ADMITINDO VARIACOES COMPATIVEIS COM O PADRAO DO PRODUTO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 80,
+   "unit": 68.39,
+   "total": 5471.2,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Suporte regulavel para cpu e nobreak",
+    "Confeccionado em polipropileno ou material de resistencia equivalente",
+    "Na cor preta",
+    "Com estrutura destinada a elevacao e acomodacao de gabinetes de computador e nobreaks",
+    "Permitindo regulagem para diferentes dimensoes dos equipamentos",
+    "Dotado de base resistente e compativel com uso em ambientes administrativos",
+    "Dimensoes aproximadas de 23 x 31 x 10 cm",
+    "Admitindo variacoes compativeis com o padrao do produto",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 76."
+   ],
+   "critico": false
+  },
+  {
+   "n": 60,
+   "tr": 77,
+   "cod": "88508",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "SUPORTE VERTICAL PARA NOTEBOOK, SEM SISTEMA DE REFRIGERACAO (COOLER), CONFECCIONADO EM METAL, COM ACABAMENTO RESISTENTE, DESTINADO AO APOIO E ARMAZENAMENTO DE NOTEBOOKS EM POSICAO VERTICAL, CONTRIBUINDO PARA OTIMIZACAO DO ESPACO DE TRABALHO. COMPATIVEL COM NOTEBOOKS DE DIVERSOS TAMANHOS, POSSUINDO AJUSTE PARA DIFERENTES ESPESSURAS DO EQUIPAMENTO E BASE ESTAVEL PARA SUSTENTACAO SEGURA. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 158,
+   "unit": 47.98,
+   "total": 7580.84,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Suporte vertical para notebook",
+    "Sem sistema de refrigeracao (cooler)",
+    "Confeccionado em metal",
+    "Com acabamento resistente",
+    "Destinado ao apoio e armazenamento de notebooks em posicao vertical",
+    "Contribuindo para otimizacao do espaco de trabalho",
+    "Compativel com notebooks de diversos tamanhos",
+    "Possuindo ajuste para diferentes espessuras do equipamento e base estavel para sustentacao segura",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 77."
+   ],
+   "critico": false
+  },
+  {
+   "n": 61,
+   "tr": 80,
+   "cod": "88509",
+   "categoria": "Tablets e smartphones",
+   "ramo": "Não",
+   "desc": "TABLET, COM TELA MINIMA DE 10 POLEGADAS, RESOLUCAO HD OU SUPERIOR, PROCESSADOR OCTA-CORE OU SUPERIOR, MEMORIA RAM MINIMA DE 6 GB, ARMAZENAMENTO INTERNO MINIMO DE 128 GB, EXPANSIVEL POR CARTAO DE MEMORIA, CONECTIVIDADE WI-FI DUAL BAND, BLUETOOTH 5.0 OU SUPERIOR E SUPORTE A REDE MOVEL 4G OU SUPERIOR. SISTEMA OPERACIONAL ANDROID 13 OU SUPERIOR, CAMERA TRASEIRA MINIMA DE 8 MP, CAMERA FRONTAL MINIMA DE 5 MP, PORTA USB-C, BATERIA COM AUTONOMIA MINIMA DE 10 HORAS DE USO CONTINUO E GARANTIA MINIMA DE 12 MESES. PRODUTO NOVO E DE PRIMEIRO USO",
+   "und": "unidade",
+   "qtd": 588,
+   "unit": 1697.5,
+   "total": 998130.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Tablet",
+    "Com tela minima de 10 polegadas",
+    "Resolucao hd ou superior",
+    "Processador octa-core ou superior",
+    "Memoria ram minima de 6 gb",
+    "Armazenamento interno minimo de 128 gb",
+    "Expansivel por cartao de memoria",
+    "Conectividade wi-fi dual band",
+    "Bluetooth 5.0 ou superior e suporte a rede movel 4g ou superior",
+    "Sistema operacional android 13 ou superior",
+    "Camera traseira minima de 8 mp",
+    "Camera frontal minima de 5 mp",
+    "Porta usb-c",
+    "Bateria com autonomia minima de 10 horas de uso continuo e garantia minima de 12 meses",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 80."
+   ],
+   "critico": false
+  },
+  {
+   "n": 62,
+   "tr": 83,
+   "cod": "86855",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "TELEFONE SEM FIO, TENSAO DE ALIMENTACAO: 110/220 V (BIVOLT), CARACTERISTICAS ADICIONAIS: TECNOLOGIA MULTI-RAMAL, BATERIA RECARREGAVEL, FREQUENCIA: MINIMO 1,90 GHz, ALCANCE: MINIMO 50 M, FUNCAO: TECLA FLASH (TRANSFERENCIA DE LIGACAO)",
+   "und": "unidade",
+   "qtd": 33,
+   "unit": 165.5,
+   "total": 5461.5,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Telefone sem fio",
+    "Tensao de alimentacao: 110/220 v (bivolt)",
+    "Caracteristicas adicionais: tecnologia multi-ramal",
+    "Bateria recarregavel",
+    "FREQUENCIA: MINIMO 1,90 GHz",
+    "Alcance: minimo 50 m",
+    "Funcao: tecla flash (transferencia de ligacao)"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 83."
+   ],
+   "critico": false
+  },
+  {
+   "n": 63,
+   "tr": 34,
+   "cod": "88524",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "IMPRESSORA COLORIDA TANQUE DE TINTA PARA IMPRESSAO FOTOGRAFICA, COM SISTEMA DE ABASTECIMENTO CONTINUO DE TINTA, CAPACIDADE PARA IMPRESSAO DE FOTOGRAFIAS E DOCUMENTOS COLORIDOS, CONECTIVIDADE USB E WI-FI INTEGRADA, RESOLUCAO DE IMPRESSAO COMPATIVEL COM REPRODUCAO FOTOGRAFICA DE ALTA QUALIDADE. VELOCIDADE MINIMA DE IMPRESSAO DE 10 PPM EM PRETO E 5 PPM EM CORES (OU DESEMPENHO EQUIVALENTE). COMPATIVEL COM PAPEIS FOTOGRAFICOS E PAPEIS COMUNS EM DIVERSOS FORMATOS, INCLUINDO A4. CAPACIDADE MINIMA DE ALIMENTACAO PARA 100 FOLHAS DE PAPEL COMUM. DEVE PERMITIR IMPRESSAO COLORIDA E MONOCROMATICA, POSSUIR BANDEJA DE ALIMENTACAO DE PAPEL E SER COMPATIVEL COM OS SISTEMAS OPERACIONAIS AMPLAMENTE UTILIZADOS PELA ADMINISTRACAO PUBLICA. ALIMENTACAO ELETRICA BIVOLT AUTOMATICA (100 A 240 V). PRODUTO NOVO E DE PRIMEIRO USO, ACOMPANHADO DOS SUPRIMENTOS INICIAIS, CABOS E ACESSORIOS NECESSARIOS AO SEU FUNCIONAMENTO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 371,
+   "unit": 1614.89,
+   "total": 599124.19,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Impressora colorida tanque de tinta para impressao fotografica",
+    "Com sistema de abastecimento continuo de tinta",
+    "Capacidade para impressao de fotografias e documentos coloridos",
+    "Conectividade usb e wi-fi integrada",
+    "Resolucao de impressao compativel com reproducao fotografica de alta qualidade",
+    "Velocidade minima de impressao de 10 ppm em preto e 5 ppm em cores (ou desempenho equivalente)",
+    "Compativel com papeis fotograficos e papeis comuns em diversos formatos",
+    "Incluindo a4",
+    "Capacidade minima de alimentacao para 100 folhas de papel comum",
+    "Deve permitir impressao colorida e monocromatica",
+    "Possuir bandeja de alimentacao de papel e ser compativel com os sistemas operacionais amplamente utilizados pela administracao publica",
+    "Alimentacao eletrica bivolt automatica (100 a 240 v)",
+    "Produto novo e de primeiro uso",
+    "Acompanhado dos suprimentos iniciais",
+    "Cabos e acessorios necessarios ao seu funcionamento",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 34."
+   ],
+   "critico": false
+  },
+  {
+   "n": 64,
+   "tr": 10,
+   "cod": "88471",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "CABO PARA MICROFONE, FORNECIDO POR METRO, COMPOSTO POR CONDUTORES COM SECAO MINIMA DE 0,30 MM², ISOLAMENTO EM POLIETILENO OU EQUIVALENTE, BLINDAGEM EM FITA DE ALUMINIO E MALHA DE COBRE TRANCADO, COBERTURA EXTERNA EM PVC FLEXIVEL, ADEQUADO PARA INSTALACOES DE AUDIO E SONORIZACAO PROFISSIONAL. METRO LINEAR",
+   "und": "metro",
+   "qtd": 73,
+   "unit": 15.28,
+   "total": 1115.44,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Cabo para microfone",
+    "Fornecido por metro",
+    "Composto por condutores com secao minima de 0,30 mm²",
+    "Isolamento em polietileno ou equivalente",
+    "Blindagem em fita de aluminio e malha de cobre trancado",
+    "Cobertura externa em pvc flexivel",
+    "Adequado para instalacoes de audio e sonorizacao profissional",
+    "Metro linear"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 10."
+   ],
+   "critico": false
+  },
+  {
+   "n": 65,
+   "tr": 11,
+   "cod": "87192",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "CAIXA DE SOM ATIVA COM POTENCIA NOMINAL MINIMA DE 300W RMS, EQUIPADA COM ALTO-FALANTE DE 15 POLEGADAS E DRIVER DE COMPRESSAO COM DIAFRAGMA EM TITANIO PARA REPRODUCAO PRECISA DE FREQUENCIAS MEDIAS E AGUDAS. RESPOSTA DE FREQUENCIA AMPLA, ESTRUTURA CONSTRUIDA EM MATERIAL RESISTENTE COMO MDF OU POLIMERO INJETADO, ACABAMENTO TEXTURIZADO E GRADE METALICA DE PROTECAO FRONTAL. CONECTIVIDADE COM ENTRADAS XLR, P10 E RCA, E SAIDA PARA LIGACAO EM CASCATA. POSSUI CONTROLE DE VOLUME INDEPENDENTE PARA MICROFONE E LINHA, EQUALIZADOR EMBUTIDO COM NO MINIMO DUAS BANDAS, AMPLIFICADOR CLASSE D, PROTECAO TERMICA E CONTRA SOBRECARGA, ALCAS ERGONOMICAS, PONTOS DE FIXACAO E ALIMENTACAO BIVOLT AUTOMATICA",
+   "und": "unidade",
+   "qtd": 68,
+   "unit": 2563.02,
+   "total": 174285.36,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Caixa de som ativa com potencia nominal minima de 300w rms",
+    "Equipada com alto-falante de 15 polegadas e driver de compressao com diafragma em titanio para reproducao precisa de frequencias medias e agudas",
+    "Resposta de frequencia ampla",
+    "Estrutura construida em material resistente como mdf ou polimero injetado",
+    "Acabamento texturizado e grade metalica de protecao frontal",
+    "Conectividade com entradas xlr",
+    "P10 e rca",
+    "E saida para ligacao em cascata",
+    "Possui controle de volume independente para microfone e linha",
+    "Equalizador embutido com no minimo duas bandas",
+    "Amplificador classe d",
+    "Protecao termica e contra sobrecarga",
+    "Alcas ergonomicas",
+    "Pontos de fixacao e alimentacao bivolt automatica"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 11."
+   ],
+   "critico": false
+  },
+  {
+   "n": 66,
+   "tr": 12,
+   "cod": "87194",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "CAIXA DE SOM PORTATIL COM POTENCIA MINIMA DE 160W RMS, BIVOLT, COMPATIVEL COM CONEXOES BLUETOOTH, APRESENTANDO DESIGN COMPACTO, ACABAMENTO RESISTENTE E FUNCIONALIDADE PARA USO INTERNO E EXTERNO. COM AUTONOMIA PARA USO PROLONGADO, CONTROLES DE VOLUME E CONEXOES AUXILIARES.",
+   "und": "unidade",
+   "qtd": 19,
+   "unit": 2375.4,
+   "total": 45132.6,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Caixa de som portatil com potencia minima de 160w rms",
+    "Bivolt",
+    "Compativel com conexoes bluetooth",
+    "Apresentando design compacto",
+    "Acabamento resistente e funcionalidade para uso interno e externo",
+    "Com autonomia para uso prolongado",
+    "Controles de volume e conexoes auxiliares"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 12."
+   ],
+   "critico": false
+  },
+  {
+   "n": 67,
+   "tr": 13,
+   "cod": "88525",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "CAMERA DIGITAL FOTOGRAFICA PROFISSIONAL OU SEMIPROFISSIONAL, COM RESOLUCAO EFETIVA MINIMA DE 24 MEGAPIXELS, SENSOR DE IMAGEM APS-C OU SUPERIOR, SISTEMA DE FOCO AUTOMATICO E MANUAL, VELOCIDADE MAXIMA DO OBTURADOR DE NO MINIMO 1/4000 SEGUNDO, TELA LCD COLORIDA ARTICULAVEL OU REBATIVEL COM TAMANHO MINIMO DE 3 POLEGADAS, VISOR OPTICO OU ELETRONICO, CAPACIDADE DE GRAVACAO DE VIDEO EM FULL HD 60 FPS OU SUPERIOR, CONECTIVIDADE SEM FIO VIA WI-FI E BLUETOOTH INTEGRADOS OU TECNOLOGIA EQUIVALENTE, COMPATIVEL COM CARTOES DE MEMORIA SD, SDHC OU SDXC. DEVERA ACOMPANHAR LENTE PADRAO COM ZOOM, ADEQUADA PARA COBERTURA DE EVENTOS, REGISTROS INSTITUCIONAIS E PRODUCAO DE CONTEUDO AUDIOVISUAL, COM SISTEMA DE ESTABILIZACAO DE IMAGEM OPTICA OU ELETRONICA. DEVERA POSSUIR DISPARO CONTINUO MINIMO DE 5 FOTOGRAFIAS POR SEGUNDO, FLASH INTEGRADO OU COMPATIBILIDADE COM FLASH EXTERNO, ENTRADA PARA MICROFONE EXTERNO E SAIDA USB PARA TRANSFERENCIA DE DADOS. O EQUIPAMENTO DEVERA SER FORNECIDO COM BATERIA RECARREGAVEL, CARREGADOR, ALCA DE TRANSPORTE, CABOS NECESSARIOS AO FUNCIONAMENTO E DEMAIS ACESSORIOS ESSENCIAIS PARA SUA UTILIZACAO. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 8,
+   "unit": 5340.0,
+   "total": 42720.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Camera digital fotografica profissional ou semiprofissional",
+    "Com resolucao efetiva minima de 24 megapixels",
+    "Sensor de imagem aps-c ou superior",
+    "Sistema de foco automatico e manual",
+    "Velocidade maxima do obturador de no minimo 1/4000 segundo",
+    "Tela lcd colorida articulavel ou rebativel com tamanho minimo de 3 polegadas",
+    "Visor optico ou eletronico",
+    "Capacidade de gravacao de video em full hd 60 fps ou superior",
+    "Conectividade sem fio via wi-fi e bluetooth integrados ou tecnologia equivalente",
+    "Compativel com cartoes de memoria sd",
+    "Sdhc ou sdxc",
+    "Devera acompanhar lente padrao com zoom",
+    "Adequada para cobertura de eventos",
+    "Registros institucionais e producao de conteudo audiovisual",
+    "Com sistema de estabilizacao de imagem optica ou eletronica",
+    "Devera possuir disparo continuo minimo de 5 fotografias por segundo",
+    "Flash integrado ou compatibilidade com flash externo",
+    "Entrada para microfone externo e saida usb para transferencia de dados",
+    "O equipamento devera ser fornecido com bateria recarregavel",
+    "Carregador",
+    "Alca de transporte",
+    "Cabos necessarios ao funcionamento e demais acessorios essenciais para sua utilizacao",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 13."
+   ],
+   "critico": false
+  },
+  {
+   "n": 68,
+   "tr": 14,
+   "cod": "87199",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "CAMERA PTZ (PAN-TILT-ZOOM) COM ZOOM OPTICO DE 12X, RESOLUCAO FULL HD (1080P A 60 FPS), COM SAIDAS SIMULTANEAS DE VIDEO VIA HDMI, IP E USB 3.0. COMPATIVEL COM CONTROLE VIA RS-485, IP E USB. EQUIPAMENTO COM SENSOR CMOS DE 1/2.8, DISTANCIA FOCAL ENTRE 3,5 MM E 42,3 MM, ABERTURA F1.8 ~ F2.8. MODOS DE FOCO AUTOMATICO, MANUAL E POR ACIONAMENTO PTZ. SUPORTA COMPRESSOES H.265 E MJPEG. ALIMENTACAO VIA FONTE 12V, USB OU POE, INCLUINDO CABO USB DE 3 METROS.",
+   "und": "unidade",
+   "qtd": 9,
+   "unit": 4400.0,
+   "total": 39600.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Camera ptz (pan-tilt-zoom) com zoom optico de 12x",
+    "Resolucao full hd (1080p a 60 fps)",
+    "Com saidas simultaneas de video via hdmi",
+    "Ip e usb 3.0",
+    "Compativel com controle via rs-485",
+    "Ip e usb",
+    "Equipamento com sensor cmos de 1/2.8",
+    "Distancia focal entre 3,5 mm e 42,3 mm",
+    "Abertura f1.8 ~ f2.8",
+    "Modos de foco automatico",
+    "Manual e por acionamento ptz",
+    "Suporta compressoes h.265 e mjpeg",
+    "Alimentacao via fonte 12v",
+    "Usb ou poe",
+    "Incluindo cabo usb de 3 metros"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 14."
+   ],
+   "critico": false
+  },
+  {
+   "n": 69,
+   "tr": 24,
+   "cod": "88527",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "FILMADORA DIGITAL PROFISSIONAL OU SEMIPROFISSIONAL, DESTINADA A PRODUCAO DE CONTEUDO AUDIOVISUAL INSTITUCIONAL, COBERTURA DE EVENTOS, ENTREVISTAS E REGISTROS OFICIAIS. DEVERA POSSUIR CAPACIDADE DE GRAVACAO EM RESOLUCAO ULTRA HD 4K (3840 X 2160) OU SUPERIOR, COM TAXA MINIMA DE 30 QUADROS POR SEGUNDO (FPS), E GRAVACAO EM FULL HD COM TAXA MINIMA DE 60 FPS. DEVERA POSSUIR SENSOR DE IMAGEM COMPATIVEL COM CAPTACAO DE VIDEO EM AMBIENTES INTERNOS E EXTERNOS, ZOOM OPTICO MINIMO DE 15X, SISTEMA DE ESTABILIZACAO DE IMAGEM OPTICA, ELETRONICA OU TECNOLOGIA EQUIVALENTE, RECURSOS DE FOCO AUTOMATICO E MANUAL E AJUSTES MANUAIS DE EXPOSICAO. DEVERA POSSUIR SAIDA HDMI, VISOR LCD COLORIDO INTEGRADO, ENTRADA PARA MICROFONE EXTERNO E SAIDA PARA FONES DE OUVIDO PARA MONITORAMENTO DE AUDIO. COMPATIVEL COM CARTOES DE MEMORIA DE AMPLA DISPONIBILIDADE NO MERCADO NACIONAL, COM SUPORTE A GRAVACAO DE AUDIO E VIDEO EM QUALIDADE PROFISSIONAL. ACOMPANHAR BATERIA RECARREGAVEL, CARREGADOR, CABOS NECESSARIOS AO FUNCIONAMENTO, MANUAIS E DEMAIS ACESSORIOS ESSENCIAIS PARA UTILIZACAO IMEDIATA. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 8,
+   "unit": 22089.83,
+   "total": 176718.64,
+   "participacao": "Ampla concorrência",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Filmadora digital profissional ou semiprofissional",
+    "Destinada a producao de conteudo audiovisual institucional",
+    "Cobertura de eventos",
+    "Entrevistas e registros oficiais",
+    "Devera possuir capacidade de gravacao em resolucao ultra hd 4k (3840 x 2160) ou superior",
+    "Com taxa minima de 30 quadros por segundo (fps)",
+    "E gravacao em full hd com taxa minima de 60 fps",
+    "Devera possuir sensor de imagem compativel com captacao de video em ambientes internos e externos",
+    "Zoom optico minimo de 15x",
+    "Sistema de estabilizacao de imagem optica",
+    "Eletronica ou tecnologia equivalente",
+    "Recursos de foco automatico e manual e ajustes manuais de exposicao",
+    "Devera possuir saida hdmi",
+    "Visor lcd colorido integrado",
+    "Entrada para microfone externo e saida para fones de ouvido para monitoramento de audio",
+    "Compativel com cartoes de memoria de ampla disponibilidade no mercado nacional",
+    "Com suporte a gravacao de audio e video em qualidade profissional",
+    "Acompanhar bateria recarregavel",
+    "Carregador",
+    "Cabos necessarios ao funcionamento",
+    "Manuais e demais acessorios essenciais para utilizacao imediata",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "O resumo deste item no PNCP está incompleto: vale o texto do edital (esta página usa o texto do edital).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 24."
+   ],
+   "critico": false
+  },
+  {
+   "n": 70,
+   "tr": 32,
+   "cod": "88455",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "GABINETE PARA MICROCOMPUTADOR, PADRAO ATX OU MICRO ATX, CONFECCIONADO EM ACO OU MATERIAL DE RESISTENCIA EQUIVALENTE, COMPATIVEL COM PLACAS-MAE DOS PADROES ATX, MICRO ATX E MINI ITX. POSSUIR NO MINIMO 2 PORTAS USB FRONTAIS, SENDO PELO MENOS 1 USB 3.0 OU SUPERIOR, CONEXOES DE AUDIO FRONTAL, BAIAS E ESPACOS INTERNOS COMPATIVEIS COM SSDS E HDDS PADRAO DE MERCADO, SISTEMA DE VENTILACAO COMPATIVEL COM A INSTALACAO DE VENTOINHAS ADICIONAIS E ACABAMENTO NA COR PRETA OU EQUIVALENTE. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 33,
+   "unit": 218.0,
+   "total": 7194.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Gabinete para microcomputador",
+    "Padrao atx ou micro atx",
+    "Confeccionado em aco ou material de resistencia equivalente",
+    "Compativel com placas-mae dos padroes atx",
+    "Micro atx e mini itx",
+    "Possuir no minimo 2 portas usb frontais",
+    "Sendo pelo menos 1 usb 3.0 ou superior",
+    "Conexoes de audio frontal",
+    "Baias e espacos internos compativeis com ssds e hdds padrao de mercado",
+    "Sistema de ventilacao compativel com a instalacao de ventoinhas adicionais e acabamento na cor preta ou equivalente",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 32."
+   ],
+   "critico": false
+  },
+  {
+   "n": 71,
+   "tr": 38,
+   "cod": "77618",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "KIT MICROFONE DIRECIONAL COM CABO P10 DE 5 (CINCO) METROS, ADAPTADOR P2, TRIPE GIRAFA, COM ESPUMA PRETA",
+   "und": "unidade",
+   "qtd": 51,
+   "unit": 201.59,
+   "total": 10281.09,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Kit microfone direcional com cabo p10 de 5 (cinco) metros",
+    "Adaptador p2",
+    "Tripe girafa",
+    "Com espuma preta"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 38."
+   ],
+   "critico": false
+  },
+  {
+   "n": 72,
+   "tr": 41,
+   "cod": "88451",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "LENTE TELEOBJETIVA PARA CAMERA FOTOGRAFICA DIGITAL PERTENCENTE AO ACERVO DA ADMINISTRACAO, COM DISTANCIA FOCAL FIXA APROXIMADA DE 135 MM, ABERTURA MAXIMA F/2.0 OU SUPERIOR, SISTEMA DE FOCO AUTOMATICO, COMPATIVEL COM O SISTEMA DE ENCAIXE DA CAMERA UTILIZADA PELA ADMINISTRACAO, ACOMPANHADA DE TAMPAS DE PROTECAO E DEMAIS ACESSORIOS ORIGINAIS DO FABRICANTE. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 9,
+   "unit": 1566.0,
+   "total": 14094.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Lente teleobjetiva para camera fotografica digital pertencente ao acervo da administracao",
+    "Com distancia focal fixa aproximada de 135 mm",
+    "Abertura maxima f/2.0 ou superior",
+    "Sistema de foco automatico",
+    "Compativel com o sistema de encaixe da camera utilizada pela administracao",
+    "Acompanhada de tampas de protecao e demais acessorios originais do fabricante",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 41."
+   ],
+   "critico": false
+  },
+  {
+   "n": 73,
+   "tr": 48,
+   "cod": "76397",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "MESA DE SOM STEREO - 6 canais (4 mono + 1 stereo),, Entrada XLR e de linha P-10 nos canais mono, Efeito Reverb, Equalizador grafico de 7 bandas, Entrada USB com tela de LCD, Phantom Power +48v, Equalizacao de 2 vias (grave e agudo) por canal, Saida para fone de ouvido, 110/220 volts",
+   "und": "unidade",
+   "qtd": 4,
+   "unit": 920.0,
+   "total": 3680.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "MESA DE SOM STEREO - 6 canais (4 mono + 1 stereo)",
+    "Entrada XLR e de linha P-10 nos canais mono",
+    "Efeito Reverb",
+    "Equalizador grafico de 7 bandas",
+    "Entrada USB com tela de LCD",
+    "Phantom Power +48v",
+    "Equalizacao de 2 vias (grave e agudo) por canal",
+    "Saida para fone de ouvido",
+    "110/220 volts"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 48."
+   ],
+   "critico": false
+  },
+  {
+   "n": 74,
+   "tr": 50,
+   "cod": "88536",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "MICROFONE DE LAPELA, COMPATIVEL COM CAMERAS, FILMADORAS OU DISPOSITIVOS DE GRAVACAO DE AUDIO E VIDEO, COM CABO OU TECNOLOGIA SEM FIO, CLIP DE FIXACAO E ACESSORIOS NECESSARIOS AO FUNCIONAMENTO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 25,
+   "unit": 120.0,
+   "total": 3000.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Microfone de lapela",
+    "Compativel com cameras",
+    "Filmadoras ou dispositivos de gravacao de audio e video",
+    "Com cabo ou tecnologia sem fio",
+    "Clip de fixacao e acessorios necessarios ao funcionamento",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 50."
+   ],
+   "critico": false
+  },
+  {
+   "n": 75,
+   "tr": 51,
+   "cod": "88461",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "MICROFONE PROFISSIONAL DINAMICO CARDIOIDE, COM RESPOSTA DE FREQUENCIA MINIMA DE 50 HZ A 15 KHZ, PADRAO POLAR CARDIOIDE PARA REDUCAO DE RUIDOS LATERAIS E TRASEIROS, IMPEDANCIA NOMINAL ENTRE 150 E 600 OHMS, FILTRO INTERNO CONTRA VENTO E SONS PLOSIVOS (POP), CORPO METALICO DE ALTA RESISTENCIA, CHAVE LIGA/DESLIGA (QUANDO APLICAVEL) E CONEXAO XLR BALANCEADA. INDICADO PARA USO EM EVENTOS, PALESTRAS, AUDITORIOS, REUNIOES E SISTEMAS DE SONORIZACAO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 51,
+   "unit": 197.5,
+   "total": 10072.5,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Microfone profissional dinamico cardioide",
+    "Com resposta de frequencia minima de 50 hz a 15 khz",
+    "Padrao polar cardioide para reducao de ruidos laterais e traseiros",
+    "Impedancia nominal entre 150 e 600 ohms",
+    "Filtro interno contra vento e sons plosivos (pop)",
+    "Corpo metalico de alta resistencia",
+    "Chave liga/desliga (quando aplicavel) e conexao xlr balanceada",
+    "Indicado para uso em eventos",
+    "Palestras",
+    "Auditorios",
+    "Reunioes e sistemas de sonorizacao",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 51."
+   ],
+   "critico": false
+  },
+  {
+   "n": 76,
+   "tr": 52,
+   "cod": "88538",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "MICROFONE SEM FIO, TECNOLOGIA UHF OU DIGITAL, COM RECEPTOR, ALCANCE OPERACIONAL COMPATIVEL COM USO EM AUDITORIOS E EVENTOS, RESPOSTA DE FREQUENCIA ADEQUADA PARA VOZ, ALIMENTACAO BIVOLT OU COMPATIVEL COM O EQUIPAMENTO FORNECIDO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 53,
+   "unit": 919.0,
+   "total": 48707.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Microfone sem fio",
+    "Tecnologia uhf ou digital",
+    "Com receptor",
+    "Alcance operacional compativel com uso em auditorios e eventos",
+    "Resposta de frequencia adequada para voz",
+    "Alimentacao bivolt ou compativel com o equipamento fornecido",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 52."
+   ],
+   "critico": false
+  },
+  {
+   "n": 77,
+   "tr": 5,
+   "cod": "88466",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "BRACO ARTICULADO DE MESA PARA MICROFONE, FABRICADO EM METAL, NA COR PRETA, COM SISTEMA DE FIXACAO A MESA POR GRAMPO METALICO, ESTRUTURA ARTICULADA COM REGULAGEM DE POSICAO E ALTURA, COMPATIVEL COM SUPORTES E MICROFONES DE USO PROFISSIONAL OU SEMIPROFISSIONAL. CAPACIDADE MINIMA DE CARGA DE 1,5 KG, ACOMPANHADO DOS ACESSORIOS NECESSARIOS PARA INSTALACAO E UTILIZACAO. PRODUTO NOVO, DE PRIMEIRO USO, COM GARANTIA MINIMA DE 3 MESES.",
+   "und": "unidade",
+   "qtd": 10,
+   "unit": 143.0,
+   "total": 1430.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 3 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Braco articulado de mesa para microfone",
+    "Fabricado em metal",
+    "Na cor preta",
+    "Com sistema de fixacao a mesa por grampo metalico",
+    "Estrutura articulada com regulagem de posicao e altura",
+    "Compativel com suportes e microfones de uso profissional ou semiprofissional",
+    "Capacidade minima de carga de 1,5 kg",
+    "Acompanhado dos acessorios necessarios para instalacao e utilizacao",
+    "Produto novo",
+    "De primeiro uso",
+    "Com garantia minima de 3 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 5."
+   ],
+   "critico": false
+  },
+  {
+   "n": 78,
+   "tr": 63,
+   "cod": "88467",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "PLACA DE AUDIO RESOLUCAO DE AUDIO: 24 BITS / 48 KHZ 2 ENTRADAS COMBINADAS DE MICROFONE / LINHA / INSTRUMENTO COM PRE-AMPLIFICADOR: CONECTOR XLR GANHO: +60 DB/ ALIMENTACAO PANTOM DE +48 V COMUTAVEL/ 2 SAIDAS DE LINHA: 6,3 MM JACK SAIDA DE AUSCULTADORES STEREO (COM CONTROLE DE NIVEL SEPARADO): ENTRADA DE 6,3 MM/CIRCUITO DE MONITORIZACAO USB / MONO DIRETO / STEREO DIRETO ALIMENTADO POR BARRAMENTO USB",
+   "und": "unidade",
+   "qtd": 12,
+   "unit": 748.33,
+   "total": 8979.96,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Placa de audio resolucao de audio: 24 bits / 48 khz 2 entradas combinadas de microfone / linha / instrumento com pre-amplificador: conector xlr ganho: +60 db/ alimentacao pantom de +48 v comutavel/ 2 saidas de linha: 6,3 mm jack saida de auscultadores stereo (com controle de nivel separado): entrada de 6,3 mm/circuito de monitorizacao usb / mono direto / stereo direto alimentado por barramento usb"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 63."
+   ],
+   "critico": false
+  },
+  {
+   "n": 79,
+   "tr": 66,
+   "cod": "88472",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "PLACA-MAE PARA COMPUTADOR DESKTOP, COMPATIVEL COM PROCESSADORES INTEL DE 12a GERACAO OU SUPERIOR, SUPORTE A MEMORIA DDR4 OU DDR5, MINIMO DE 2 SLOTS DE MEMORIA, SUPORTE A SSD NVME M.2, NO MINIMO 4 PORTAS SATA, INTERFACE GIGABIT ETHERNET, PORTAS USB 3.0 OU SUPERIOR, SAIDAS DE VIDEO COMPATIVEIS COM PROCESSADORES QUE POSSUAM VIDEO INTEGRADO E RECURSOS DE EXPANSAO PCI EXPRESS. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 56,
+   "unit": 785.6,
+   "total": 43993.6,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Placa-mae para computador desktop",
+    "COMPATIVEL COM PROCESSADORES INTEL DE 12a GERACAO OU SUPERIOR",
+    "Suporte a memoria ddr4 ou ddr5",
+    "Minimo de 2 slots de memoria",
+    "Suporte a ssd nvme m.2",
+    "No minimo 4 portas sata",
+    "Interface gigabit ethernet",
+    "Portas usb 3.0 ou superior",
+    "Saidas de video compativeis com processadores que possuam video integrado e recursos de expansao pci express",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 66."
+   ],
+   "critico": false
+  },
+  {
+   "n": 80,
+   "tr": 67,
+   "cod": "88473",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "PROCESSADOR PARA COMPUTADOR DESKTOP, COMPATIVEL COM A PLATAFORMA ESPECIFICADA PELA ADMINISTRACAO, COM NO MINIMO 12 NUCLEOS DE PROCESSAMENTO E 20 THREADS, FREQUENCIA TURBO MINIMA DE 5,0 GHZ, CACHE MINIMO DE 20 MB E DESEMPENHO EQUIVALENTE OU SUPERIOR AO INTEL CORE I7 DE 14a GERACAO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 43,
+   "unit": 2789.0,
+   "total": 119927.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Processador para computador desktop",
+    "Compativel com a plataforma especificada pela administracao",
+    "Com no minimo 12 nucleos de processamento e 20 threads",
+    "Frequencia turbo minima de 5,0 ghz",
+    "CACHE MINIMO DE 20 MB E DESEMPENHO EQUIVALENTE OU SUPERIOR AO INTEL CORE I7 DE 14a GERACAO",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 67."
+   ],
+   "critico": false
+  },
+  {
+   "n": 81,
+   "tr": 68,
+   "cod": "88474",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "PROJETOR MULTIMIDIA PORTATIL, COM RESOLUCAO NATIVA MINIMA FULL HD (1920 X 1080) OU COMPATIVEL, BRILHO MINIMO DE 3.500 ANSI LUMENS, CONTRASTE ADEQUADO PARA APRESENTACOES EM AMBIENTES CORPORATIVOS, ENTRADAS HDMI E USB, CORRECAO TRAPEZOIDAL, ALTO-FALANTE INTEGRADO, ALIMENTACAO BIVOLT AUTOMATICA E VIDA UTIL DA FONTE LUMINOSA COMPATIVEL COM USO CONTINUO. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 213,
+   "unit": 1587.63,
+   "total": 338165.19,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Projetor multimidia portatil",
+    "Com resolucao nativa minima full hd (1920 x 1080) ou compativel",
+    "Brilho minimo de 3.500 ansi lumens",
+    "Contraste adequado para apresentacoes em ambientes corporativos",
+    "Entradas hdmi e usb",
+    "Correcao trapezoidal",
+    "Alto-falante integrado",
+    "Alimentacao bivolt automatica e vida util da fonte luminosa compativel com uso continuo",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 68."
+   ],
+   "critico": false
+  },
+  {
+   "n": 82,
+   "tr": 49,
+   "cod": "88534",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "MICROFONE DE LAPELA, COM OU SEM FIO, DESTINADO A CAPTACAO DE AUDIO EM GRAVACOES, ENTREVISTAS E PRODUCOES AUDIOVISUAIS INSTITUCIONAIS. DEVERA POSSUIR BOA QUALIDADE DE CAPTACAO DE VOZ, COMPATIBILIDADE COM CAMERAS, FILMADORAS E/OU DISPOSITIVOS DE GRAVACAO. QUANDO SEM FIO, DEVERA POSSUIR TRANSMISSAO ESTAVEL E ALCANCE COMPATIVEL COM USO EM AMBIENTES INTERNOS E EXTERNOS. ACOMPANHAR ACESSORIOS NECESSARIOS AO FUNCIONAMENTO. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 26,
+   "unit": 780.0,
+   "total": 20280.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Microfone de lapela",
+    "Com ou sem fio",
+    "Destinado a captacao de audio em gravacoes",
+    "Entrevistas e producoes audiovisuais institucionais",
+    "Devera possuir boa qualidade de captacao de voz",
+    "Compatibilidade com cameras",
+    "Filmadoras e/ou dispositivos de gravacao",
+    "Quando sem fio",
+    "Devera possuir transmissao estavel e alcance compativel com uso em ambientes internos e externos",
+    "Acompanhar acessorios necessarios ao funcionamento",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 49."
+   ],
+   "critico": false
+  },
+  {
+   "n": 83,
+   "tr": 70,
+   "cod": "88505",
+   "categoria": "Rede",
+   "ramo": "Sim",
+   "desc": "ROTEADOR WIRELESS PARA INSTALACAO EXTERNA (OUTDOOR), COM MINIMO DE 4 PORTAS LAN GIGABIT ETHERNET (10/100/1000 MBPS) E 1 PORTA WAN GIGABIT ETHERNET (10/100/1000 MBPS), OPERACAO EM FREQUENCIA COMPATIVEL COM REDES SEM FIO DE ALTA VELOCIDADE, PROTECAO ADEQUADA PARA USO EXTERNO, SUPORTE AOS PADROES IEEE 802.11AC OU SUPERIOR, GERENCIAMENTO VIA INTERFACE WEB E ALIMENTACAO COMPATIVEL COM A SOLUCAO FORNECIDA. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 118,
+   "unit": 286.0,
+   "total": 33748.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [
+    "Homologação ANATEL (equipamento sem fio; TR 10.3.15)"
+   ],
+   "requisitos": [
+    "Roteador wireless para instalacao externa (outdoor)",
+    "Com minimo de 4 portas lan gigabit ethernet (10/100/1000 mbps) e 1 porta wan gigabit ethernet (10/100/1000 mbps)",
+    "Operacao em frequencia compativel com redes sem fio de alta velocidade",
+    "Protecao adequada para uso externo",
+    "Suporte aos padroes ieee 802.11ac ou superior",
+    "Gerenciamento via interface web e alimentacao compativel com a solucao fornecida",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 70."
+   ],
+   "critico": false
+  },
+  {
+   "n": 84,
+   "tr": 72,
+   "cod": "84254",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "SCANNER DE MESA - DE VOLUME/ALTA VELOCIDADE SCANNER DE DOCUMENTOS DE ALTA VELOCIDADE COM REDE WIRELESS, REDE ETHERNET CABEADA, DIGITALIZACAO FRENTE E VERSO (DUPLEX), DIGITALIZACAO FRENTE E VERSO (DUPLEX) VELOCIDADE MAX. DIGITALIZACAO (DUPLEX): 60 IPM (COLORIDO E MONOCROMATICO) VELOCIDADE MAX. DIGITALIZACAO: 30 PPM (COLORIDO E MONOCROMATICO) CAPACIDADE MINIMA DE PAPEL: 50 FOLHAS (ADF) CICLO DE TRABALHO DIARIO: MINIMO DE 5000 DIGITALIZACOES GERAR PDF-A / PDF PESQUISAVEL: VELOCIDADE MINIMA DE DIGITALIZACAO (DUPLEX)100 IPM",
+   "und": "unidade",
+   "qtd": 23,
+   "unit": 4932.48,
+   "total": 113447.04,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Scanner de mesa - de volume/alta velocidade scanner de documentos de alta velocidade com rede wireless",
+    "Rede ethernet cabeada",
+    "Digitalizacao frente e verso (duplex)",
+    "Digitalizacao frente e verso (duplex) velocidade max",
+    "Digitalizacao (duplex): 60 ipm (colorido e monocromatico) velocidade max",
+    "Digitalizacao: 30 ppm (colorido e monocromatico) capacidade minima de papel: 50 folhas (adf) ciclo de trabalho diario: minimo de 5000 digitalizacoes gerar pdf-a / pdf pesquisavel: velocidade minima de digitalizacao (duplex)100 ipm"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 72."
+   ],
+   "critico": false
+  },
+  {
+   "n": 85,
+   "tr": 73,
+   "cod": "85840",
+   "categoria": "Impressoras, scanners e escritório",
+   "ramo": "Sim",
+   "desc": "SCANNER DIGITALIZACAO FRENTE E VERSO (DUPLEX) CAPACIDADE MAXIMA DE PAPEL 50 FOLHAS (ADF). CICLO DE TRABALHO DIARIO DE ATE 5000 DIGITALIZACOES PDF PESQUISAVEL VELOCIDADE DE DIGITALIZACAO ATE 50/100 PPM (SIMPLEX/DUPLEX)",
+   "und": "unidade",
+   "qtd": 14,
+   "unit": 3710.0,
+   "total": 51940.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Scanner digitalizacao frente e verso (duplex) capacidade maxima de papel 50 folhas (adf)",
+    "Ciclo de trabalho diario de ate 5000 digitalizacoes pdf pesquisavel velocidade de digitalizacao ate 50/100 ppm (simplex/duplex)"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 73."
+   ],
+   "critico": false
+  },
+  {
+   "n": 86,
+   "tr": 82,
+   "cod": "88539",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "TELA DE PROJECAO COM TRIPE, PORTATIL, COM AREA DE PROJECAO MINIMA DE 1,80 M X 1,80 M OU EQUIVALENTE, SUPERFICIE BRANCA ADEQUADA PARA PROJECAO DE IMAGENS, ESTRUTURA METALICA COM TRIPE E SISTEMA DE AJUSTE DE ALTURA, PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 50,
+   "unit": 821.48,
+   "total": 41074.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Tela de projecao com tripe",
+    "Portatil",
+    "Com area de projecao minima de 1,80 m x 1,80 m ou equivalente",
+    "Superficie branca adequada para projecao de imagens",
+    "Estrutura metalica com tripe e sistema de ajuste de altura",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 82."
+   ],
+   "critico": false
+  },
+  {
+   "n": 87,
+   "tr": 87,
+   "cod": "88510",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "TRIPE PROFISSIONAL PARA EQUIPAMENTOS FOTOGRAFICOS E AUDIOVISUAIS, COM CABECA PANORAMICA PARA MOVIMENTACAO HORIZONTAL DE 360 E INCLINACAO MINIMA DE 90 , SISTEMA DE TRAVAMENTO RAPIDO, PES ANTIDERRAPANTES, NIVEL DE BOLHA INTEGRADO, ALTURA MAXIMA MINIMA DE 1,50 M E COMPRIMENTO FECHADO COMPATIVEL COM TRANSPORTE PORTATIL. CAPACIDADE DE CARGA COMPATIVEL COM CAMERAS FOTOGRAFICAS, FILMADORAS E ACESSORIOS UTILIZADOS PELA ADMINISTRACAO. ACOMPANHADO DE BOLSA OU ESTOJO PARA TRANSPORTE. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 21,
+   "unit": 399.34,
+   "total": 8386.14,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Tripe profissional para equipamentos fotograficos e audiovisuais",
+    "Com cabeca panoramica para movimentacao horizontal de 360 e inclinacao minima de 90",
+    "Sistema de travamento rapido",
+    "Pes antiderrapantes",
+    "Nivel de bolha integrado",
+    "Altura maxima minima de 1,50 m e comprimento fechado compativel com transporte portatil",
+    "Capacidade de carga compativel com cameras fotograficas",
+    "Filmadoras e acessorios utilizados pela administracao",
+    "Acompanhado de bolsa ou estojo para transporte",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [],
+   "critico": false
+  },
+  {
+   "n": 88,
+   "tr": 19,
+   "cod": "85825",
+   "categoria": "Áudio, vídeo e projeção",
+   "ramo": "Não",
+   "desc": "CONSOLE DE AUDIO MESA PROFISSIONAL DE SOM - CONSTITUIDA COM 12 CANAIS MAIS 01 AUXILIAR, ENTRADAS BALANCEADAS DE MICROFONE E LINHA POR CANAL, EQUALIZACAO DE 03 VIAS POR CANAL E ENTRADA USB COM CONTROLE DE BUSCA POR PASTA",
+   "und": "unidade",
+   "qtd": 5,
+   "unit": 1449.0,
+   "total": 7245.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Console de audio mesa profissional de som - constituida com 12 canais mais 01 auxiliar",
+    "Entradas balanceadas de microfone e linha por canal",
+    "Equalizacao de 03 vias por canal e entrada usb com controle de busca por pasta"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 19."
+   ],
+   "critico": false
+  },
+  {
+   "n": 89,
+   "tr": 42,
+   "cod": "88459",
+   "categoria": "Software e licenças",
+   "ramo": "Não",
+   "desc": "LICENCA DE USO DA SUITE AUTODESK AEC COLLECTION, FORNECIDA PELO FABRICANTE OU REVENDA AUTORIZADA, COM VIGENCIA MINIMA DE 12 MESES, INCLUINDO DIREITO A ATUALIZACOES, SUPORTE E ACESSO AOS SOFTWARES INTEGRANTES DA COLECAO DURANTE O PERIODO CONTRATADO.",
+   "und": "unidade",
+   "qtd": 15,
+   "unit": 17341.0,
+   "total": 260115.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Licenca de uso da suite autodesk aec collection",
+    "Fornecida pelo fabricante ou revenda autorizada",
+    "Com vigencia minima de 12 meses",
+    "Incluindo direito a atualizacoes",
+    "Suporte e acesso aos softwares integrantes da colecao durante o periodo contratado"
+   ],
+   "atencao": [
+    "Assinatura de 12 meses por usuário nomeado, vinculada ao Município, com comprovação do fabricante (TR 3.4.19).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 42."
+   ],
+   "critico": false
+  },
+  {
+   "n": 90,
+   "tr": 65,
+   "cod": "88470",
+   "categoria": "Armazenamento e componentes",
+   "ramo": "Talvez",
+   "desc": "PLACA DE VIDEO DEDICADA, COM DESEMPENHO IGUAL OU SUPERIOR AO DA GEFORCE RTX 4060 TI 16 GB, MEMORIA GRAFICA DEDICADA MINIMA DE 16 GB GDDR6 OU SUPERIOR, INTERFACE PCI EXPRESS X16, SUPORTE A ACELERACAO GRAFICA PARA APLICACOES DE MODELAGEM TRIDIMENSIONAL, RENDERIZACAO, EDICAO DE VIDEO E SOFTWARES TECNICOS ESPECIALIZADOS. PRODUTO NOVO E DE PRIMEIRO USO.",
+   "und": "unidade",
+   "qtd": 23,
+   "unit": 2899.0,
+   "total": 66677.0,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Placa de video dedicada",
+    "Com desempenho igual ou superior ao da geforce rtx 4060 ti 16 gb",
+    "Memoria grafica dedicada minima de 16 gb gddr6 ou superior",
+    "Interface pci express x16",
+    "Suporte a aceleracao grafica para aplicacoes de modelagem tridimensional",
+    "Renderizacao",
+    "Edicao de video e softwares tecnicos especializados",
+    "Produto novo e de primeiro uso"
+   ],
+   "atencao": [
+    "Desempenho \"igual ou superior\" à placa citada: guarde um comparativo de desempenho.",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 65."
+   ],
+   "critico": false
+  },
+  {
+   "n": 91,
+   "tr": 40,
+   "cod": "88549",
+   "categoria": "Monitores, periféricos e acessórios",
+   "ramo": "Sim",
+   "desc": "LEITOR DE CODIGO DE BARRAS, TIPO MANUAL, DESTINADO A LEITURA E CAPTURA DE DADOS DE CODIGOS DE BARRAS E QR CODES PRESENTES EM NOTAS FISCAIS, BOLETOS E DOCUMENTOS EM GERAL. DEVERA SER COMPATIVEL COM PADROES DE CODIGOS DE BARRAS 1D E 2D, POSSUIR CONEXAO USB COM INSTALACAO PLUG AND PLAY, CABO COM COMPRIMENTO MINIMO DE 1,5 METRO, INDICACAO VISUAL E/OU SONORA DE LEITURA REALIZADA E COMPATIBILIDADE COM OS PRINCIPAIS SISTEMAS OPERACIONAIS UTILIZADOS EM AMBIENTE CORPORATIVO. PRODUTO NOVO E DE PRIMEIRO USO, COM GARANTIA MINIMA DE 12 MESES.",
+   "und": "unidade",
+   "qtd": 10,
+   "unit": 396.74,
+   "total": 3967.4,
+   "participacao": "Exclusivo ME/EPP",
+   "garantia": "Mínimo de 12 meses",
+   "certificacoes": [],
+   "requisitos": [
+    "Leitor de codigo de barras",
+    "Tipo manual",
+    "Destinado a leitura e captura de dados de codigos de barras e qr codes presentes em notas fiscais",
+    "Boletos e documentos em geral",
+    "Devera ser compativel com padroes de codigos de barras 1d e 2d",
+    "Possuir conexao usb com instalacao plug and play",
+    "Cabo com comprimento minimo de 1,5 metro",
+    "Indicacao visual e/ou sonora de leitura realizada e compatibilidade com os principais sistemas operacionais utilizados em ambiente corporativo",
+    "Produto novo e de primeiro uso",
+    "Com garantia minima de 12 meses"
+   ],
+   "atencao": [
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 40."
+   ],
+   "critico": false
+  },
+  {
+   "n": 92,
+   "tr": 43,
+   "cod": "88452",
+   "categoria": "Software e licenças",
+   "ramo": "Não",
+   "desc": "LICENCA DE USO DO SOFTWARE AUTODESK REVIT, FORNECIDA PELO FABRICANTE OU REVENDA AUTORIZADA, COM VIGENCIA MINIMA DE 12 MESES, INCLUINDO ATUALIZACOES, SUPORTE E DIREITO DE UTILIZACAO DURANTE O PERIODO CONTRATADO.",
+   "und": "unidade",
+   "qtd": 10,
+   "unit": 15215.0,
+   "total": 152150.0,
+   "participacao": "Ampla concorrência",
+   "garantia": "Não especificada no item (vale o CDC; TR 4.4.1)",
+   "certificacoes": [],
+   "requisitos": [
+    "Licenca de uso do software autodesk revit",
+    "Fornecida pelo fabricante ou revenda autorizada",
+    "Com vigencia minima de 12 meses",
+    "Incluindo atualizacoes",
+    "Suporte e direito de utilizacao durante o periodo contratado"
+   ],
+   "atencao": [
+    "Assinatura de 12 meses por usuário nomeado, vinculada ao Município, com comprovação do fabricante (TR 3.4.19).",
+    "Atenção à numeração: no Termo de Referência (Anexo I) este item aparece como nº 43."
+   ],
+   "critico": false
+  }
+ ]
+}

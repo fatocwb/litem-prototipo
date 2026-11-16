@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+
+/* Cores e fonte do protótipo. Quando os componentes da Flex UI entrarem,
+   as cores da marca passam a vir daqui (um lugar só para trocar). */
+@theme {
+	--font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+
+	--color-marca-50: oklch(0.97 0.02 255);
+	--color-marca-100: oklch(0.93 0.04 255);
+	--color-marca-500: oklch(0.58 0.17 258);
+	--color-marca-600: oklch(0.51 0.18 260);
+	--color-marca-700: oklch(0.44 0.16 262);
+}
+
+/* Alpine.js: esconde o que ainda não foi montado */
+[x-cloak] {
+	display: none !important;
+}
+
+/* Barra de abas rolável no celular, sem barra de rolagem visível */
+.sem-barra {
+	scrollbar-width: none;
+}
+.sem-barra::-webkit-scrollbar {
+	display: none;
+}

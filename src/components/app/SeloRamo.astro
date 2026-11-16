@@ -1,0 +1,15 @@
+---
+// Selo "Do seu ramo?" (Sim / Talvez / Não), usado nas tabelas do servidor.
+// A mesma regra de cores está repetida no JavaScript da aba Itens (classeRamo).
+interface Props {
+	ramo: "Sim" | "Talvez" | "Não";
+}
+const { ramo } = Astro.props;
+const estilo = {
+	Sim: ["bg-emerald-50 text-emerald-700 ring-emerald-600/20", "Do seu ramo"],
+	Talvez: ["bg-amber-50 text-amber-800 ring-amber-600/20", "Talvez"],
+	Não: ["bg-slate-100 text-slate-500 ring-slate-500/10", "Fora do ramo"],
+}[ramo];
+---
+
+<span class={`inline-flex items-center whitespace-nowrap rounded-full px-2 py-0.5 text-xs font-medium ring-1 ring-inset ${estilo[0]}`}>{estilo[1]}</span>

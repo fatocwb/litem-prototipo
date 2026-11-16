@@ -1,0 +1,73 @@
+---
+// Página de um edital. Uma página é gerada para cada .json em src/data/editais/.
+import AppLayout from "@layouts/AppLayout.astro";
+import Cabecalho from "@components/edital/Cabecalho.astro";
+import AbaResumo from "@components/edital/AbaResumo.astro";
+import AbaPontos from "@components/edital/AbaPontos.astro";
+import AbaItens from "@components/edital/AbaItens.astro";
+import AbaCotacao from "@components/edital/AbaCotacao.astro";
+import AbaControle from "@components/edital/AbaControle.astro";
+import { editais, type Edital } from "@data/editais";
+
+export function getStaticPaths() {
+	return editais.map((edital) => ({ params: { slug: edital.slug }, props: { edital } }));
+}
+
+const { edital } = Astro.props as { edital: Edital };
+
+const abas = [
+	{ id: "resumo", nome: "Resumo", conta: null },
+	{ id: "atencao", nome: "Pontos de atenção", conta: edital.pontos.length },
+	{ id: "itens", nome: "Itens", conta: edital.itens.length },
+	{ id: "cotacao", nome: "Pedidos de cotação", conta: edital.categorias.length },
+	{ id: "controle", nome: "Controle de respostas", conta: null },
+];
+
+// Dados para o JavaScript do navegador (o "<" vira código para não fechar a tag por engano)
+const dadosJson = JSON.stringify(edital).replace(/</g, "\\u003c");
+---
+
+<AppLayout title={`${edital.titulo} · ${edital.cidade}-${edital.uf}`}>
+	<script is:inline type="application/json" id="edital-dados" set:html={dadosJson} />
+
+	<Cabecalho edital={edital} />
+
+	<div x-data="abasEdital" class="mt-6">
+		<!-- Abas -->
+		<div class="sem-barra relative -mx-4 overflow-x-auto border-b border-slate-200 px-4 sm:mx-0 sm:px-0">
+			<nav class="flex min-w-max gap-6" role="tablist" aria-label="Partes do edital">
+				{
+					abas.map((a) => (
+						<button
+							type="button"
+							role="tab"
+							x-on:click={`ir('${a.id}')`}
+							x-bind:aria-selected={`aba === '${a.id}'`}
+							class="-mb-px flex items-center gap-2 border-b-2 py-3 text-sm font-medium whitespace-nowrap transition-colors"
+							x-bind:class={`aba === '${a.id}' ? 'border-marca-600 text-marca-700' : 'border-transparent text-slate-500 hover:text-slate-700'`}
+						>
+							{a.nome}
+							{a.conta !== null && (
+								<span
+									class="rounded-full px-2 py-0.5 text-xs font-semibold"
+									x-bind:class={`aba === '${a.id}' ? 'bg-marca-100 text-marca-700' : 'bg-slate-100 text-slate-600'`}
+								>
+									{a.conta}
+								</span>
+							)}
+						</button>
+					))
+				}
+			</nav>
+		</div>
+
+		<!-- Conteúdo das abas -->
+		<div class="pt-6">
+			<section role="tabpanel" x-show="aba === 'resumo'"><AbaResumo edital={edital} /></section>
+			<section role="tabpanel" x-show="aba === 'atencao'" x-cloak><AbaPontos edital={edital} /></section>
+			<section role="tabpanel" x-show="aba === 'itens'" x-cloak><AbaItens edital={edital} /></section>
+			<section role="tabpanel" x-show="aba === 'cotacao'" x-cloak><AbaCotacao /></section>
+			<section role="tabpanel" x-show="aba === 'controle'" x-cloak><AbaControle /></section>
+		</div>
+	</div>
+</AppLayout>

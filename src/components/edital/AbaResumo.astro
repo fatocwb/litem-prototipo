@@ -1,0 +1,103 @@
+---
+// Aba "Resumo": números principais, o que o edital diz (com onde está escrito)
+// e quanto vale cada tipo de distribuidor.
+import type { Edital } from "@data/editais";
+import SeloRamo from "@components/app/SeloRamo.astro";
+import { reais, reaisCurto, dataBR } from "@scripts/formatar";
+
+interface Props {
+	edital: Edital;
+}
+const { edital: e } = Astro.props;
+
+const exclusivos = e.itens.filter((i) => i.participacao.startsWith("Exclusivo")).length;
+const doRamo = e.itens.filter((i) => i.ramo !== "Não");
+const valorRamo = doRamo.reduce((s, i) => s + i.total, 0);
+const maior = Math.max(...e.categorias.map((c) => c.total));
+
+const numeros = [
+	{ rotulo: "Valor estimado (12 meses)", valor: reaisCurto(e.valorTotal), nota: "soma dos 92 itens" },
+	{ rotulo: "Itens", valor: String(e.itens.length), nota: `${exclusivos} exclusivos para ME/EPP` },
+	{ rotulo: "Do seu ramo (Sim + Talvez)", valor: `${doRamo.length} itens`, nota: reaisCurto(valorRamo) },
+	{ rotulo: "Pontos de atenção", valor: String(e.pontos.length), nota: `${e.pontos.filter((p) => p.prioridade).length} prioritários` },
+];
+---
+
+<div class="space-y-6">
+	<!-- Números principais -->
+	<div class="grid grid-cols-2 gap-3 lg:grid-cols-4">
+		{
+			numeros.map((n) => (
+				<div class="rounded-xl bg-white p-4 ring-1 ring-slate-200">
+					<p class="text-xs font-medium text-slate-500">{n.rotulo}</p>
+					<p class="mt-1 text-xl font-semibold text-slate-900 sm:text-2xl">{n.valor}</p>
+					<p class="mt-0.5 text-xs text-slate-500">{n.nota}</p>
+				</div>
+			))
+		}
+	</div>
+
+	<!-- O que o edital diz -->
+	<section class="overflow-hidden rounded-xl bg-white ring-1 ring-slate-200">
+		<header class="border-b border-slate-200 px-4 py-3 sm:px-5">
+			<h2 class="font-semibold text-slate-900">O que o edital diz</h2>
+			<p class="text-sm text-slate-500">
+				Análise de {dataBR(e.analisadoEm)} · {e.fonte}. Em caso de dúvida, vale o texto oficial.
+			</p>
+		</header>
+		<dl class="divide-y divide-slate-100">
+			{
+				e.resumo.map((r) => (
+					<div class={`grid gap-1 px-4 py-3 sm:grid-cols-[11rem_1fr_9rem] sm:gap-4 sm:px-5 ${r.destaque ? "bg-amber-50/60" : ""}`}>
+						<dt class="text-sm font-semibold text-slate-700">
+							{r.destaque && <span class="mr-1 text-amber-600" title="Atenção">●</span>}
+							{r.campo}
+						</dt>
+						<dd class="text-sm leading-relaxed text-slate-700">{r.texto}</dd>
+						<dd class="text-xs text-slate-400 sm:text-right">{r.onde}</dd>
+					</div>
+				))
+			}
+		</dl>
+	</section>
+
+	<!-- Valor por tipo de distribuidor -->
+	<section class="overflow-hidden rounded-xl bg-white ring-1 ring-slate-200">
+		<header class="border-b border-slate-200 px-4 py-3 sm:px-5">
+			<h2 class="font-semibold text-slate-900">Valor estimado por tipo de distribuidor</h2>
+			<p class="text-sm text-slate-500">
+				"Do seu ramo" segue o seu perfil: {e.perfil.descricao}. {e.perfil.nota}
+			</p>
+		</header>
+		<ul class="divide-y divide-slate-100">
+			{
+				e.categorias.map((c) => (
+					<li class="px-4 py-3 sm:px-5">
+						<div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+							<span class="text-sm font-medium text-slate-800">{c.nome}</span>
+							<SeloRamo ramo={c.ramo} />
+							<span class="ml-auto text-sm font-semibold tabular-nums text-slate-900">{reais(c.total)}</span>
+						</div>
+						<div class="mt-2 flex items-center gap-3">
+							<div class="h-2 flex-1 overflow-hidden rounded-full bg-slate-100">
+								<div class={`h-full rounded-full ${c.ramo === "Não" ? "bg-slate-300" : "bg-marca-500"}`} style={`width:${Math.max(2, (c.total / maior) * 100).toFixed(1)}%`} />
+							</div>
+							<span class="w-16 text-right text-xs text-slate-500">
+								{c.itens.length} {c.itens.length > 1 ? "itens" : "item"}
+							</span>
+						</div>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+
+	<p class="text-xs text-slate-400">
+		Fontes: <a class="underline hover:text-slate-600" href={e.links.pncp} target="_blank" rel="noopener">edital no PNCP</a>
+		{e.links.prefeitura && (
+			<>
+				{" "}e <a class="underline hover:text-slate-600" href={e.links.prefeitura} target="_blank" rel="noopener">no site da prefeitura</a>
+			</>
+		)}.
+	</p>
+</div>
